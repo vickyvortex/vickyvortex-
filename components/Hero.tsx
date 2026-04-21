@@ -12,9 +12,9 @@ export default function Hero() {
       {/* Left column — text */}
       <div className="relative z-10 flex flex-col justify-center w-full md:w-[55%] px-8 md:px-16 lg:px-24 pt-32 pb-20 md:pt-28 md:pb-20">
         {/* Headline */}
-        <h1 className="font-cormorant font-light text-[clamp(2.8rem,7vw,7rem)] leading-[0.92] tracking-tight text-foreground mb-8 md:mb-10">
-          The truth<br />
-          changes the body.
+        <h1 className="font-cormorant font-light text-[clamp(2.4rem,5.5vw,6rem)] leading-[0.92] tracking-tight text-foreground mb-8 md:mb-10">
+          The truth changes the body.
+
         </h1>
 
         {/* Subheadline */}

@@ -1,7 +1,3 @@
-git add app/page.tsx
-git commit -m "remove use client from root page"
-git push
-
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'

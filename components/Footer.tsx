@@ -37,13 +37,13 @@ export default function Footer() {
         {/* Contact + legal */}
         <div className="text-right">
           <a
-            href="mailto:transform@vickyvortex.com"
+            href="mailto:restore@dignityclinic.co.uk"
             className="font-sans text-xs tracking-[0.2em] uppercase transition-colors duration-200 block mb-3"
             style={{ color: 'rgba(248,246,242,0.4)' }}
             onMouseEnter={e => (e.currentTarget.style.color = '#F8F6F2')}
             onMouseLeave={e => (e.currentTarget.style.color = 'rgba(248,246,242,0.4)')}
           >
-            transform@vickyvortex.com
+            restore@dignityclinic.co.uk
           </a>
           <p className="font-sans text-[10px] tracking-[0.15em]" style={{ color: 'rgba(248,246,242,0.2)' }}>
             © {new Date().getFullYear()} Dignity Clinic. All rights reserved.

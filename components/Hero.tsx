@@ -47,7 +47,7 @@ export default function Hero() {
       {/* Right column — portrait image */}
       <div className="relative w-full md:w-[45%] h-[60vw] md:h-auto md:min-h-screen flex-shrink-0">
         <Image
-          src="/images/Julia Photoshoot/15.jpg"
+          src="/images/julia-photoshoot/15.jpg"
           alt="Vicky Vortex, founder of Dignity Clinic"
           fill
           priority

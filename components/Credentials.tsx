@@ -41,6 +41,10 @@ const leftCredentials = [
 
 const rightCredentials = [
   {
+    name: 'Applied Astrology — Level 2',
+    body: 'Debra Silverman Applied Astrology',
+  },
+  {
     name: 'Emotion Code & Body Code',
     body: 'Dr. Bradley Nelson, Discover Healing',
   },

@@ -41,10 +41,22 @@ const MODALITIES = [
     who: 'People who feel cut off from their body, live primarily in their head, or have used movement as punishment rather than restoration.',
   },
   {
-    name: 'Shamanic Practice',
-    what: 'Rooted in Foundation for Shamanic Studies training, this work includes soul retrieval, extraction, and ceremonial practices that address spiritual and energetic dimensions of healing.',
-    benefit: 'Restoration of lost vitality, clearing of heavy energies, and reconnection to a sense of meaning and belonging.',
-    who: 'Those who sense something essential has been lost — through trauma, grief, or prolonged suppression — and are open to working beyond purely psychological frameworks.',
+    name: 'Ho\'oponopono',
+    what: 'An ancient Hawaiian practice of reconciliation and forgiveness that works through a process of taking responsibility, releasing, and returning to love — clearing inherited and accumulated emotional patterns at a deep level.',
+    benefit: 'Release of long-held resentment, guilt, and inherited family patterns. A profound reset of the emotional field.',
+    who: 'Those carrying grief, unresolved family wounds, or a persistent sense of burden that feels bigger than their own story.',
+  },
+  {
+    name: 'Nutritional Therapy',
+    what: 'A functional approach to nutrition that looks at how food, inflammation, gut health, and nutrient status affect mood, energy, hormones, and the body\'s capacity to heal.',
+    benefit: 'Reduced inflammation, improved energy, and a body better equipped to support emotional and nervous system recovery.',
+    who: 'People whose physical symptoms — fatigue, brain fog, digestive issues, hormonal imbalance — are compounding their emotional load.',
+  },
+  {
+    name: 'Cosmic Blueprint — Astrological Analysis',
+    what: 'A structured astrological reading using your birth chart as a map of your innate patterns, gifts, wounds, and timing. Based on Applied Astrology as taught by Debra Silverman.',
+    benefit: 'Deeper understanding of and compassion for yourself — why you are wired as you are, what your chart reveals about recurring themes, and how to work with your nature rather than against it.',
+    who: 'Those seeking self-understanding, particularly people who have been told their sensitivity, intensity, or complexity is a flaw rather than a design.',
   },
   {
     name: 'Hypnotherapy & NLP',

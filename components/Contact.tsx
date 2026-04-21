@@ -348,7 +348,7 @@ export default function Contact() {
           )}
           {status === 'error' && (
             <p className="font-sans text-xs tracking-[0.15em]" style={{ color: 'rgba(248,100,100,0.8)' }}>
-              Something went wrong. Please email transform@vickyvortex.com directly.
+              Something went wrong. Please email restore@dignityclinic.co.uk directly.
             </p>
           )}
 
@@ -372,10 +372,10 @@ export default function Contact() {
           >
             For direct enquiries:{' '}
             <a
-              href="mailto:transform@vickyvortex.com"
+              href="mailto:restore@dignityclinic.co.uk"
               style={{ color: '#F8F6F2' }}
             >
-              transform@vickyvortex.com
+              restore@dignityclinic.co.uk
             </a>
           </p>
         </form>

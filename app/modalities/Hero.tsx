@@ -10,12 +10,7 @@ export default function Hero() {
       style={{ background: '#0D0D0D' }}
     >
       {/* Left column — text */}
-      <div className="relative z-10 flex flex-col justify-center w-full md:w-[55%] px-8 md:px-16 lg:px-24 py-32 md:py-0">
-        {/* Eyebrow */}
-        <p className="font-sans text-sm tracking-[0.4em] uppercase text-foreground mb-10 md:mb-12">
-          Dignity Clinic
-        </p>
-
+      <div className="relative z-10 flex flex-col justify-center w-full md:w-[55%] px-8 md:px-16 lg:px-24 pt-36 pb-20 md:py-0">
         {/* Headline */}
         <h1 className="font-cormorant font-light text-[clamp(3.5rem,10vw,9rem)] leading-[0.92] tracking-tight text-foreground mb-8 md:mb-10">
           The truth<br />

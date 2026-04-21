@@ -10,9 +10,9 @@ export default function Hero() {
       style={{ background: '#0D0D0D' }}
     >
       {/* Left column — text */}
-      <div className="relative z-10 flex flex-col justify-center w-full md:w-[55%] px-8 md:px-16 lg:px-24 pt-44 pb-20 md:pt-40 md:pb-20">
+      <div className="relative z-10 flex flex-col justify-center w-full md:w-[55%] px-8 md:px-16 lg:px-24 pt-32 pb-20 md:pt-28 md:pb-20">
         {/* Headline */}
-        <h1 className="font-cormorant font-light text-[clamp(3.5rem,10vw,9rem)] leading-[0.92] tracking-tight text-foreground mb-8 md:mb-10">
+        <h1 className="font-cormorant font-light text-[clamp(2.8rem,7vw,7rem)] leading-[0.92] tracking-tight text-foreground mb-8 md:mb-10">
           The truth<br />
           changes the body.
         </h1>
@@ -51,7 +51,7 @@ export default function Hero() {
           alt="Vicky Vortex, founder of Dignity Clinic"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-[center_top_20%]"
         />
         {/* Gradient: fades from #0D0D0D on the left edge into transparent */}
         <div

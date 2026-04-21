@@ -14,7 +14,7 @@ export default function About() {
         {/* Left column — portrait */}
         <div className="relative w-full md:w-[40%] h-[70vw] md:h-auto flex-shrink-0">
           <Image
-            src="/images/julia-photoshoot/16.jpg"
+            src="/images/julia-photoshoot/9.jpg"
             alt="Vicky Vortex"
             fill
             className="object-cover object-top"

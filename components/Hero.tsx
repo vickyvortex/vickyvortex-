@@ -47,11 +47,11 @@ export default function Hero() {
       {/* Right column — portrait image */}
       <div className="relative w-full md:w-[45%] h-[60vw] md:h-auto md:min-h-screen flex-shrink-0">
         <Image
-          src="/images/julia-photoshoot/15.jpg"
+          src="/images/julia-photoshoot/16.jpg"
           alt="Vicky Vortex, founder of Dignity Clinic"
           fill
           priority
-          className="object-cover object-top"
+          className="object-cover object-center"
         />
         {/* Gradient: fades from #0D0D0D on the left edge into transparent */}
         <div

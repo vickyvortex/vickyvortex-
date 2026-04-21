@@ -182,7 +182,7 @@ export default function Approach() {
         {/* Right column — portrait image */}
         <div className="relative w-full md:w-[40%] h-[70vw] md:h-auto flex-shrink-0">
           <Image
-            src="/images/Julia photoshoot/9.jpg"
+            src="/images/julia-photoshoot/9.jpg"
             alt="Vicky Vortex"
             fill
             className="object-cover object-top"
@@ -225,6 +225,15 @@ export default function Approach() {
         >
           You do not need to choose. I will guide you toward what is most useful for where you are.
         </p>
+        <a
+          href="/modalities"
+          className="inline-flex items-center gap-2 font-sans text-sm tracking-[0.2em] uppercase mt-6 transition-colors duration-200"
+          style={{ color: 'rgba(248,246,242,0.5)' }}
+          onMouseEnter={e => (e.currentTarget.style.color = '#F8F6F2')}
+          onMouseLeave={e => (e.currentTarget.style.color = 'rgba(248,246,242,0.5)')}
+        >
+          Explore all modalities <span style={{ fontSize: '1rem' }}>→</span>
+        </a>
       </div>
 
     </section>

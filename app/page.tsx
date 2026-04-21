@@ -5,6 +5,7 @@ import Credentials from '@/components/Credentials'
 import Approach from '@/components/Approach'
 import Services from '@/components/Services'
 import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Approach />
       <Services />
       <Contact />
+      <Footer />
     </>
   )
 }

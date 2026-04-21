@@ -160,6 +160,30 @@ function ServiceDropdown({
 export default function Contact() {
   const [submitHovered, setSubmitHovered] = useState(false)
   const [service, setService] = useState('')
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [modality, setModality] = useState('')
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault()
+    setStatus('sending')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, service, message, modality }),
+      })
+      if (res.ok) {
+        setStatus('sent')
+      } else {
+        setStatus('error')
+      }
+    } catch {
+      setStatus('error')
+    }
+  }
 
   return (
     <section
@@ -170,7 +194,7 @@ export default function Contact() {
       {/* Atmospheric header image — full bleed */}
       <div className="relative w-full" style={{ height: '700px' }}>
         <Image
-          src="/images/Julia photoshoot/10.jpg"
+          src="/images/julia-photoshoot/10.jpg"
           alt="Dignity Clinic"
           fill
           className="object-cover"
@@ -217,7 +241,7 @@ export default function Contact() {
         <form
           className="mx-auto space-y-8"
           style={{ maxWidth: '640px' }}
-          onSubmit={e => e.preventDefault()}
+          onSubmit={handleSubmit}
         >
           <div>
             <label
@@ -231,6 +255,8 @@ export default function Contact() {
               id="name"
               type="text"
               autoComplete="name"
+              value={name}
+              onChange={e => setName(e.target.value)}
               style={inputStyles}
             />
           </div>
@@ -247,6 +273,8 @@ export default function Contact() {
               id="email"
               type="email"
               autoComplete="email"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
               style={inputStyles}
             />
           </div>
@@ -273,10 +301,9 @@ export default function Contact() {
               id="message"
               rows={4}
               placeholder="Tell me a little about where you are and what you are looking for"
-              style={{
-                ...inputStyles,
-                resize: 'vertical',
-              }}
+              value={message}
+              onChange={e => setMessage(e.target.value)}
+              style={{ ...inputStyles, resize: 'vertical' }}
             />
           </div>
 
@@ -292,26 +319,38 @@ export default function Contact() {
               id="modality"
               rows={2}
               placeholder="e.g. Emotion Code, QHHT, breathwork, tarot — or leave blank if you're not sure"
-              style={{
-                ...inputStyles,
-                resize: 'vertical',
-              }}
+              value={modality}
+              onChange={e => setModality(e.target.value)}
+              style={{ ...inputStyles, resize: 'vertical' }}
             />
           </div>
 
-          <button
-            type="submit"
-            className="inline-flex items-center justify-center font-sans font-medium text-sm tracking-[0.18em] uppercase px-10 py-4 border transition-all duration-300 outline-none focus:outline-none"
-            style={{
-              borderColor: '#F8F6F2',
-              color: submitHovered ? '#0D0D0D' : '#F8F6F2',
-              background: submitHovered ? '#F8F6F2' : 'transparent',
-            }}
-            onMouseEnter={() => setSubmitHovered(true)}
-            onMouseLeave={() => setSubmitHovered(false)}
-          >
-            Send Enquiry
-          </button>
+          {status === 'sent' ? (
+            <p className="font-garamond text-xl" style={{ color: 'rgba(248,246,242,0.7)' }}>
+              Thank you — I will be in touch shortly.
+            </p>
+          ) : (
+            <button
+              type="submit"
+              disabled={status === 'sending'}
+              className="inline-flex items-center justify-center font-sans font-medium text-sm tracking-[0.18em] uppercase px-10 py-4 border transition-all duration-300 outline-none focus:outline-none"
+              style={{
+                borderColor: '#F8F6F2',
+                color: submitHovered ? '#0D0D0D' : '#F8F6F2',
+                background: submitHovered ? '#F8F6F2' : 'transparent',
+                opacity: status === 'sending' ? 0.5 : 1,
+              }}
+              onMouseEnter={() => setSubmitHovered(true)}
+              onMouseLeave={() => setSubmitHovered(false)}
+            >
+              {status === 'sending' ? 'Sending...' : 'Send Enquiry'}
+            </button>
+          )}
+          {status === 'error' && (
+            <p className="font-sans text-xs tracking-[0.15em]" style={{ color: 'rgba(248,100,100,0.8)' }}>
+              Something went wrong. Please email transform@vickyvortex.com directly.
+            </p>
+          )}
 
           <hr style={{ borderColor: 'rgba(248,246,242,0.1)', borderTopWidth: '1px', margin: '2rem 0' }} />
 

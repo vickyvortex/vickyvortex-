@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between">
         {/* Wordmark */}
         <a href="/" className="flex leading-none">
-          <span className="font-cormorant font-light text-3xl tracking-[0.18em] uppercase text-foreground">
+          <span className="font-cormorant font-light text-xl tracking-[0.18em] uppercase text-foreground">
             Dignity Clinic
           </span>
         </a>

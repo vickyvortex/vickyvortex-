@@ -22,6 +22,8 @@ export default function Hero() {
           Be heard. Be believed.
           <br />
           Rebuild your health with dignity.
+          <br /><br />
+          Restoration of dignity begins when your truth is listened to and believed — when you are seen and held.
         </p>
 
         {/* CTAs */}

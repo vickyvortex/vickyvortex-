@@ -62,7 +62,9 @@ export default function About() {
               I am the founder of Dignity Clinic — a practice for people who have lived through Adverse Childhood Experiences (ACEs) and are now carrying the physical and emotional cost of it in their body.
             </p>
             <p>
-              I know this terrain because I have walked it. I grew up as the family scapegoat — mocked, isolated, financially exploited, and erased. I watched my father, who had bipolar disorder and ADHD like me, be pushed to the brink by the same system of abuse I was living inside. He died in 2019. My grandfather had faced the same fate, fifty years earlier.
+              I know this terrain because I have walked it. I grew up as the family scapegoat — mocked, isolated, financially exploited, and ultimately disowned after my father’s suicide in 2019. My grandfather had also taken his own life, fifty years earlier. Both had bipolar disorder and ADHD. My family chose to blame me for having it too, rather than face what was actually happening. Denial runs deep in families like ours.
+
+After years of carrying that silence, I wrote my story. My chapter was published in the anthology “She Said Yes to Herself” — and it became an Amazon bestseller. Telling the truth changed something in me physically: my deep sleep tripled. That was the moment I understood how powerful it is to finally be believed — by others, and by yourself.
 
 That is why I built this work. Not from theory — from survival. During lockdown in Barcelona, grieving and rebuilding, I trained as a health and breath coach, yoga and Pilates teacher. I developed the Vortex Vitality Method — an anti-inflammatory approach to recovery that treats the body as a direct record of what it has been through. Later I trained in Emotion Code, Body Code, and QHHT Level 2 — modalities that work with the subconscious to release what talk therapy cannot always reach.
             </p>

@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
+import ACEStats from '@/components/ACEStats'
 import Credentials from '@/components/Credentials'
 import Approach from '@/components/Approach'
 import Services from '@/components/Services'
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <ACEStats />
       <Credentials />
       <Approach />
       <Services />

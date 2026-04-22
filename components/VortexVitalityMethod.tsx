@@ -17,7 +17,7 @@ export default function VortexVitalityMethod() {
           <div className="w-full md:w-[45%] flex-shrink-0">
             <img src="/images/VortexVitalityMethodHydrationwheel.png" alt="Vortex Vitality Method wheel" className="w-full max-w-[480px] mx-auto block" style={{ filter: 'invert(1) hue-rotate(180deg) saturate(0.8) brightness(0.9)' }} />
           </div>
-          <div className="w-full md:w-[55%] flex flex-col justify-center space-y-6">
+          <div className="w-full md:w-[52%] flex flex-col justify-center space-y-6">
             <p className="font-garamond text-xl md:text-2xl leading-relaxed" style={{ color: 'rgba(248,246,242,0.7)' }}>I developed the Vortex Vitality Method during lockdown in Barcelona — grieving, rebuilding, and determined to understand why chronic stress had embedded itself so deeply in my body.</p>
             <p className="font-garamond text-xl md:text-2xl leading-relaxed" style={{ color: 'rgba(248,246,242,0.7)' }}>The method is built on a simple truth: fatigue, inflammation, and chronic illness are not personal failings. They are the body's response to years of living without adequate environmental and emotional support. The body is not broken — it is responding correctly to what it has been through.</p>
             <p className="font-garamond text-xl md:text-2xl leading-relaxed" style={{ color: 'rgba(248,246,242,0.7)' }}>At the centre is Hydration — the foundation of every biological process. Around it, four pillars: Body, Environment, Nutrition, and Mindset. Each one addresses a layer of the chronic stress load that ACE survivors carry. Together, they create the conditions the body needs to regulate, repair, and restore itself.</p>

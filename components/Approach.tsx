@@ -6,7 +6,7 @@ import { useState } from 'react'
 const MODALITIES = [
   {
     name: 'Nutritional Therapy',
-    what: 'A functional approach to nutrition that looks at how food, inflammation, gut health, and nutrient status affect mood, energy, hormones, and the body's capacity to heal.',
+    what: "A functional approach to nutrition that looks at how food, inflammation, gut health, and nutrient status affect mood, energy, hormones, and the body's capacity to heal.",
     benefit: 'Reduced inflammation, improved energy, and a body better equipped to support emotional and nervous system recovery.',
     who: 'People whose physical symptoms — fatigue, brain fog, digestive issues, hormonal imbalance — are compounding their emotional load.',
   },

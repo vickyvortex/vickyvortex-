@@ -37,7 +37,7 @@ const MODALITIES = [
   {
     name: 'Body Code',
     what: 'An extension of Emotion Code that maps the whole body — addressing imbalances in energy, nutrition, structure, pathogens, and emotional fields.',
-    benefit: 'Supports the body's natural ability to heal by identifying root causes rather than managing symptoms.',
+    benefit: "Supports the body's natural ability to heal by identifying root causes rather than managing symptoms.",
     who: 'Those dealing with chronic fatigue, inflammation, pain, or complex health pictures that have not responded to conventional approaches alone.',
   },
   {

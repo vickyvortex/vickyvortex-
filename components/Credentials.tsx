@@ -117,7 +117,7 @@ export default function Credentials() {
             className="font-cormorant font-light text-[clamp(2.2rem,6vw,4.5rem)] leading-[1.05] tracking-tight mb-10"
             style={{ color: '#F8F6F2' }}
           >
-            Qualifications &amp; Training
+            Certifications &amp; Training
           </h2>
 
           <p

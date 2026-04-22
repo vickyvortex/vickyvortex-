@@ -146,28 +146,6 @@ export default function Approach() {
     >
       <div className="flex flex-col md:flex-row md:min-h-screen">
 
-        {/* Right column — portrait image */}
-        <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0 md:order-last">
-          <Image
-            src="/images/julia-photoshoot/5a.jpg"
-            alt="Vicky Vortex"
-            fill
-            className="object-cover object-center"
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 pointer-events-none"
-            style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 40%)' }}
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 pointer-events-none"
-            style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,1) 100%)' }}
-          />
-        </div>
-
-      </div>
-
         {/* Left column — text */}
         <div className="flex flex-col justify-center w-full md:w-[55%] px-6 md:pl-16 lg:pl-24 md:pr-12 py-16 md:py-24">
           <p
@@ -201,7 +179,31 @@ I select the most appropriate tools for each client depending on their nervous s
               </p>
             </div>
           </div>
+  
+
+        {/* Right column — portrait image */}
+        <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0 md:order-last">
+          <Image
+            src="/images/julia-photoshoot/5a.jpg"
+            alt="Vicky Vortex"
+            fill
+            className="object-cover object-center"
+          />
+          <div
+            aria-hidden
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 40%)' }}
+          />
+          <div
+            aria-hidden
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,1) 100%)' }}
+          />
         </div>
+
+      </div>
+
+      </div>
 
       {/* Modality accordion */}
       <div className="px-6 md:px-16 lg:px-24 pb-24 md:pb-32">

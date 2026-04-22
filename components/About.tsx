@@ -59,13 +59,17 @@ export default function About() {
             style={{ color: 'rgba(248,246,242,0.7)' }}
           >
             <p>
-              I am a Corporate Vitality Speaker and the founder of Dignity Clinic — a practice for ACE survivors and family scapegoats in midlife who are ready to stop managing symptoms and start rebuilding from the inside out.
+              I am the founder of Dignity Clinic — a practice for people who have lived through Adverse Childhood Experiences (ACEs) and are now carrying the physical and emotional cost of it in their body.
             </p>
             <p>
-              My work combines body-based healing, subconscious work, and practical recovery tools. I draw on yoga, Pilates, breathwork, QHHT Level 2, Emotion Code, Body Code, and the Vortex Vitality Method — the framework I created to address how chronic stress, emotional override, and unresolved trauma become embedded in the body over time.
+              I know this terrain because I have walked it. I grew up as the family scapegoat — mocked, isolated, financially exploited, and erased. I watched my father, who had bipolar disorder like me, be pushed to the brink by the same system of abuse I was living inside. He died in 2018. My grandfather had faced the same fate, fifty years earlier.
+
+That is why I built this work. Not from theory — from survival. During lockdown in Barcelona, grieving and rebuilding, I trained as a health and breath coach, yoga and Pilates teacher. I developed the Vortex Vitality Method — an anti-inflammatory approach to recovery that treats the body as a direct record of what it has been through. Later I trained in Emotion Code, Body Code, and QHHT Level 2 — modalities that work with the subconscious to release what talk therapy cannot always reach.
             </p>
             <p>
-              Before this work, I spent years as a travel journalist, living and working across Hong Kong, Sydney, Paris, Bangkok, Barcelona, and London. That chapter taught me how much can be hidden behind competence, beauty, movement, and performance.
+              I work mainly with people over 40 who were scapegoated inside their family system and are now living with the physical and emotional cost of it. Many are highly capable, deeply perceptive, and exhausted from carrying patterns that were never theirs to hold.
+
+Dignity Clinic exists because healing starts when someone finally believes you. I am here to do that — and to help you rebuild from the inside out, with clarity, dignity, and real support.
             </p>
             <p>
               I work mainly with people over 40 who were scapegoated inside their family system and are now living with the physical and emotional cost of it. Many are highly capable, deeply perceptive, and tired of carrying patterns that were never theirs to hold.

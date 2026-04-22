@@ -184,7 +184,7 @@ I select the most appropriate tools for each client depending on their nervous s
         {/* Right column — portrait image */}
         <div className="relative w-full md:w-[45%] h-[70vw] md:h-screen flex-shrink-0">
           <Image
-            src="/images/julia-photoshoot/5.jpg"
+            src="/images/julia-photoshoot/12.jpg"
             alt="Vicky Vortex"
             fill
             className="object-cover object-center"

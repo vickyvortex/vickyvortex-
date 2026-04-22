@@ -209,7 +209,7 @@ export default function Services() {
       className="pt-0 pb-28 md:pb-36"
       style={{ background: '#0D0D0D' }}
     >
-   <div className="max-w-3xl mx-auto">   
+   <div className="max-w-5xl mx-auto"><div className="flex flex-col md:flex-row gap-0 mb-16 md:mb-20"><div className="w-full md:w-[45%] flex-shrink-0"><img src="/images/julia-photoshoot/12.jpg" alt="Vicky Vortex" style={{width:"100%",height:"500px",objectFit:"cover",objectPosition:"center"}} /></div><div className="w-full md:w-[55%] px-6 md:px-12 py-8 md:py-0 flex flex-col justify-center">   
         <div className="text-center mb-16 md:mb-20">
           <p
             className="font-sans text-[10px] tracking-[0.4em] uppercase mb-10 md:mb-12"
@@ -251,6 +251,7 @@ export default function Services() {
         </div>
 
 {/* Service cards */}
+        </div></div>
         <div className="space-y-16 md:space-y-20">
           {services.map((service) => (
             <ServiceCard key={service.name} service={service} />

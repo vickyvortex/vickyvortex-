@@ -5,17 +5,64 @@ import { useState } from 'react'
 
 const MODALITIES = [
   {
-    Find the block starting with name: 'Nutritional Therapy' — move it to first
-Find name: 'Breathwork' — move to second
-Find name: 'Embodiment & Yoga' — move to third
-Find name: 'Hypnotherapy & NLP' — move to fourth
-Find name: 'Emotion Code' — move to fifth
-Find name: 'Body Code' — move to sixth
-Find name: 'QHHT' — move to seventh
-Find name: 'Reflective Tarot' — move to eighth
-Find name: "Ho'oponopono" — move to ninth
-Find name: 'Cosmic Blueprint' — move to tenth/last
-
+    name: 'Nutritional Therapy',
+    what: 'A functional approach to nutrition that looks at how food, inflammation, gut health, and nutrient status affect mood, energy, hormones, and the body's capacity to heal.',
+    benefit: 'Reduced inflammation, improved energy, and a body better equipped to support emotional and nervous system recovery.',
+    who: 'People whose physical symptoms — fatigue, brain fog, digestive issues, hormonal imbalance — are compounding their emotional load.',
+  },
+  {
+    name: 'Breathwork',
+    what: 'Conscious breathing practices that regulate the nervous system, move stuck emotion, and shift the body out of chronic stress states.',
+    benefit: 'Immediate nervous system relief, emotional release, and greater capacity to feel safe in the body.',
+    who: 'Anyone living in a state of hypervigilance, shutdown, or chronic stress — and those who find it hard to access emotion through talking.',
+  },
+  {
+    name: 'Embodiment & Yoga',
+    what: 'Movement and somatic practices that reconnect mind and body — particularly useful when trauma or chronic stress has caused dissociation or body disconnection.',
+    benefit: 'Rebuilt body trust, reduced physical tension, and a restored sense of being at home in yourself.',
+    who: 'People who feel cut off from their body, live primarily in their head, or have used movement as punishment rather than restoration.',
+  },
+  {
+    name: 'Hypnotherapy & NLP',
+    what: 'Direct work with the subconscious mind to rewrite limiting beliefs, trauma responses, and behavioural patterns using language, suggestion, and timeline techniques.',
+    benefit: 'Rapid shift in deeply held beliefs about self-worth, safety, and possibility.',
+    who: 'People who understand intellectually what needs to change but find their nervous system or behaviour running an older programme.',
+  },
+  {
+    name: 'Emotion Code',
+    what: 'A gentle muscle-testing method to identify and release trapped emotional energies stored in the body — often from past experiences that were never fully processed.',
+    benefit: 'Releases the emotional weight behind recurring physical symptoms, anxiety, relationship patterns, and unexplained blocks.',
+    who: 'People who feel stuck despite talk therapy, or who carry chronic tension, numbness, or emotional heaviness they cannot trace to a single cause.',
+  },
+  {
+    name: 'Body Code',
+    what: 'An extension of Emotion Code that maps the whole body — addressing imbalances in energy, nutrition, structure, pathogens, and emotional fields.',
+    benefit: 'Supports the body's natural ability to heal by identifying root causes rather than managing symptoms.',
+    who: 'Those dealing with chronic fatigue, inflammation, pain, or complex health pictures that have not responded to conventional approaches alone.',
+  },
+  {
+    name: 'QHHT — Quantum Healing Hypnosis',
+    what: 'A deep hypnosis technique developed by Dolores Cannon that accesses the subconscious directly. Sessions allow the deeper self to surface patterns, memories, and understanding that the conscious mind cannot easily reach.',
+    benefit: 'Profound shifts in self-understanding, release of long-held fear or grief, and access to your own inner wisdom.',
+    who: 'People ready to go deep — particularly those processing identity loss, family trauma, life transitions, or existential questioning.',
+  },
+  {
+    name: 'Reflective Tarot',
+    what: 'Used not for prediction but as a mirror — a structured way to surface subconscious themes, patterns, and decision points using symbolic imagery.',
+    benefit: 'Clarity, perspective, and language for what is already known but hard to articulate.',
+    who: 'Those at crossroads, in grief, or rebuilding identity — particularly people who are highly intuitive but have been taught to dismiss their own perception.',
+  },
+  {
+    name: 'Ho'oponopono',
+    what: 'An ancient Hawaiian practice of reconciliation and forgiveness that works through a process of taking responsibility, releasing, and returning to love — clearing inherited and accumulated emotional patterns at a deep level.',
+    benefit: 'Release of long-held resentment, guilt, and inherited family patterns. A profound reset of the emotional field.',
+    who: 'Those carrying grief, unresolved family wounds, or a persistent sense of burden that feels bigger than their own story.',
+  },
+  {
+    name: 'Cosmic Blueprint — Astrological Analysis',
+    what: 'A structured astrological reading using your birth chart as a map of your innate patterns, gifts, wounds, and timing. Based on Applied Astrology as taught by Debra Silverman.',
+    benefit: 'Deeper understanding of and compassion for yourself — why you are wired as you are, what your chart reveals about recurring themes, and how to work with your nature rather than against it.',
+    who: 'Those seeking self-understanding, particularly people who have been told their sensitivity, intensity, or complexity is a flaw rather than a design.',
   },
 ]
 

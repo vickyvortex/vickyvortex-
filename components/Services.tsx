@@ -209,7 +209,7 @@ export default function Services() {
       className="pt-0 pb-28 md:pb-36"
       style={{ background: '#0D0D0D' }}
     >
-      <div className="flex flex-col md:flex-row"><div className="relative w-full md:w-[40%] h-[70vw] md:min-h-screen flex-shrink-0"><img src="/images/julia-photoshoot/12.jpg" alt="Vicky Vortex" className="absolute inset-0 w-full h-full object-cover object-top" /></div><div className="w-full md:w-[60%] py-28 md:py-36 px-6 md:pl-16 lg:pl-20 md:pr-12">
+      <div className="max-w-3xl mx-auto">
         {/* Eyebrow + heading */}
         <div className="text-center mb-16 md:mb-20">
           <p

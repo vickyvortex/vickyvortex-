@@ -152,7 +152,7 @@ export default function Approach() {
             src="/images/julia-photoshoot/5.jpg"
             alt="Vicky Vortex"
             fill
-            className="object-cover object-top"
+            className="object-cover object-center"
           />
           <div
             aria-hidden

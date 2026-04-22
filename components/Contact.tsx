@@ -370,7 +370,9 @@ export default function Contact() {
             className="font-sans text-xs tracking-[0.2em] uppercase"
             style={{ color: 'rgba(248,246,242,0.4)' }}
           >
-            For direct enquiries:{' '}
+            Dignity Clinic is a private coaching and wellbeing practice. It is not a medical or psychiatric service and does not replace clinical treatment.
+
+For direct enquiries:{' '}
             <a
               href="mailto:restore@dignityclinic.co.uk"
               style={{ color: '#F8F6F2' }}

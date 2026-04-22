@@ -180,7 +180,7 @@ export default function Approach() {
             className="font-cormorant font-light text-[clamp(2.2rem,6vw,4.5rem)] leading-[1.05] tracking-tight mb-10 md:mb-12"
             style={{ color: '#F8F6F2' }}
           >
-            Reconnect With Your<br />Inner Knowing
+            Restore Self-Trust
           </h2>
 
           <div className="max-w-2xl">
@@ -192,12 +192,12 @@ export default function Approach() {
                 Many people who have been scapegoated, gaslit, or emotionally overridden have been taught to mistrust themselves. They may know something is wrong, but struggle to explain it logically because the body, nervous system, and subconscious often hold the truth long before the mind can put it into words.
               </p>
               <p>
-                Every modality I offer is one I have used myself to heal. Emotion Code, Body Code, QHHT, breathwork, yoga, Pilates, reflective tarot, nutritional therapy, shamanic practice, astrology — these are not tools I found in a textbook. They are the things that kept me alive.
+                I do not offer these tools as abstract concepts. They are practices I turned to while rebuilding after chronic family stress, emotional suppression, and the long-term bodily cost of trauma. My work is grounded in lived experience, nervous system awareness, and deep respect for what the body carries when the truth has been denied for too long.
 
-Denial, generational narcissistic abuse, financial exploitation, and wilful negligence run deep in my family. My father’s suicide is a cautionary tale of what happens when the body’s signals are ignored and the truth is buried. My survival is not a miracle. It is a testament to what becomes possible when you take your healing seriously — and use every tool available to you.
+I select the most appropriate tools for each client depending on their nervous system, history, and stage of recovery. You do not need to choose a modality. That is my job.
               </p>
               <p>
-                I use these modalities to help clients access the patterns, emotional burdens, and deeper intelligence held in the body — because the body keeps the score long after the mind has tried to move on. This work is especially powerful for people recovering from scapegoating, narcissistic abuse, and complex family trauma, because healing often begins the moment someone finally believes them — and helps them believe themselves.
+                This work is especially powerful for people recovering from scapegoating, narcissistic abuse, and complex family trauma, because rebuilding often begins the moment someone finally believes them — and helps them believe themselves.
               </p>
             </div>
           </div>
@@ -214,7 +214,7 @@ Denial, generational narcissistic abuse, financial exploitation, and wilful negl
           className="font-cormorant font-light text-[clamp(1.8rem,4vw,3rem)] leading-tight tracking-tight mb-10"
           style={{ color: '#F8F6F2' }}
         >
-          What we may work with
+          Tools I may draw on, depending on what you need
         </h3>
         <div style={{ borderBottom: '1px solid rgba(248,246,242,0.12)' }}>
           {MODALITIES.map(m => (
@@ -225,7 +225,7 @@ Denial, generational narcissistic abuse, financial exploitation, and wilful negl
           className="font-garamond text-lg mt-8"
           style={{ color: 'rgba(248,246,242,0.4)', fontStyle: 'italic' }}
         >
-          You do not need to choose. I will guide you toward what is most useful for where you are.
+          You do not need to arrive knowing which tool is right for you. I guide the process and select what is most appropriate for your nervous system, history, and stage of recovery.
         </p>
         <a
           href="/modalities"

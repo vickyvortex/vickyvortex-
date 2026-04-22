@@ -59,23 +59,19 @@ export default function About() {
             style={{ color: 'rgba(248,246,242,0.7)' }}
           >
             <p>
-              I am the founder of Dignity Clinic — a practice for people who have lived through Adverse Childhood Experiences (ACEs) and are now carrying the physical and emotional cost of it in their body.
+              I created Dignity Clinic for adults, especially long-term family scapegoats and ACE survivors, who are living with the body cost of chronic emotional stress.
             </p>
             <p>
-              I know this terrain because I have walked it. I grew up as the family scapegoat — mocked, isolated, financially exploited, and ultimately disowned after my father’s suicide in 2019. My grandfather had also taken his own life, fifty years earlier. Both had bipolar disorder and ADHD. My family chose to blame me for having it too, rather than face what was actually happening. Denial runs deep in families like ours.
-
-After years of carrying that silence, I wrote my story. My chapter was published in the anthology “She Said Yes to Herself” — and it became an Amazon bestseller. Telling the truth changed something in me physically: my deep sleep tripled — from 30 minutes to 90 minutes a night. I felt lighter. Happier. The relief was surprising, even to me. That was the moment I understood how powerful it is to finally be believed — by others, and by yourself.
-
-That is why I built this work. Not from theory — from survival. During lockdown in Barcelona, grieving and rebuilding, I trained as a health and breath coach, yoga and Pilates teacher. I developed the Vortex Vitality Method — an anti-inflammatory approach to recovery that treats the body as a direct record of what it has been through. Later I trained in Emotion Code, Body Code, and QHHT Level 2 — modalities that work with the subconscious to release what talk therapy cannot always reach.
+              My work helps clients restore self-trust, regulate the nervous system, reduce the burden of stress and inflammation, and rebuild with more clarity, stability, and dignity.
             </p>
             <p>
-              
+              This approach is grounded in lived experience as well as years of training across subconscious work, emotional processing, nutrition, breathwork, movement, and nervous system support. In many ways, I became the kind of person I once needed most: someone who could see clearly, listen deeply, and help make sense of what the body had been carrying for years.
             </p>
             <p>
-              I work mainly with people over 40 who were scapegoated, gaslit, or raised by narcissistic parents — and are now living with the physical and emotional cost of it. Narcissistic abuse leaves a particular kind of damage: you learn to doubt your own perception, override your own needs, and carry shame that was never yours. Many of my clients are highly capable, deeply perceptive, and exhausted from carrying patterns that were never theirs to hold.
+              I do not ask clients to choose from a menu of modalities. I guide the process and use the tools most appropriate for where they are.
             </p>
             <p>
-              Dignity Clinic helps them restore self-trust, regulate the nervous system, lower the burden of chronic stress, and begin healing with more clarity, stability, and dignity.
+              At its core, Dignity Clinic is about helping people feel accurately seen, deeply supported, and strong enough to rebuild from the inside out.
             </p>
           </div>
         </div>

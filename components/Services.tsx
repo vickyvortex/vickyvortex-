@@ -251,8 +251,6 @@ export default function Services() {
         </div>
 
 {/* Service cards */}
-        </div></div>
-        </div></div>
         <div className="space-y-16 md:space-y-20">
           {services.map((service) => (
             <ServiceCard key={service.name} service={service} />

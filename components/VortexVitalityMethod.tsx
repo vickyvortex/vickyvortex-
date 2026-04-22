@@ -15,7 +15,7 @@ export default function VortexVitalityMethod() {
         </div>
         <div className="flex flex-col md:flex-row gap-16 md:gap-20 items-center">
           <div className="w-full md:w-[45%] flex-shrink-0">
-            <img src="/images/VortexVitalityMethodHydrationwheel.png" alt="Vortex Vitality Method wheel" className="w-full block" style={{ filter: 'invert(1) hue-rotate(180deg) saturate(0.8) brightness(0.9)' }} />
+            <img src="/images/VortexVitalityMethodHydrationwheel.png" alt="Vortex Vitality Method wheel" className="w-full max-w-[600px] mx-auto block" style={{ filter: 'invert(1) hue-rotate(180deg) saturate(0.8) brightness(0.9)' }} />
           </div>
           <div className="w-full md:w-[50%] flex flex-col justify-center space-y-6">
             <p className="font-garamond text-xl md:text-2xl leading-relaxed" style={{ color: 'rgba(248,246,242,0.7)' }}>I developed the Vortex Vitality Method during lockdown in Barcelona — grieving, rebuilding, and determined to understand why chronic stress had embedded itself so deeply in my body.</p>

@@ -119,11 +119,11 @@ export default function ACEStats() {
           {/* Table header */}
           <div
             className="grid grid-cols-3 px-6 py-4"
-            style={{ borderBottom: '1px solid rgba(248,246,242,0.08)', background: 'rgba(248,246,242,0.03)' }}
+            style={{ borderBottom: '1px solid rgba(248,246,242,0.08)', background: 'rgba(248,246,242,0.05)' }}
           >
-            <p className="font-sans text-[10px] tracking-[0.3em] uppercase" style={{ color: 'rgba(248,246,242,0.35)' }}>Condition</p>
-            <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-center" style={{ color: 'rgba(248,246,242,0.35)' }}>Increased Risk</p>
-            <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-right" style={{ color: 'rgba(248,246,242,0.35)' }}>Context</p>
+            <p className="font-sans text-[10px] tracking-[0.3em] uppercase" style={{ color: 'rgba(248,246,242,0.6)' }}>Condition</p>
+            <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-center" style={{ color: 'rgba(248,246,242,0.6)' }}>Increased Risk</p>
+            <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-right" style={{ color: 'rgba(248,246,242,0.6)' }}>Context</p>
           </div>
 
           {/* Rows */}

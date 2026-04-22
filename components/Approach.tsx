@@ -146,6 +146,28 @@ export default function Approach() {
     >
       <div className="flex flex-col">
 
+        {/* Right column — portrait image */}
+        <div className="relative w-full h-[50vw] md:h-[40vw] flex-shrink-0">
+          <Image
+            src="/images/julia-photoshoot/5.jpg"
+            alt="Vicky Vortex"
+            fill
+            className="object-cover object-top"
+          />
+          <div
+            aria-hidden
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 40%)' }}
+          />
+          <div
+            aria-hidden
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,1) 100%)' }}
+          />
+        </div>
+
+      </div>
+
         {/* Left column — text */}
         <div className="flex flex-col justify-center w-full px-6 md:px-16 lg:px-24 py-16 md:py-24">
           <p
@@ -178,28 +200,6 @@ export default function Approach() {
             </div>
           </div>
         </div>
-
-        {/* Right column — portrait image */}
-        <div className="relative w-full h-[50vw] md:h-[40vw] flex-shrink-0">
-          <Image
-            src="/images/julia-photoshoot/5.jpg"
-            alt="Vicky Vortex"
-            fill
-            className="object-cover object-top"
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 pointer-events-none"
-            style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 40%)' }}
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 pointer-events-none"
-            style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,1) 100%)' }}
-          />
-        </div>
-
-      </div>
 
       {/* Modality accordion */}
       <div className="px-6 md:px-16 lg:px-24 pb-24 md:pb-32">

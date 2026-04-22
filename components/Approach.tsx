@@ -144,7 +144,7 @@ export default function Approach() {
       className="relative overflow-hidden"
       style={{ background: '#0D0D0D' }}
     >
-      <div className="flex flex-col md:flex-row md:min-h-screen">
+      <div className="flex flex-col-reverse md:flex-row md:min-h-screen">
 
         {/* Left column — text */}
         <div className="flex flex-col justify-center w-full md:w-[55%] px-6 md:pl-16 lg:pl-24 md:pr-12 py-16 md:py-24">
@@ -184,7 +184,7 @@ I select the most appropriate tools for each client depending on their nervous s
         {/* Right column — portrait image */}
         <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0 md:order-last">
           <Image
-            src="/images/julia-photoshoot/5a.jpg"
+            src="/images/julia-photoshoot/5.jpg"
             alt="Vicky Vortex"
             fill
             className="object-cover object-center"
@@ -192,7 +192,7 @@ I select the most appropriate tools for each client depending on their nervous s
           <div
             aria-hidden
             className="absolute inset-0 pointer-events-none"
-            style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 40%)' }}
+            style={{ background: 'linear-gradient(to left, rgba(13,13,13,1) 0%, rgba(13,13,13,0.8) 40%, rgba(13,13,13,0) 70%)' }}
           />
           <div
             aria-hidden

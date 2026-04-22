@@ -69,9 +69,7 @@ After years of carrying that silence, I wrote my story. My chapter was published
 That is why I built this work. Not from theory — from survival. During lockdown in Barcelona, grieving and rebuilding, I trained as a health and breath coach, yoga and Pilates teacher. I developed the Vortex Vitality Method — an anti-inflammatory approach to recovery that treats the body as a direct record of what it has been through. Later I trained in Emotion Code, Body Code, and QHHT Level 2 — modalities that work with the subconscious to release what talk therapy cannot always reach.
             </p>
             <p>
-              I work mainly with people over 40 who were scapegoated inside their family system and are now living with the physical and emotional cost of it. Many are highly capable, deeply perceptive, and exhausted from carrying patterns that were never theirs to hold.
-
-Dignity Clinic exists because healing starts when someone finally believes you. I am here to do that — and to help you rebuild from the inside out, with clarity, dignity, and real support.
+              
             </p>
             <p>
               I work mainly with people over 40 who were scapegoated inside their family system and are now living with the physical and emotional cost of it. Many are highly capable, deeply perceptive, and tired of carrying patterns that were never theirs to hold.

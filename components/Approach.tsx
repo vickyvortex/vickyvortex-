@@ -192,10 +192,12 @@ export default function Approach() {
                 Many people who have been scapegoated, gaslit, or emotionally overridden have been taught to mistrust themselves. They may know something is wrong, but struggle to explain it logically because the body, nervous system, and subconscious often hold the truth long before the mind can put it into words.
               </p>
               <p>
-                My work helps clients reconnect with that deeper knowing. I use modalities including Emotion Code, Body Code, QHHT, embodied spiritual practice, and reflective tarot work to access the patterns, emotional burdens, and the deeper intelligence held in the body. My focus is not prediction or spectacle, but healing: helping people restore self-trust, release what has been weighing them down, and move forward with more clarity, dignity, and self-possession.
+                Every modality I offer is one I have used myself to heal. Emotion Code, Body Code, QHHT, breathwork, yoga, Pilates, reflective tarot, nutritional therapy, shamanic practice, astrology — these are not tools I found in a textbook. They are the things that kept me alive.
+
+Denial, generational narcissistic abuse, financial exploitation, and wilful negligence run deep in my family. My father’s suicide is a cautionary tale of what happens when the body’s signals are ignored and the truth is buried. My survival is not a miracle. It is a testament to what becomes possible when you take your healing seriously — and use every tool available to you.
               </p>
               <p>
-                This work is especially powerful for people recovering from scapegoating, grief, chronic stress, and narcissistic abuse, because healing often begins when they realise their inner knowing was never wrong — it was simply overridden.
+                I use these modalities to help clients access the patterns, emotional burdens, and deeper intelligence held in the body — because the body keeps the score long after the mind has tried to move on. This work is especially powerful for people recovering from scapegoating, narcissistic abuse, and complex family trauma, because healing often begins the moment someone finally believes them — and helps them believe themselves.
               </p>
             </div>
           </div>

@@ -183,11 +183,10 @@ I select the most appropriate tools for each client depending on their nervous s
 
         {/* Right column — portrait image */}
         <div className="relative w-full md:w-[45%] h-[70vw] md:h-full min-h-[500px] flex-shrink-0">
-          <Image
+          <img
             src="/images/julia-photoshoot/5.jpg"
             alt="Vicky Vortex"
-            fill
-            className="object-cover object-center"
+            style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center",position:"absolute",inset:0}}
           />
           <div
             aria-hidden

@@ -100,7 +100,7 @@ export default function Approach() {
       <div className="flex flex-col md:flex-row md:min-h-screen">
 
         {/* Right column — portrait image */}
-        <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0">
+        <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0 md:order-last">
           <Image
             src="/images/julia-photoshoot/5a.jpg"
             alt="Vicky Vortex"

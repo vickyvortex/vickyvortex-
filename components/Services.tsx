@@ -330,8 +330,4 @@ export default function Services() {
           </a>
         </div>
       </div>
-    
-    
     </section>
-  )
-}

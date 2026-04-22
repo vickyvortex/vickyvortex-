@@ -180,7 +180,7 @@ export default function Approach() {
         </div>
 
         {/* Right column — portrait image */}
-        <div className="relative w-full h-[70vw] md:h-[60vw] flex-shrink-0">
+        <div className="relative w-full h-[50vw] md:h-[40vw] flex-shrink-0">
           <Image
             src="/images/julia-photoshoot/5.jpg"
             alt="Vicky Vortex"

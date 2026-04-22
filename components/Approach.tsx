@@ -146,6 +146,25 @@ export default function Approach() {
     >
       <div className="flex flex-col md:flex-row md:min-h-screen">
 
+        {/* Right column — portrait image */}
+        <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0 md:order-last">
+          <img
+            src="/images/julia-photoshoot/5.jpg"
+            alt="Vicky Vortex"
+            style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center",position:"absolute",inset:0}}
+          />
+          <div
+            aria-hidden
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: 'linear-gradient(to left, rgba(13,13,13,1) 0%, rgba(13,13,13,0.8) 40%, rgba(13,13,13,0) 70%)' }}
+          />
+          <div
+            aria-hidden
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,1) 100%)' }}
+          />
+        </div>
+
         {/* Left column — text */}
         <div className="flex flex-col justify-center w-full md:w-[55%] px-6 md:pl-16 lg:pl-24 md:pr-12 py-16 md:py-24">
           <p
@@ -181,24 +200,7 @@ I select the most appropriate tools for each client depending on their nervous s
           </div>
   
 
-        {/* Right column — portrait image */}
-        <div className="relative w-full h-[80vw] md:h-[60vw] flex-shrink-0">
-          <img
-            src="/images/julia-photoshoot/5.jpg"
-            alt="Vicky Vortex"
-            style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center",position:"absolute",inset:0}}
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 pointer-events-none"
-            style={{ background: 'linear-gradient(to left, rgba(13,13,13,1) 0%, rgba(13,13,13,0.8) 40%, rgba(13,13,13,0) 70%)' }}
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 pointer-events-none"
-            style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,1) 100%)' }}
-          />
-        </div>
+
 
       </div>
 

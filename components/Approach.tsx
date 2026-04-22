@@ -144,10 +144,10 @@ export default function Approach() {
       className="relative overflow-hidden"
       style={{ background: '#0D0D0D' }}
     >
-      <div className="flex flex-col">
+      <div className="flex flex-col md:flex-row md:min-h-screen">
 
         {/* Right column — portrait image */}
-        <div className="relative w-full h-[50vw] md:h-[40vw] flex-shrink-0">
+        <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0">
           <Image
             src="/images/julia-photoshoot/5a.jpg"
             alt="Vicky Vortex"
@@ -169,7 +169,7 @@ export default function Approach() {
       </div>
 
         {/* Left column — text */}
-        <div className="flex flex-col justify-center w-full px-6 md:px-16 lg:px-24 py-16 md:py-24">
+        <div className="flex flex-col justify-center w-full md:w-[55%] px-6 md:pl-16 lg:pl-24 md:pr-12 py-16 md:py-24">
           <p
             style={{ fontSize: '0.65rem', letterSpacing: '0.4em', textTransform: 'uppercase', color: 'rgba(248,246,242,0.35)', marginBottom: '2.5rem' }}
           >

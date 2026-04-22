@@ -121,61 +121,6 @@ export default function Approach() {
 
       </div>
 
-        {/* Right column — portrait image */}
-        <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0">
-          <Image
-            src="/images/julia-photoshoot/5a.jpg"
-            alt="Vicky Vortex"
-            fill
-            className="object-cover object-center"
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 pointer-events-none"
-            style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 40%)' }}
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 pointer-events-none"
-            style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,1) 100%)' }}
-          />
-        </div>
-
-        {/* Left column — text */}
-        <div className="flex flex-col justify-center w-full md:w-[55%] px-6 md:pl-16 lg:pl-24 md:pr-12 py-16 md:py-24">
-          <p
-            style={{ fontSize: '0.65rem', letterSpacing: '0.4em', textTransform: 'uppercase', color: 'rgba(248,246,242,0.35)', marginBottom: '2.5rem' }}
-          >
-            Approach
-          </p>
-
-          <h2
-            className="font-cormorant font-light text-[clamp(2.2rem,6vw,4.5rem)] leading-[1.05] tracking-tight mb-10 md:mb-12"
-            style={{ color: '#F8F6F2' }}
-          >
-            Restore Self-Trust
-          </h2>
-
-          <div className="max-w-2xl">
-            <div
-              className="font-garamond text-xl md:text-2xl leading-relaxed space-y-6 text-left"
-              style={{ color: 'rgba(248,246,242,0.7)' }}
-            >
-              <p>
-                Many people who have been scapegoated, gaslit, or emotionally overridden have been taught to mistrust themselves. They may know something is wrong, but struggle to explain it logically because the body, nervous system, and subconscious often hold the truth long before the mind can put it into words.
-              </p>
-              <p>
-                I do not offer these tools as abstract concepts. They are practices I turned to while rebuilding after chronic family stress, emotional suppression, and the long-term bodily cost of trauma. My work is grounded in lived experience, nervous system awareness, and deep respect for what the body carries when the truth has been denied for too long.
-
-I select the most appropriate tools for each client depending on their nervous system, history, and stage of recovery. You do not need to choose a modality. That is my job.
-              </p>
-              <p>
-                This work is especially powerful for people recovering from scapegoating, narcissistic abuse, and complex family trauma, because rebuilding often begins the moment someone finally believes them — and helps them believe themselves.
-              </p>
-            </div>
-
-      </div>
-
         {/* Left column — text */}
         <div className="flex flex-col justify-center w-full md:w-[55%] px-6 md:pl-16 lg:pl-24 md:pr-12 py-16 md:py-24">
           <p

@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
+import VortexVitalityMethod from '@/components/VortexVitalityMethod'
 import ACEStats from '@/components/ACEStats'
 import Credentials from '@/components/Credentials'
 import Approach from '@/components/Approach'
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <VortexVitalityMethod />
       <ACEStats />
       <Credentials />
       <Approach />

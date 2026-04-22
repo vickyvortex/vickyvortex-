@@ -144,7 +144,7 @@ export default function Approach() {
       className="relative overflow-hidden"
       style={{ background: '#0D0D0D' }}
     >
-      <div className="flex flex-col-reverse md:flex-row md:min-h-screen">
+      <div className="flex flex-col md:flex-row md:min-h-screen">
 
         {/* Left column — text */}
         <div className="flex flex-col justify-center w-full md:w-[55%] px-6 md:pl-16 lg:pl-24 md:pr-12 py-16 md:py-24">
@@ -182,9 +182,9 @@ I select the most appropriate tools for each client depending on their nervous s
   
 
         {/* Right column — portrait image */}
-        <div className="relative w-full md:w-[45%] h-[70vw] md:h-screen flex-shrink-0">
+        <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0">
           <Image
-            src="/images/julia-photoshoot/12.jpg"
+            src="/images/julia-photoshoot/9.jpg"
             alt="Vicky Vortex"
             fill
             className="object-cover object-center"

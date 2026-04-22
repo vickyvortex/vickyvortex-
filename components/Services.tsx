@@ -229,7 +229,7 @@ export default function Services() {
             className="font-garamond text-xl md:text-2xl leading-relaxed mx-auto mb-10 text-left"
             style={{ maxWidth: '640px', color: 'rgba(248,246,242,0.7)' }}
           >
-            Services for people who have been scapegoated, gaslit, and worn down by chronic stress — and are ready to heal with clarity, dignity, and real support.
+            Services for people who have been scapegoated, gaslit, subjected to narcissistic abuse, and worn down by chronic stress — and are ready to heal with clarity, dignity, and real support.
           </p>
 
           <div className="max-w-2xl mx-auto">
@@ -238,7 +238,7 @@ export default function Services() {
             style={{ maxWidth: '640px', color: 'rgba(248,246,242,0.6)' }}
           >
             <p>
-              Dignity Clinic is designed for ACE survivors, family scapegoats, and people recovering from narcissistic abuse who are ready to stop managing symptoms and start rebuilding from the inside out.
+              Dignity Clinic is designed for ACE survivors, family scapegoats, adult children of narcissists, and people recovering from narcissistic abuse who are ready to stop managing symptoms and start rebuilding from the inside out. If you have spent your life being told your perception was wrong, your needs were too much, or your pain was inconvenient — you are in the right place.
             </p>
             <p>
               My work combines emotional validation, subconscious-based healing, nervous system support, and anti-inflammatory lifestyle guidance. Sessions may draw on Emotion Code, Body Code, QHHT-informed subconscious work, reflective tarot, breathwork, embodiment, and practical recovery tools.

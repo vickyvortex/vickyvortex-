@@ -72,7 +72,7 @@ That is why I built this work. Not from theory — from survival. During lockdow
               
             </p>
             <p>
-              I work mainly with people over 40 who were scapegoated inside their family system and are now living with the physical and emotional cost of it. Many are highly capable, deeply perceptive, and tired of carrying patterns that were never theirs to hold.
+              I work mainly with people over 40 who were scapegoated, gaslit, or raised by narcissistic parents — and are now living with the physical and emotional cost of it. Narcissistic abuse leaves a particular kind of damage: you learn to doubt your own perception, override your own needs, and carry shame that was never yours. Many of my clients are highly capable, deeply perceptive, and exhausted from carrying patterns that were never theirs to hold.
             </p>
             <p>
               Dignity Clinic helps them restore self-trust, regulate the nervous system, lower the burden of chronic stress, and begin healing with more clarity, stability, and dignity.

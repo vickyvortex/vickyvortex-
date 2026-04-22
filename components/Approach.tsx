@@ -53,7 +53,7 @@ const MODALITIES = [
     who: 'Those at crossroads, in grief, or rebuilding identity — particularly people who are highly intuitive but have been taught to dismiss their own perception.',
   },
   {
-    name: 'Ho'oponopono',
+    name: "Ho'oponopono",
     what: 'An ancient Hawaiian practice of reconciliation and forgiveness that works through a process of taking responsibility, releasing, and returning to love — clearing inherited and accumulated emotional patterns at a deep level.',
     benefit: 'Release of long-held resentment, guilt, and inherited family patterns. A profound reset of the emotional field.',
     who: 'Those carrying grief, unresolved family wounds, or a persistent sense of burden that feels bigger than their own story.',

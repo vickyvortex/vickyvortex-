@@ -169,7 +169,7 @@ export default function Credentials() {
                 My work is trauma-informed. This means I prioritise safety, pacing, consent, and nervous system awareness in every session. I do not diagnose or treat mental health conditions. Instead, I support clients in understanding the body impact of chronic stress and rebuilding self-trust in a grounded, practical way.
               </p>
               <p style={{ color: 'rgba(248,246,242,0.5)', fontStyle: 'italic' }}>
-                Currently completing advanced training in trauma-informed coaching and nervous system-aware support.
+                This work is grounded in lived experience and continually refined through advanced training in trauma-informed coaching, narcissistic abuse recovery, and nervous system-aware support.
               </p>
             </div>
           </div>

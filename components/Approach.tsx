@@ -213,23 +213,19 @@ I select the most appropriate tools for each client depending on their nervous s
         >
           The Modalities
         </p>
-        <h3
-          className="font-cormorant font-light text-[clamp(1.8rem,4vw,3rem)] leading-tight tracking-tight mb-10"
-          style={{ color: '#F8F6F2' }}
-        >
-          Tools I may draw on, depending on what you need
-        </h3>
-        <div style={{ borderBottom: '1px solid rgba(248,246,242,0.12)' }}>
-          {MODALITIES.map(m => (
-            <ModalityItem key={m.name} modality={m} />
-          ))}
+        <div className="px-6 md:px-16 lg:px-24 pb-24 md:pb-32">
+          <div className="max-w-2xl">
+            <p className="font-sans text-[10px] tracking-[0.4em] uppercase mb-6" style={{ color: 'rgba(248,246,242,0.35)' }}>
+              Tools I may draw on
+            </p>
+            <p className="font-garamond text-xl md:text-2xl leading-relaxed mb-6" style={{ color: 'rgba(248,246,242,0.7)' }}>
+              I draw on a range of body-based, subconscious, reflective, and lifestyle tools depending on the client.
+            </p>
+            <p className="font-cormorant italic text-xl md:text-2xl leading-relaxed" style={{ color: 'rgba(248,246,242,0.5)' }}>
+              You do not need to choose a modality. I guide the process and use the tools most appropriate for your nervous system, history, and stage of recovery.
+            </p>
+          </div>
         </div>
-        <p
-          className="font-garamond text-lg mt-8"
-          style={{ color: 'rgba(248,246,242,0.4)', fontStyle: 'italic' }}
-        >
-          You do not need to arrive knowing which tool is right for you. I guide the process and select what is most appropriate for your nervous system, history, and stage of recovery.
-        </p>
       </div>
 
     </section>

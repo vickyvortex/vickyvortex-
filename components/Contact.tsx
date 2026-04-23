@@ -233,7 +233,7 @@ export default function Contact() {
               If you are ready to begin rebuilding with clarity, dignity, and real support, get in touch below.
             </p>
             <p>
-              I work with people recovering from scapegoating, grief, chronic stress, and emotional override. If that is where you are, you are welcome here.
+              I work with adults recovering from scapegoating, chronic stress, and long-term emotional override. If that is where you are, you are welcome here.
 
               You do not need to have everything figured out. You only need to be ready to start.
             </p>

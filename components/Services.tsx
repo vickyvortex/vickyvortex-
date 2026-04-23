@@ -17,7 +17,7 @@ const services = [
       'Full intake and story mapping',
       'Identification of key scapegoat and stress patterns',
       'Nervous system and inflammation lens',
-      'One integrated session using the most appropriate tools for your nervous system, history, and current stage of recovery',
+      'One guided session using the most appropriate tools for your nervous system, history, and current stage of recovery',
       'Personalised next-step recommendations',
       'Short written summary after the session',
     ],
@@ -28,7 +28,7 @@ const services = [
     name: 'Dignity Clinic Intensive',
     duration: '3 sessions over 3–5 weeks',
     price: '£795',
-    description: 'A focused healing container to help you understand what happened, regulate your system, and begin rebuilding.',
+    description: 'A focused container of structured support to help you understand what happened, regulate your nervous system, and begin rebuilding.',
     bestFor: [
       'People who know this is deeper than a one-off session',
       'Clients recovering from scapegoating, gaslighting, grief, or chronic emotional stress',
@@ -230,6 +230,8 @@ export default function Services() {
             style={{ maxWidth: '640px', color: 'rgba(248,246,242,0.7)' }}
           >
             Services for adults who have been scapegoated, gaslit, and worn down by chronic stress — and are ready to rebuild with clarity, dignity, and real support.
+
+              This work is not for those looking for quick fixes or surface-level advice. It is for people ready to understand what has happened, take themselves seriously, and begin rebuilding.
           </p>
 
           <div className="max-w-2xl mx-auto">
@@ -251,7 +253,8 @@ export default function Services() {
         </div>
 
 {/* Service cards */}
-        <div className="space-y-16 md:space-y-20">
+        <p className="font-cormorant italic text-2xl md:text-3xl leading-relaxed mb-16" style={{ color: 'rgba(248,246,242,0.6)' }}>Clients often leave this work with more clarity, a calmer nervous system, stronger boundaries, and a renewed sense of self-trust.</p>
+          <div className="space-y-16 md:space-y-20">
           {services.map((service) => (
             <ServiceCard key={service.name} service={service} />
           ))}

@@ -72,6 +72,8 @@ export default function About() {
             </p>
             <p>
               At its core, Dignity Clinic is about helping people feel accurately seen, deeply supported, and strong enough to rebuild from the inside out.
+
+              Vicky Vortex is the founder of Dignity Clinic — a trauma-informed, body-based recovery practice for adults rebuilding after chronic stress and family scapegoating.
             </p>
           </div>
         </div>

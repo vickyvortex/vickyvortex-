@@ -147,6 +147,32 @@ export default function Credentials() {
             ))}
           </div>
         </div>
+
+          <div className="mt-16 md:mt-20 max-w-2xl mx-auto text-left">
+            <p
+              className="font-sans text-[10px] tracking-[0.4em] uppercase mb-6"
+              style={{ color: 'rgba(248,246,242,0.35)' }}
+            >
+              Approach
+            </p>
+            <h3
+              className="font-cormorant font-light text-[clamp(1.6rem,3vw,2.2rem)] leading-tight tracking-tight mb-6"
+              style={{ color: '#F8F6F2' }}
+            >
+              Trauma-informed practice
+            </h3>
+            <div
+              className="font-garamond text-xl md:text-2xl leading-relaxed space-y-5"
+              style={{ color: 'rgba(248,246,242,0.7)' }}
+            >
+              <p>
+                My work is trauma-informed. This means I prioritise safety, pacing, consent, and nervous system awareness in every session. I do not diagnose or treat mental health conditions. Instead, I support clients in understanding the body impact of chronic stress and rebuilding self-trust in a grounded, practical way.
+              </p>
+              <p style={{ color: 'rgba(248,246,242,0.5)', fontStyle: 'italic' }}>
+                Currently completing advanced training in trauma-informed coaching and nervous system-aware support.
+              </p>
+            </div>
+          </div>
       </div>
     </section>
   )

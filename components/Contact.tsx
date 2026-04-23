@@ -230,7 +230,7 @@ export default function Contact() {
             style={{ maxWidth: '640px', color: 'rgba(248,246,242,0.7)' }}
           >
             <p>
-              If you are ready to feel heard, believed, and supported in your healing, get in touch below.
+              If you are ready to feel heard, believed, and supported as you begin rebuilding, get in touch below.
             </p>
             <p>
               I work with people recovering from scapegoating, grief, chronic stress, and emotional override. If that is where you are, you are welcome here.

@@ -48,7 +48,7 @@ const services = [
     name: 'Dignity Rebuild',
     duration: '6 sessions over 8–12 weeks',
     price: '£1,495',
-    description: 'My signature programme for people ready to heal the long-term effects of scapegoating, chronic stress, grief, and emotional override.',
+    description: 'My signature programme for people ready to address the long-term body cost of scapegoating, chronic stress, grief, and emotional override.',
     bestFor: [
       'Long-term family scapegoats',
       'ACE survivors whose body is already showing the cost',
@@ -57,7 +57,7 @@ const services = [
     ],
     includes: [
       'Full personal history and pattern mapping',
-      'Repeated subconscious and emotional healing sessions',
+      'Repeated subconscious pattern work and emotional clearing sessions',
       'Nervous system support and regulation tools',
       'Anti-inflammatory lifestyle coaching',
       'Boundaries and family detox strategy',
@@ -83,7 +83,7 @@ const services = [
       'Priority email or voice-note support',
       'Flexible pacing depending on what is unfolding',
       'Deeper support around purpose, self-trust, boundaries, embodiment, and reinvention',
-      'Tailored healing practices and integration support',
+      'Tailored recovery practices and integration support',
     ],
     outcome: 'Private support for profound rebuilding — emotionally, physically, and practically.',
     variant: 'premium' as const,
@@ -93,7 +93,7 @@ const services = [
 const guidance = [
   'Start with Dignity Reset if you want a first deep session and immediate clarity',
   'Choose Dignity Clinic Intensive if you want focused support over several weeks',
-  'Choose Dignity Rebuild if you know this is long-standing and you are ready for deeper healing',
+  'Choose Dignity Rebuild if you know this is long-standing and you are ready for deeper recovery work',
   'Enquire about Dignity Sovereignty if you want private high-touch support',
 ]
 
@@ -229,7 +229,7 @@ export default function Services() {
             className="font-garamond text-xl md:text-2xl leading-relaxed mx-auto mb-10 text-left"
             style={{ maxWidth: '640px', color: 'rgba(248,246,242,0.7)' }}
           >
-            Services for people who have been scapegoated, gaslit, and worn down by chronic stress — and are ready to heal with clarity, dignity, and real support.
+            Services for people who have been scapegoated, gaslit, subjected to narcissistic abuse, and worn down by chronic stress — and are ready to rebuild with clarity, dignity, and real support.
           </p>
 
           <div className="max-w-2xl mx-auto">
@@ -241,10 +241,10 @@ export default function Services() {
               Dignity Clinic is designed for ACE survivors, family scapegoats, and people recovering from narcissistic abuse who are ready to stop managing symptoms and start rebuilding from the inside out.
             </p>
             <p>
-              My work combines emotional validation, subconscious-based healing, nervous system support, and anti-inflammatory lifestyle guidance. Sessions may draw on Emotion Code, Body Code, QHHT-informed subconscious work, reflective tarot, breathwork, embodiment, and practical recovery tools.
+              My work combines emotional validation, subconscious pattern work, nervous system support, and anti-inflammatory lifestyle guidance. I select the most appropriate tools for each client depending on their history, nervous system, and stage of recovery.
             </p>
             <p>
-              The focus is not prediction or spectacle. The focus is healing.
+              The focus is not prediction or spectacle. The focus is rebuilding.
             </p>
           </div>
           </div>

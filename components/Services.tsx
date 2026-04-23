@@ -32,11 +32,11 @@ const services = [
     bestFor: [
       'People who know this is deeper than a one-off session',
       'Clients recovering from scapegoating, gaslighting, grief, or chronic emotional stress',
-      'Those ready to move from insight into real healing work',
+      'Those ready to move from insight into real rebuilding work',
     ],
     includes: [
       'Session 1 — your story, pattern mapping, body stress load, core emotional themes',
-      'Session 2 — subconscious and emotional clearing work using the most relevant modality',
+      'Session 2 — subconscious pattern work using the most appropriate tools for your history and nervous system',
       'Session 3 — rebuild plan covering boundaries, nervous system support, anti-inflammatory lifestyle, and next steps',
       'Short written summary after each session',
       'Brief email support between sessions',
@@ -57,7 +57,7 @@ const services = [
     ],
     includes: [
       'Full personal history and pattern mapping',
-      'Repeated subconscious pattern work and emotional clearing sessions',
+      'Repeated subconscious pattern work and guided recovery sessions',
       'Nervous system support and regulation tools',
       'Anti-inflammatory lifestyle coaching',
       'Boundaries and family detox strategy',

@@ -4,10 +4,10 @@ import { useState } from 'react'
 
 const TESTIMONIALS = [
   {
-    quote: "I woke up this morning in tears. I had a wrenching knot in my stomach because I was so anxious and lost. Vicky's incredible intuitive coaching helped me to see my life more clearly through my fog of chaos. Her compassion, presence, and genuine listening with all her heart has really touched my soul. She enabled me to let go of the knot of anguish in my stomach, and cleared all the negativity to make space for new possibilities.",
+    quote: "I came to Vicky in a state of deep anxiety and confusion — unable to see clearly through the chaos of my own life. What struck me immediately was how precisely she understood what I had been carrying. By the end of our session, the physical tension in my body had shifted. I left with more clarity, a calmer nervous system, and a genuine sense that recovery was possible.",
     name: "Marianne",
     location: "Social Worker, France",
-    modality: "Recovery Coaching",
+    modality: "Recovery Support",
   },
   {
     quote: "She made me feel safe during the process. Her soothing voice helped me easily regress. Afterward I experienced a huge shift. I struggle with confidence issues, and my clients and students commented on how confident I am now. The experience was profound.",
@@ -19,7 +19,7 @@ const TESTIMONIALS = [
     quote: "I can only say how incredibly impressed I was with not only her accuracy in what was read for me, but also how intuitively she merged my past, present and future. At all times I felt incredibly comfortable and cared for. Vicky has a natural talent that I believe is generally rare — and more importantly, obviously real.",
     name: "Martin B. Jones",
     location: "",
-    modality: "Clarity Session",
+    modality: "Clarity Work",
   },
   {
     quote: "I felt happiness, freedom, healing, awakening. Her presence was so authentically confident and professional that one feels the disposition to get into the treatment, like with an experienced doctor. I'm very grateful to the job she did with me.",
@@ -31,13 +31,13 @@ const TESTIMONIALS = [
     quote: "There was never a better way for me to start my day than following the Vortex Vitality Program. Daily workouts are helping my body to gain back strength after a long period of being burnt out. I am sending many thanks and blessings to you, Vicky, for your amazing contribution to my health and well-being.",
     name: "Tatjana W.",
     location: "Sweden",
-    modality: "Vitality Coaching",
+    modality: "Vitality Support",
   },
   {
     quote: "She picked up straight away on my challenge with proper breathing, then taught me breathing exercises I am so much in need for. My parasympathetic system and Inner Child are very thankful for that. I slept like a baby.",
     name: "Isabel H. Zandarin",
     location: "",
-    modality: "Health & Life Coaching",
+    modality: "Recovery Support",
   },
   {
     quote: "I am so grateful for your support in readings, hypnosis and exchanging your beautiful energy. It's such a precise, intuitive, warm and caring way of healing. Thanks for your high frequency and your free spirit with both feet on the ground.",
@@ -61,7 +61,7 @@ const TESTIMONIALS = [
     quote: "She is a compassionate and sensitive individual and I felt her reading was very accurate in terms of where I'm at in my life and the things I need to do moving forward. I learned some new things that I will carry with me on my spiritual and healing journey through life.",
     name: "Rhonda Elaine",
     location: "",
-    modality: "Clarity Session",
+    modality: "Clarity Work",
   },
 ]
 

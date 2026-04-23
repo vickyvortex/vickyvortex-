@@ -320,7 +320,7 @@ export default function Contact() {
             <textarea
               id="modality"
               rows={2}
-              placeholder="e.g. Emotion Code, QHHT, breathwork, tarot — or leave blank if you're not sure"
+              placeholder="e.g. sleep, boundaries, nervous system regulation, family stress — or leave blank if you're not sure"
               value={modality}
               onChange={e => setModality(e.target.value)}
               style={{ ...inputStyles, resize: 'vertical' }}

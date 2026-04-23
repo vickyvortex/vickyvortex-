@@ -283,7 +283,7 @@ export default function Services() {
             className="font-garamond text-xl md:text-2xl leading-relaxed mb-10"
             style={{ maxWidth: '640px', color: 'rgba(248,246,242,0.6)' }}
           >
-            Sessions are held online. Depending on your needs, I may draw from Emotion Code, Body Code, QHHT-informed subconscious work, reflective tarot, breathwork, yoga and embodiment principles, and anti-inflammatory lifestyle guidance.
+            Sessions are held online. Depending on your needs, I may draw on body-based, subconscious, reflective, and anti-inflammatory lifestyle tools as part of the process.
           </p>
           <p
             className="font-cormorant italic text-[clamp(1.3rem,3vw,1.8rem)] leading-relaxed"

@@ -315,7 +315,7 @@ export default function Contact() {
               className={labelStyles}
               style={labelTextStyle}
             >
-              Is there a modality you&apos;d like to focus on?
+              Is there anything specific you&apos;d like support with?
             </label>
             <textarea
               id="modality"

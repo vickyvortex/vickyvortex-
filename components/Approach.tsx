@@ -230,15 +230,6 @@ I select the most appropriate tools for each client depending on their nervous s
         >
           You do not need to arrive knowing which tool is right for you. I guide the process and select what is most appropriate for your nervous system, history, and stage of recovery.
         </p>
-        <a
-          href="/modalities"
-          className="inline-flex items-center gap-2 font-sans text-sm tracking-[0.2em] uppercase mt-6 transition-colors duration-200"
-          style={{ color: 'rgba(248,246,242,0.5)' }}
-          onMouseEnter={e => (e.currentTarget.style.color = '#F8F6F2')}
-          onMouseLeave={e => (e.currentTarget.style.color = 'rgba(248,246,242,0.5)')}
-        >
-          Explore all modalities <span style={{ fontSize: '1rem' }}>→</span>
-        </a>
       </div>
 
     </section>

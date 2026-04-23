@@ -16,7 +16,7 @@ const TESTIMONIALS = [
     modality: "Guided Recovery",
   },
   {
-    quote: "I can only say how incredibly impressed I was with not only her accuracy in what was read for me, but also how intuitively she merged my past, present and future. At all times I felt incredibly comfortable and cared for. Vicky has a natural talent that I believe is generally rare — and more importantly, obviously real.",
+    quote: "I felt genuinely understood from the very first session. Vicky has a rare ability to identify what is actually happening beneath the surface — and to hold that space with both precision and care. I left with real clarity about patterns I had been unable to see on my own.",
     name: "Martin B. Jones",
     location: "",
     modality: "Clarity Session",
@@ -40,7 +40,7 @@ const TESTIMONIALS = [
     modality: "Recovery Support",
   },
   {
-    quote: "I am so grateful for your support in readings, hypnosis and exchanging your beautiful energy. It's such a precise, intuitive, warm and caring way of healing. Thanks for your high frequency and your free spirit with both feet on the ground.",
+    quote: "Working with Vicky gave me a level of clarity I had not been able to reach on my own. Her approach is precise, grounded, and deeply attuned. I felt genuinely supported throughout the process and came away with a much stronger sense of self-trust.",
     name: "Maren Dey",
     location: "",
     modality: "Guided Recovery",

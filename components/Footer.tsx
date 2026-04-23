@@ -45,10 +45,9 @@ export default function Footer() {
           >
             restore@dignityclinic.co.uk
           </a>
-          <p className="font-sans text-[10px] tracking-[0.15em]" style={{ color: 'rgba(248,246,242,0.2)' }}>
-            <p className="font-sans text-[10px] tracking-[0.15em] mb-3" style={{ color: 'rgba(248,246,242,0.25)' }}>Dignity Clinic provides coaching and wellbeing support. This is not medical, psychological, or psychiatric treatment. If you require clinical care, please consult a qualified healthcare professional.</p>
-            © {new Date().getFullYear()} Dignity Clinic. All rights reserved.
-          </p>
+          <p className="font-sans text-[10px] tracking-[0.15em] mb-3" style={{ color: 'rgba(248,246,242,0.25)' }}>Dignity Clinic provides coaching and wellbeing support. This is not medical, psychological, or psychiatric treatment. If you require clinical care, please consult a qualified healthcare professional.</p>
+          <p className="font-sans text-[10px] tracking-[0.15em] mb-2" style={{ color: 'rgba(248,246,242,0.2)' }}>© {new Date().getFullYear()} Dignity Clinic. All rights reserved.</p>
+          <a href="/disclaimer" className="font-sans text-[10px] tracking-[0.15em] uppercase transition-colors duration-200" style={{ color: 'rgba(248,246,242,0.3)' }}>Disclaimer</a>
         </div>
 
       </div>

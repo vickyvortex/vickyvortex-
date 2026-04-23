@@ -124,14 +124,14 @@ export default function Credentials() {
             className="font-cormorant italic text-2xl md:text-3xl"
             style={{ color: 'rgba(248,246,242,0.7)' }}
           >
-            Fluent in English, French, and Cantonese
+            Trauma-informed, body-based, multi-disciplinary support across nervous system regulation, subconscious pattern work, nutrition, movement, and emotional recovery
           </p>
 
           <p
             className="font-cormorant italic text-2xl md:text-3xl mt-3"
             style={{ color: 'rgba(248,246,242,0.7)' }}
           >
-            5 years of experience as a Vitality Coach
+            Fluent in English, French, and Cantonese
           </p>
         </div>
 

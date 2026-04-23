@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const TESTIMONIALS = [
   {
-    quote: "I came to Vicky in a state of deep anxiety and confusion — unable to see clearly through the chaos of my own life. What struck me immediately was how precisely she understood what I had been carrying. By the end of our session, the physical tension in my body had shifted. I left with more clarity, a calmer nervous system, and a genuine sense that recovery was possible.",
+    quote: "For the first time, I felt clearly understood at a time when I was anxious, confused, and overwhelmed. Vicky helped me make sense of what was happening, and I left feeling calmer, clearer, and more able to trust my own perception.",
     name: "Marianne",
     location: "Social Worker, France",
     modality: "Recovery Support",
@@ -13,25 +13,25 @@ const TESTIMONIALS = [
     quote: "She made me feel safe during the process. Her soothing voice helped me easily regress. Afterward I experienced a huge shift. I struggle with confidence issues, and my clients and students commented on how confident I am now. The experience was profound.",
     name: "Paulette McDaniel",
     location: "",
-    modality: "Subconscious Session",
+    modality: "Guided Recovery",
   },
   {
     quote: "I can only say how incredibly impressed I was with not only her accuracy in what was read for me, but also how intuitively she merged my past, present and future. At all times I felt incredibly comfortable and cared for. Vicky has a natural talent that I believe is generally rare — and more importantly, obviously real.",
     name: "Martin B. Jones",
     location: "",
-    modality: "Clarity Work",
+    modality: "Clarity Session",
   },
   {
     quote: "I felt happiness, freedom, healing, awakening. Her presence was so authentically confident and professional that one feels the disposition to get into the treatment, like with an experienced doctor. I'm very grateful to the job she did with me.",
     name: "Eva",
     location: "",
-    modality: "Subconscious Session",
+    modality: "Guided Recovery",
   },
   {
     quote: "There was never a better way for me to start my day than following the Vortex Vitality Program. Daily workouts are helping my body to gain back strength after a long period of being burnt out. I am sending many thanks and blessings to you, Vicky, for your amazing contribution to my health and well-being.",
     name: "Tatjana W.",
     location: "Sweden",
-    modality: "Vitality Support",
+    modality: "Nervous System Support",
   },
   {
     quote: "She picked up straight away on my challenge with proper breathing, then taught me breathing exercises I am so much in need for. My parasympathetic system and Inner Child are very thankful for that. I slept like a baby.",
@@ -43,25 +43,25 @@ const TESTIMONIALS = [
     quote: "I am so grateful for your support in readings, hypnosis and exchanging your beautiful energy. It's such a precise, intuitive, warm and caring way of healing. Thanks for your high frequency and your free spirit with both feet on the ground.",
     name: "Maren Dey",
     location: "",
-    modality: "Subconscious Work",
+    modality: "Guided Recovery",
   },
   {
     quote: "Thank you for an amazing reading, for giving me powerful insights and lots of tips to improve my health and wellbeing. Things I can really work with. Thanks also for your after-care, for everything you researched for me and all the links you shared so generously.",
     name: "Gitta Brocatus",
     location: "",
-    modality: "Health Session",
+    modality: "Clarity Session",
   },
   {
     quote: "She completely put me at ease and very professionally and calmly took me back. What I learnt and came across just seemed to fill unanswered questions I had. I totally recommend her.",
     name: "Parul Chauhan",
     location: "",
-    modality: "Subconscious Work",
+    modality: "Guided Recovery",
   },
   {
     quote: "She is a compassionate and sensitive individual and I felt her reading was very accurate in terms of where I'm at in my life and the things I need to do moving forward. I learned some new things that I will carry with me on my spiritual and healing journey through life.",
     name: "Rhonda Elaine",
     location: "",
-    modality: "Clarity Work",
+    modality: "Clarity Session",
   },
 ]
 

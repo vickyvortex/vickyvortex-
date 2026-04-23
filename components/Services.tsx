@@ -233,7 +233,7 @@ export default function Services() {
 
               This work is not for those looking for quick fixes or surface-level advice. It is for people ready to understand what has happened, take themselves seriously, and begin rebuilding.
 
-              This work is not for those looking for quick fixes or surface-level advice. It is for people ready to understand what has happened, take themselves seriously, and begin rebuilding.
+              
           </p>
 
           <div className="max-w-2xl mx-auto">

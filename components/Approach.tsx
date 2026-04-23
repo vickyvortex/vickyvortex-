@@ -280,4 +280,26 @@ I select the most appropriate tools for each client depending on their nervous s
             </a>
           </div>
         </div>
+        <div className="px-6 md:px-16 lg:px-24 pb-24 md:pb-32">
+          <div className="max-w-2xl">
+            <p
+              className="font-sans text-[10px] tracking-[0.4em] uppercase mb-6"
+              style={{ color: 'rgba(248,246,242,0.35)' }}
+            >
+              Tools I may draw on
+            </p>
+            <p
+              className="font-garamond text-xl md:text-2xl leading-relaxed mb-6"
+              style={{ color: 'rgba(248,246,242,0.7)' }}
+            >
+              I draw on a range of body-based, subconscious, reflective, and lifestyle tools depending on the client.
+            </p>
+            <p
+              className="font-cormorant italic text-xl md:text-2xl leading-relaxed"
+              style={{ color: 'rgba(248,246,242,0.5)' }}
+            >
+              You do not need to choose a modality. I guide the process and use the tools most appropriate for your nervous system, history, and stage of recovery.
+            </p>
+          </div>
+        </div>
 

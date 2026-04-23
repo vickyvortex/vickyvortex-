@@ -17,7 +17,7 @@ const services = [
       'Full intake and story mapping',
       'Identification of key scapegoat and stress patterns',
       'Nervous system and inflammation lens',
-      'One integrated healing session using the most relevant modality',
+      'One integrated session using the most appropriate tools for your nervous system, history, and current stage of recovery',
       'Personalised next-step recommendations',
       'Short written summary after the session',
     ],
@@ -93,7 +93,7 @@ const services = [
 const guidance = [
   'Start with Dignity Reset if you want a first deep session and immediate clarity',
   'Choose Dignity Clinic Intensive if you want focused support over several weeks',
-  'Choose Dignity Rebuild if you know this is long-standing and you are ready for deeper recovery work',
+  'Choose Dignity Rebuild if you know this is long-standing and you are ready for deeper, structured recovery work',
   'Enquire about Dignity Sovereignty if you want private high-touch support',
 ]
 
@@ -229,7 +229,7 @@ export default function Services() {
             className="font-garamond text-xl md:text-2xl leading-relaxed mx-auto mb-10 text-left"
             style={{ maxWidth: '640px', color: 'rgba(248,246,242,0.7)' }}
           >
-            Services for people who have been scapegoated, gaslit, subjected to narcissistic abuse, and worn down by chronic stress — and are ready to rebuild with clarity, dignity, and real support.
+            Services for adults who have been scapegoated, gaslit, and worn down by chronic stress — and are ready to rebuild with clarity, dignity, and real support.
           </p>
 
           <div className="max-w-2xl mx-auto">
@@ -241,10 +241,10 @@ export default function Services() {
               Dignity Clinic is designed for ACE survivors, family scapegoats, and people recovering from narcissistic abuse who are ready to stop managing symptoms and start rebuilding from the inside out.
             </p>
             <p>
-              My work combines emotional validation, subconscious pattern work, nervous system support, and anti-inflammatory lifestyle guidance. I select the most appropriate tools for each client depending on their history, nervous system, and stage of recovery.
+              My approach combines emotional validation, subconscious pattern work, nervous system support, and anti-inflammatory lifestyle guidance. The focus is not prediction or spectacle. The focus is recovery, self-trust, and rebuilding.
             </p>
             <p>
-              The focus is not prediction or spectacle. The focus is rebuilding.
+              
             </p>
           </div>
           </div>
@@ -309,7 +309,8 @@ export default function Services() {
         </div>
 
         {/* CTAs */}
-        <div className="mt-16 md:mt-20 flex flex-col sm:flex-row items-start gap-4">
+        <p className="font-garamond text-lg leading-relaxed mt-16 mb-8" style={{ color: 'rgba(248,246,242,0.5)', fontStyle: 'italic' }}>This work is not medical or psychiatric treatment. It is a coaching and wellbeing practice for people ready to understand what has happened, take themselves seriously, and begin rebuilding.</p>
+            <div className="mt-4 flex flex-col sm:flex-row items-start gap-4">
           <a
             href="#book"
             className="inline-flex items-center justify-center font-sans font-medium text-[11px] tracking-[0.22em] uppercase px-10 py-4 border transition-all duration-300 outline-none focus:outline-none"

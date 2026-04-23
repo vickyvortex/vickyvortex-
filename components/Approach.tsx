@@ -244,4 +244,40 @@ I select the most appropriate tools for each client depending on their nervous s
     </section>
   )
 }
-// Wed 22 Apr 2026 21:39:00 BST
+// Wed 22 Apr 2026 21:39:00 BST        <div className="px-6 md:px-16 lg:px-24 pb-24 md:pb-32">
+          <p
+            style={{ fontSize: '0.65rem', letterSpacing: '0.4em', textTransform: 'uppercase', color: 'rgba(248,246,242,0.35)', marginBottom: '2rem' }}
+          >
+            The Approach
+          </p>
+          <div className="max-w-2xl">
+            <p
+              className="font-garamond text-xl md:text-2xl leading-relaxed mb-8"
+              style={{ color: 'rgba(248,246,242,0.7)' }}
+            >
+              I draw on a range of body-based, subconscious, reflective, and lifestyle tools depending on the client. You do not need to choose a modality. I guide the process and use the tools most appropriate for your nervous system, history, and stage of recovery.
+            </p>
+            <ul className="space-y-3 mb-10" style={{ color: 'rgba(248,246,242,0.55)' }}>
+              {['Subconscious pattern work', 'Breathwork', 'Embodiment & movement', 'Nutritional support', 'Reflective tools', 'Practical recovery support'].map(tool => (
+                <li key={tool} className="font-garamond text-lg flex items-start gap-3">
+                  <span style={{ color: 'rgba(248,246,242,0.3)' }}>—</span>
+                  <span>{tool}</span>
+                </li>
+              ))}
+            </ul>
+            <p
+              className="font-cormorant italic text-xl md:text-2xl leading-relaxed mb-8"
+              style={{ color: 'rgba(248,246,242,0.5)' }}
+            >
+              You do not need to arrive knowing which tool is right for you. That is my job.
+            </p>
+            
+              href="/modalities"
+              className="inline-flex items-center gap-2 font-sans text-sm tracking-[0.2em] uppercase mt-2 transition-colors duration-200"
+              style={{ color: 'rgba(248,246,242,0.4)' }}
+            >
+              Full training & tools <span style={{ fontSize: '1rem' }}>→</span>
+            </a>
+          </div>
+        </div>
+

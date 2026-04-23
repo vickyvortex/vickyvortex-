@@ -244,7 +244,7 @@ I select the most appropriate tools for each client depending on their nervous s
     </section>
   )
 }
-// Wed 22 Apr 2026 21:39:00 BST        <div className="px-6 md:px-16 lg:px-24 pb-24 md:pb-32">
+<div className="px-6 md:px-16 lg:px-24 pb-24 md:pb-32">
           <p
             style={{ fontSize: '0.65rem', letterSpacing: '0.4em', textTransform: 'uppercase', color: 'rgba(248,246,242,0.35)', marginBottom: '2rem' }}
           >

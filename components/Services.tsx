@@ -268,7 +268,7 @@ export default function Services() {
           className="font-garamond text-xl md:text-2xl leading-relaxed mt-20 md:mt-24 max-w-2xl mx-auto text-left"
           style={{ color: 'rgba(248,246,242,0.7)' }}
         >
-          If you already have experience with a particular modality and would like to focus your sessions there, I am happy to work within your existing practice or combine approaches based on what resonates with you. Simply let me know when you enquire.
+          If there is a particular approach you have found helpful before, you are welcome to mention it when you enquire.
         </p>
 
         {/* Delivery note */}

@@ -131,7 +131,7 @@ export default function Credentials() {
             className="font-cormorant italic text-2xl md:text-3xl mt-3"
             style={{ color: 'rgba(248,246,242,0.7)' }}
           >
-            Trauma-informed, body-based, multi-disciplinary support
+            
           </p>
         </div>
 

@@ -271,7 +271,7 @@ I select the most appropriate tools for each client depending on their nervous s
             >
               You do not need to arrive knowing which tool is right for you. That is my job.
             </p>
-            
+            <a
               href="/modalities"
               className="inline-flex items-center gap-2 font-sans text-sm tracking-[0.2em] uppercase mt-2 transition-colors duration-200"
               style={{ color: 'rgba(248,246,242,0.4)' }}

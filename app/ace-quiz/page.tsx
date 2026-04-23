@@ -214,6 +214,7 @@ export default function ACEQuiz() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 
+                <a
                   href="/#contact"
                   className="inline-flex items-center justify-center font-sans font-medium text-[11px] tracking-[0.22em] uppercase px-10 py-4 border transition-all duration-300"
                   style={btnBase}
@@ -223,6 +224,7 @@ export default function ACEQuiz() {
                   Book a Dignity Reset
                 </a>
                 
+                <a
                   href="/#services"
                   className="inline-flex items-center justify-center font-sans font-medium text-[11px] tracking-[0.22em] uppercase px-10 py-4 border transition-all duration-300"
                   style={{ borderColor: 'rgba(248,246,242,0.3)', color: 'rgba(248,246,242,0.6)', background: 'transparent' }}

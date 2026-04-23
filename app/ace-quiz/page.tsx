@@ -18,7 +18,7 @@ const QUESTIONS = [
 function getInterpretation(score: number) {
   if (score <= 1) return {
     title: 'Your foundation was relatively stable',
-    body: 'This may suggest lower exposure to the kinds of adversity measured here. That does not mean your stress is not real — it simply means this particular assessment may not capture the full picture of what your body has carried. You may still benefit from paying attention to sleep, boundaries, inflammation, emotional suppression, and nervous system regulation.',
+    body: 'This may suggest lower exposure to the kinds of adversity measured here. That does not mean your stress is not real. It simply means this particular assessment may not capture the full picture of what your body has carried. You may still benefit from paying attention to sleep, boundaries, inflammation, emotional suppression, and nervous system regulation.',
     focus: ['Prevention and self-awareness', 'Consistent regulation habits', 'Protecting your energy before breakdown happens']
   }
   if (score <= 3) return {
@@ -69,7 +69,7 @@ export default function ACEQuiz() {
         {step === 'intro' && (
           <div className="space-y-8">
             <span style={labelStyle}>Dignity Clinic</span>
-            <h1 className="font-cormorant font-light leading-[1.05] tracking-tight" style={{ fontSize: 'clamp(2.2rem,6vw,4rem)' }}>
+            <h1 className="font-cormorant font-light leading-tight tracking-tight" style={{ fontSize: 'clamp(2.2rem,6vw,4rem)' }}>
               The Hidden Stress Score
             </h1>
             <p className="font-cormorant italic text-2xl md:text-3xl" style={{ color: 'rgba(248,246,242,0.5)' }}>
@@ -179,7 +179,7 @@ export default function ACEQuiz() {
               <span className="font-cormorant font-light text-2xl mb-6" style={{ color: 'rgba(248,246,242,0.35)' }}>/ 10</span>
             </div>
             <p className="font-garamond text-lg" style={{ color: 'rgba(248,246,242,0.4)', fontStyle: 'italic' }}>
-              This score is not a diagnosis. It is simply one way of understanding whether early stress, instability, or emotional harm may still be affecting your body and life today. What matters most is not the number alone, but the pattern it may help explain.
+              This score is not a diagnosis. It is simply one way of understanding whether early stress, instability, or emotional harm may still be affecting your body and life today.
             </p>
             <div style={{ borderTop: '1px solid rgba(248,246,242,0.1)', paddingTop: '2.5rem' }}>
               <h2 className="font-cormorant font-light leading-tight tracking-tight mb-6" style={{ fontSize: 'clamp(1.8rem,4vw,3rem)' }}>

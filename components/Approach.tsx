@@ -276,7 +276,7 @@ I select the most appropriate tools for each client depending on their nervous s
               className="inline-flex items-center gap-2 font-sans text-sm tracking-[0.2em] uppercase mt-2 transition-colors duration-200"
               style={{ color: 'rgba(248,246,242,0.4)' }}
             >
-              Full training & tools <span style={{ fontSize: '1rem' }}>→</span>
+              Full training &amp; tools <span style={{ fontSize: '1rem' }}>→</span>
             </a>
           </div>
         </div>

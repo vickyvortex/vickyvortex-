@@ -232,6 +232,8 @@ export default function Services() {
             Services for adults who have been scapegoated, gaslit, and worn down by chronic stress — and are ready to rebuild with clarity, dignity, and real support.
 
               This work is not for those looking for quick fixes or surface-level advice. It is for people ready to understand what has happened, take themselves seriously, and begin rebuilding.
+
+              This work is not for those looking for quick fixes or surface-level advice. It is for people ready to understand what has happened, take themselves seriously, and begin rebuilding.
           </p>
 
           <div className="max-w-2xl mx-auto">
@@ -253,7 +255,8 @@ export default function Services() {
         </div>
 
 {/* Service cards */}
-        <p className="font-cormorant italic text-2xl md:text-3xl leading-relaxed mb-16" style={{ color: 'rgba(248,246,242,0.6)' }}>Clients often leave this work with more clarity, a calmer nervous system, stronger boundaries, and a renewed sense of self-trust.</p>
+        <p className="font-cormorant italic text-2xl md:text-3xl leading-relaxed mb-16" style={{ color: 'rgba(248,246,242,0.6)' }}></p>
+          <p className="font-cormorant italic text-2xl md:text-3xl leading-relaxed mb-16" style={{ color: 'rgba(248,246,242,0.6)' }}>Clients often leave this work with more clarity, a calmer nervous system, stronger boundaries, and a renewed sense of self-trust.</p>
           <div className="space-y-16 md:space-y-20">
           {services.map((service) => (
             <ServiceCard key={service.name} service={service} />

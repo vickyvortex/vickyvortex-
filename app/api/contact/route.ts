@@ -8,8 +8,8 @@ export async function POST(req: Request) {
     const { name, email, service, message, modality } = await req.json()
 
     await resend.emails.send({
-      from: 'Dignity Clinic <onboarding@resend.dev>',
-      to: 'transform@vickyvortex.com',
+      from: 'Dignity Clinic <restore@dignityclinic.co.uk>',
+to: 'restore@dignityclinic.co.uk',
       subject: `New enquiry from ${name}`,
       html: `
         <h2>New enquiry — Dignity Clinic</h2>

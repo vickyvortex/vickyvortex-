@@ -17,13 +17,7 @@ const posts: Record<
       "As Gabor Maté explains, trauma isn't just what happens to you. It's what happens inside you as a result.",
       "For many high-functioning people, the real issue isn't pressure.",
       "It's prolonged exposure to environments where:",
-      {
-        list: [
-          "you couldn't be yourself",
-          "you had to over-adapt",
-          "you were emotionally unsafe",
-        ],
-      },
+      { list: ["you couldn't be yourself", "you had to over-adapt", "you were emotionally unsafe"] },
       "That pattern shows up as:",
       { list: ["exhaustion", "anxiety", "people-pleasing"] },
       "Insight helps.",
@@ -38,13 +32,7 @@ const posts: Record<
       "There's a reason some people feel like the \"problem\" in their family.",
       "Rebecca C. Mandeville calls this Family Scapegoating Abuse.",
       "One person is assigned the role of:",
-      {
-        list: [
-          "the difficult one",
-          "the emotional one",
-          "the one to blame",
-        ],
-      },
+      { list: ["the difficult one", "the emotional one", "the one to blame"] },
       "Not because it's true.",
       "But because the system needs a pressure valve.",
       "You weren't the problem. You were the pressure valve.",
@@ -67,26 +55,29 @@ export function generateStaticParams() {
   return Object.keys(posts).map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const post = posts[params.slug];
-  if (!post) return {};
-  return {
-    title: `${post.title} | Dignity Clinic`,
-  };
-}
-
-export default function InsightPost({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const post = posts[params.slug];
+  const { slug } = await params;
+  const post = posts[slug];
+  if (!post) return {};
+  return { title: `${post.title} | Dignity Clinic` };
+}
+
+export default async function InsightPost({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const post = posts[slug];
   if (!post) notFound();
 
   return (
     <main className="bg-white min-h-screen">
       <div className="max-w-2xl mx-auto px-6 md:px-12 pt-32 pb-32">
-        {/* Back */}
         <Link
           href="/insights"
           className="text-xs uppercase tracking-[0.2em] text-[#3D9FA8] mb-12 inline-block hover:opacity-70 transition-opacity"
@@ -95,7 +86,6 @@ export default function InsightPost({
           ← Insights
         </Link>
 
-        {/* Tag */}
         <p
           className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mt-8 mb-6"
           style={{ fontFamily: "var(--font-eb-garamond)" }}
@@ -103,7 +93,6 @@ export default function InsightPost({
           {post.tag}
         </p>
 
-        {/* Title */}
         <h1
           className="text-4xl md:text-5xl text-[#0D0D0D] leading-[1.1] mb-12"
           style={{ fontFamily: "var(--font-cormorant)" }}
@@ -111,7 +100,6 @@ export default function InsightPost({
           {post.title}
         </h1>
 
-        {/* Content blocks */}
         <div className="space-y-5">
           {post.blocks.map((block, i) => {
             if (typeof block === "string") {
@@ -142,7 +130,6 @@ export default function InsightPost({
           })}
         </div>
 
-        {/* CTA */}
         <div className="mt-16 pt-10 border-t border-[#E8E5E0]">
           <Link
             href="/contact"

@@ -12,7 +12,7 @@ export default function Hero() {
             src="/images/julia-photoshoot/16.jpg"
             alt="Vicky Vong"
             fill
-            className="object-cover object-top"
+            className="object-cover object-[50%_20%]"
             priority
           />
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(13,13,13,0.5) 0%, rgba(13,13,13,0.2) 40%, rgba(13,13,13,0) 70%)' }} />

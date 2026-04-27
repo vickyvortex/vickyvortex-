@@ -34,22 +34,10 @@ const TESTIMONIALS = [
     modality: "Nervous System Support",
   },
   {
-    quote: "She picked up straight away on my challenge with proper breathing, then taught me breathing exercises I am so much in need for. My parasympathetic system and Inner Child are very thankful for that. I slept like a baby.",
-    name: "Isabel H. Zandarin",
-    location: "",
-    modality: "Recovery Support",
-  },
-  {
     quote: "Working with Vicky gave me a level of clarity I had not been able to reach on my own. Her approach is precise, grounded, and deeply attuned. I felt genuinely supported throughout the process and came away with a much stronger sense of self-trust.",
     name: "Maren Dey",
     location: "",
     modality: "Guided Recovery",
-  },
-  {
-    quote: "Thank you for an amazing reading, for giving me powerful insights and lots of tips to improve my health and wellbeing. Things I can really work with. Thanks also for your after-care, for everything you researched for me and all the links you shared so generously.",
-    name: "Gitta Brocatus",
-    location: "",
-    modality: "Clarity Session",
   },
   {
     quote: "She completely put me at ease and very professionally and calmly took me back. What I learnt and came across just seemed to fill unanswered questions I had. I totally recommend her.",
@@ -58,10 +46,16 @@ const TESTIMONIALS = [
     modality: "Guided Recovery",
   },
   {
-    quote: "She is a compassionate and sensitive individual and I felt her reading was very accurate in terms of where I'm at in my life and the things I need to do moving forward. I learned some new things that I will carry with me on my spiritual and healing journey through life.",
-    name: "Rhonda Elaine",
+    quote: "I had sessions with Vicky using the Body Code, and I honestly had a really positive experience. Vicky was incredibly understanding, kind, and easy to talk to, which made me feel comfortable right away. She really listened and took the time to support me in a thoughtful, non-judgmental way. Since working with her, I've noticed an improvement in my migraines — they're much better these days. I even stopped my medication for a while when things improved, which felt like a huge step forward.",
+    name: "Eroulla",
     location: "",
-    modality: "Clarity Session",
+    modality: "Body Code",
+  },
+  {
+    quote: "Working on these concepts with Vicky was a wonderful experience. It helped both me and my partner to unblock ourselves. There were pains that belonged to us that we weren't even aware of. The sessions were very inspiring and helped us understand how to find balance and begin healing. Thank you, dear Vicky, for your help and your beautiful sensitivity.",
+    name: "Maria",
+    location: "",
+    modality: "Guided Recovery",
   },
 ]
 

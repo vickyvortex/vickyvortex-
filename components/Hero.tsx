@@ -15,8 +15,6 @@ export default function Hero() {
             className="object-cover object-top"
             priority
           />
-          {/* Kill grey studio background */}
-          <div className="absolute inset-0" style={} />
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(13,13,13,0.5) 0%, rgba(13,13,13,0.2) 40%, rgba(13,13,13,0) 70%)' }} />
         </div>
         <div className="absolute inset-y-0 left-0 w-full md:w-1/2" style={{ background: '#0D0D0D' }} />

@@ -363,7 +363,7 @@ export default function Contact() {
             Or, if you already know you are ready:
           </p>
 
-          <div className="flex flex-col sm:flex-row items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-6">
             <GhostButton href="#book">Book a Dignity Reset</GhostButton>
             <GhostButton href="#book">Enquire About Dignity Rebuild</GhostButton>
           </div>

@@ -316,7 +316,7 @@ export default function Services() {
 
         {/* CTAs */}
         <p className="font-garamond text-lg leading-relaxed mt-16 mb-8" style={{ color: 'rgba(248,246,242,0.5)', fontStyle: 'italic' }}>This work is not medical or psychiatric treatment. It is a coaching and wellbeing practice for people ready to understand what has happened, take themselves seriously, and begin rebuilding.</p>
-            <div className="mt-4 flex flex-col sm:flex-row items-start gap-4">
+            <div className="mt-4 flex flex-col sm:flex-row items-start gap-6">
           <a
             href="#book"
             className="inline-flex items-center justify-center font-sans font-medium text-[11px] tracking-[0.22em] uppercase px-10 py-4 border transition-all duration-300 outline-none focus:outline-none"

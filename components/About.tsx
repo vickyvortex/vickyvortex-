@@ -59,23 +59,19 @@ export default function About() {
             style={{ color: 'rgba(248,246,242,0.7)' }}
           >
             <p>
-              I created Dignity Clinic for adults, especially long-term family scapegoats and ACE survivors, who are living with the body cost of chronic emotional stress.
+              Dignity Clinic was created for people who have spent years being misread, blamed, dismissed or scapegoated within their families.
             </p>
             <p>
-              My work helps clients restore self-trust, regulate the nervous system, reduce the burden of stress and inflammation, and rebuild with more clarity, stability, and dignity.
+              My work helps clients restore self-trust, support the body's stress response, emotional regulation and long-term wellbeing, and rebuild with more clarity, stability, and dignity.
             </p>
             <p>
               This approach is grounded in lived experience as well as years of training across subconscious work, emotional processing, nutrition, breathwork, movement, and nervous system support. In many ways, I became the kind of person I once needed most: someone who could see clearly, listen deeply, and help make sense of what the body had been carrying for years.
             </p>
             <p>
-              I do not ask clients to choose from a menu of modalities. I guide the process and use the tools most appropriate for where they are.
+              This work is not about diagnosing your relatives. It is about helping you understand what happened, support your nervous system, rebuild self-trust, and begin living from dignity rather than survival.
             </p>
             <p>
-              At its core, Dignity Clinic is about helping people feel accurately seen, deeply supported, and strong enough to rebuild from the inside out.
-
-              Vicky Vortex is the founder of Dignity Clinic — a trauma-informed, body-based recovery practice for adults rebuilding after chronic stress and family scapegoating.
-
-              
+              I do not ask clients to choose from a menu of modalities. I guide the process and use the tools most appropriate for where they are.
             </p>
           </div>
         </div>
@@ -84,4 +80,3 @@ export default function About() {
     </section>
   )
 }
-// force rebuild Tue 21 Apr 2026 23:54:38 BST

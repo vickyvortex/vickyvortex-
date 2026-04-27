@@ -11,7 +11,6 @@ const navLinks = [
   { label: 'Speaking', href: '/talk' },
   { label: 'Contact', href: '#contact' },
 ]
-]
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)

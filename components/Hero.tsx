@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-y-0 right-0 w-full md:w-1/2">
           <Image
-            src="/images/julia-photoshoot/16.jpg"
+            src="/images/forest.jpg"
             alt="Vicky Vong"
             fill
             className="object-cover object-center"

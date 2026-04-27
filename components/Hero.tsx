@@ -9,13 +9,13 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-y-0 right-0 w-full md:w-1/2">
           <Image
-            src="/images/julia-photoshoot/16.jpg"
+            src="/images/julia-photoshoot/13.jpg"
             alt="Vicky Vong"
             fill
             className="object-cover object-center"
             priority
           />
-          <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0.6) 40%, rgba(13,13,13,0) 100%)' }} />
+          <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0.7) 50%, rgba(13,13,13,0.2) 100%)' }} />
         </div>
         <div className="absolute inset-y-0 left-0 w-full md:w-1/2" style={{ background: '#0D0D0D' }} />
       </div>

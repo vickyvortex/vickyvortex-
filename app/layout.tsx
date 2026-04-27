@@ -26,12 +26,12 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Dignity Clinic — The truth changes the body.',
+  title: 'Dignity Clinic — Family Scapegoating Abuse Recovery',
   description:
     'Be heard. Be believed. Rebuild your health with dignity. Dignity Clinic is a space for people who have been dismissed, disbelieved, or failed by the medical system.',
   metadataBase: new URL('https://vickyvortex.com'),
   openGraph: {
-    title: 'Dignity Clinic — The truth changes the body.',
+    title: 'Dignity Clinic — Family Scapegoating Abuse Recovery',
     description: 'Be heard. Be believed. Rebuild your health with dignity.',
     url: 'https://vickyvortex.com',
     siteName: 'Dignity Clinic',

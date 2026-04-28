@@ -204,7 +204,7 @@ I select the most appropriate tools for each client depending on their nervous s
       {/* Modality accordion */}
       <div className="px-6 md:px-16 lg:px-24 pb-24 md:pb-32">
         <p style={{ fontSize: '0.65rem', letterSpacing: '0.4em', textTransform: 'uppercase', color: 'rgba(248,246,242,0.35)', marginBottom: '2rem' }}>
-          The Modalities
+          Tools I May Draw On
         </p>
         <h3 className="font-cormorant font-light text-[clamp(1.8rem,4vw,3rem)] leading-tight tracking-tight mb-10" style={{ color: '#F8F6F2' }}>
           What we may work with

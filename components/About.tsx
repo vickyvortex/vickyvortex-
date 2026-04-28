@@ -25,7 +25,7 @@ export default function About() {
             aria-hidden
             className="absolute inset-0 pointer-events-none"
             style={{
-              background: 'linear-gradient(to right, transparent 60%, #0D0D0D 100%)',
+              background: 'linear-gradient(to right, transparent 40%, rgba(13,13,13,0.6) 70%, #0D0D0D 100%)',
             }}
           />
           {/* Top and bottom fades */}
@@ -39,7 +39,7 @@ export default function About() {
         </div>
 
         {/* Right column — text */}
-        <div className="flex flex-col justify-center w-full md:w-[60%] pl-6 md:pl-16 lg:pl-20 pr-6 md:pr-12 py-10 md:py-24">
+        <div className="flex flex-col justify-center w-full md:w-[60%] pl-6 md:pl-20 lg:pl-28 pr-6 md:pr-16 py-10 md:py-24">
           <p
             className="font-sans text-[10px] tracking-[0.4em] uppercase mb-8"
             style={{ color: 'rgba(248,246,242,0.35)' }}

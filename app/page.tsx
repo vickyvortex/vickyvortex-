@@ -19,23 +19,19 @@ import Footer from '@/components/Footer'
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
-      <NeverRandom />
-      <ThisIsForYou />
-      <YouBodyKeepsScore />
-      <AuthorityBlock />
-      <InsightNotEnough />
-      <NervousSystemReset />
-      <About />
-      <WorkWithMe />
-      <Approach />
-      <Credentials />
-      <Testimonials />
-      <ACELeadMagnet />
-      <CtaSection />
-      <Contact />
-      <Footer />
+<FamilyScapegoatingAbuse />
+<ThisIsForYouIf />
+<YourBodyKeepsScore />
+<WhyThisWorkMatters />
+<TheMethod />
+<InsightIsNotEnough />
+<WorkWithMe />
+<About />
+<ToolsBehindTheProcess />
+<Credentials />
+<Testimonials />
+<Contact />
     </>
   )
 }

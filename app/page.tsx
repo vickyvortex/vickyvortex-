@@ -6,7 +6,7 @@ import ThisIsForYou from '@/components/ThisIsForYou'
 import AuthorityBlock from '@/components/AuthorityBlock'
 import InsightNotEnough from '@/components/InsightNotEnough'
 import NervousSystemReset from '@/components/NervousSystemReset'
-import WorkWithMe from '@/components/WorkWithMe'
+import WorkWithMeSection from '@/components/WorkWithMeSection'
 import About from '@/components/About'
 import Approach from '@/components/Approach'
 import Credentials from '@/components/Credentials'
@@ -27,7 +27,7 @@ export default function Home() {
       <AuthorityBlock />
       <InsightNotEnough />
       <NervousSystemReset />
-      <WorkWithMe />
+      <WorkWithMeSection />
       <About />
       <Approach />
       <Credentials />

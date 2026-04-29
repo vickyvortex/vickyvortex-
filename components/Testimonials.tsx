@@ -1,7 +1,5 @@
 'use client'
 
-import { useState } from 'react'
-
 const TESTIMONIALS = [
   {
     quote: "For the first time, I felt clearly understood at a time when I was anxious, confused, and overwhelmed. Vicky helped me make sense of what was happening, and I left feeling calmer, clearer, and more able to trust my own perception.",
@@ -60,7 +58,7 @@ const TESTIMONIALS = [
 ]
 
 export default function Testimonials() {
-  const [active, setActive] = useState(0)
+  const t = TESTIMONIALS[0]
 
   return (
     <section
@@ -92,7 +90,7 @@ export default function Testimonials() {
             className="font-cormorant font-light text-[clamp(1.4rem,3vw,2.2rem)] leading-relaxed italic mb-8"
             style={{ color: 'rgba(248,246,242,0.85)' }}
           >
-            &ldquo;{TESTIMONIALS[active].quote}&rdquo;
+            &ldquo;{t.quote}&rdquo;
           </p>
           <div className="flex items-center gap-4">
             <div
@@ -104,50 +102,20 @@ export default function Testimonials() {
                 className="font-sans text-[11px] tracking-[0.25em] uppercase"
                 style={{ color: '#F8F6F2' }}
               >
-                {TESTIMONIALS[active].name}
-                {TESTIMONIALS[active].location && ` — ${TESTIMONIALS[active].location}`}
+                {t.name}
+                {t.location && ` — ${t.location}`}
               </p>
               <p
                 className="font-sans text-[10px] tracking-[0.2em] uppercase mt-1"
                 style={{ color: 'rgba(248,246,242,0.35)' }}
               >
-                {TESTIMONIALS[active].modality}
+                {t.modality}
               </p>
             </div>
           </div>
         </div>
 
-        {/* Navigation grid */}
-        <div
-          className="grid grid-cols-2 md:grid-cols-5 gap-px"
-          style={{ border: '1px solid rgba(248,246,242,0.08)', background: 'rgba(248,246,242,0.08)' }}
-        >
-          {TESTIMONIALS.map((t, i) => (
-            <button
-              key={i}
-              onClick={() => setActive(i)}
-              className="px-5 py-4 text-left transition-all duration-200"
-              style={{
-                background: active === i ? 'rgba(248,246,242,0.06)' : '#0D0D0D',
-                borderLeft: active === i ? '2px solid rgba(248,246,242,0.4)' : '2px solid transparent',
-                outline: 'none',
-              }}
-            >
-              <p
-                className="font-sans text-[10px] tracking-[0.2em] uppercase leading-snug"
-                style={{ color: active === i ? '#F8F6F2' : 'rgba(248,246,242,0.4)' }}
-              >
-                {t.name.split(' ')[0]}
-              </p>
-              <p
-                className="font-sans text-[9px] tracking-[0.12em] uppercase mt-1 leading-snug"
-                style={{ color: 'rgba(248,246,242,0.22)' }}
-              >
-                {t.modality}
-              </p>
-            </button>
-          ))}
-        </div>
+        {/* More testimonials coming soon — carousel hidden until full set is ready */}
 
       </div>
     </section>

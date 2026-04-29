@@ -17,21 +17,25 @@ export default function Hero() {
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,0.5) 0%, rgba(13,13,13,0.7) 50%, rgba(13,13,13,0.95) 100%)' }} />
       </div>
       <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-32 w-full">
-        <div className="max-w-xl">
+        <div className="max-w-sm md:max-w-md">
           <p className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mb-8 font-medium" style={{ fontFamily: "var(--font-eb-garamond)" }}>
             Nervous System Recovery
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] leading-[1.1] text-[#F8F6F2] mb-6" style={{ fontFamily: "var(--font-cormorant)" }}>
-            Family Scapegoating Abuse
+            Family Scapegoating
             <br />
-            Is Not a Personality Issue.
+            Abuse Is Not a
             <br />
-            <span className="italic">It&apos;s a Nervous System Injury.</span>
+            Personality Issue.
+            <br />
+            <span className="italic">It&apos;s a Nervous</span>
+            <br />
+            <span className="italic">System Injury.</span>
           </h1>
-          <p className="text-base md:text-lg text-[#F8F6F2]/70 leading-relaxed mb-6 max-w-md" style={{ fontFamily: "var(--font-eb-garamond)" }}>
+          <p className="text-base md:text-lg text-[#F8F6F2]/70 leading-relaxed mb-6" style={{ fontFamily: "var(--font-eb-garamond)" }}>
             I help high-functioning individuals recover their energy, identity, and clarity after prolonged exposure to toxic family systems.
           </p>
-          <p className="text-sm text-[#3D9FA8] italic mb-10 max-w-md leading-relaxed" style={{ fontFamily: "var(--font-eb-garamond)" }}>
+          <p className="text-sm text-[#3D9FA8] italic mb-10 leading-relaxed" style={{ fontFamily: "var(--font-eb-garamond)" }}>
             I don&apos;t just help you understand what happened.
             <br />I help your body stop reliving it.
           </p>

@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { useState } from 'react'
 
-const MODALITIES = [
+const CORE_MODALITIES = [
   {
     name: "Nutritional Therapy",
     what: "A functional approach to nutrition that looks at how food, inflammation, gut health, and nutrient status affect mood, energy, hormones, and the body's capacity to heal.",
@@ -23,23 +23,20 @@ const MODALITIES = [
     who: 'People who feel cut off from their body, live primarily in their head, or have used movement as punishment rather than restoration.',
   },
   {
+    name: 'Emotion Code & Body Code',
+    what: 'Gentle energy-based methods to identify and release trapped emotional energies and deeper imbalances stored in the body — often from experiences that were never fully processed.',
+    benefit: 'Releases the emotional weight behind recurring physical symptoms, anxiety, relationship patterns, and unexplained blocks.',
+    who: 'People who feel stuck despite talk therapy, or who carry chronic tension, numbness, or emotional heaviness they cannot trace to a single cause.',
+  },
+  {
     name: 'Hypnotherapy & NLP',
     what: 'Direct work with the subconscious mind to rewrite limiting beliefs, trauma responses, and behavioural patterns using language, suggestion, and timeline techniques.',
     benefit: 'Rapid shift in deeply held beliefs about self-worth, safety, and possibility.',
     who: 'People who understand intellectually what needs to change but find their nervous system or behaviour running an older programme.',
   },
-  {
-    name: 'Emotion Code',
-    what: 'A gentle muscle-testing method to identify and release trapped emotional energies stored in the body — often from past experiences that were never fully processed.',
-    benefit: 'Releases the emotional weight behind recurring physical symptoms, anxiety, relationship patterns, and unexplained blocks.',
-    who: 'People who feel stuck despite talk therapy, or who carry chronic tension, numbness, or emotional heaviness they cannot trace to a single cause.',
-  },
-  {
-    name: 'Body Code',
-    what: 'An extension of Emotion Code that maps the whole body — addressing imbalances in energy, nutrition, structure, pathogens, and emotional fields.',
-    benefit: "Supports the body's natural ability to heal by identifying root causes rather than managing symptoms.",
-    who: 'Those dealing with chronic fatigue, inflammation, pain, or complex health pictures that have not responded to conventional approaches alone.',
-  },
+]
+
+const EXTENDED_MODALITIES = [
   {
     name: 'QHHT — Quantum Healing Hypnosis',
     what: 'A deep hypnosis technique developed by Dolores Cannon that accesses the subconscious directly. Sessions allow the deeper self to surface patterns, memories, and understanding that the conscious mind cannot easily reach.',
@@ -138,6 +135,8 @@ function ModalityItem({ modality }: { modality: typeof MODALITIES[0] }) {
 }
 
 export default function Approach() {
+  const [showExtended, setShowExtended] = useState(false)
+
   return (
     <section
       id="approach"
@@ -208,9 +207,57 @@ export default function Approach() {
           What supports the work
         </h3>
         <div style={{ borderBottom: '1px solid rgba(248,246,242,0.12)' }}>
-          {MODALITIES.map(m => (
+          {CORE_MODALITIES.map(m => (
             <ModalityItem key={m.name} modality={m} />
           ))}
+        </div>
+
+        {/* Extended / deeper tools — expandable */}
+        <div className="mt-10">
+          <button
+            onClick={() => setShowExtended(o => !o)}
+            className="flex items-center gap-4 group"
+            style={{ background: 'transparent', border: 'none', outline: 'none', cursor: 'pointer', padding: 0 }}
+          >
+            <span
+              className="font-sans text-[10px] tracking-[0.3em] uppercase transition-colors duration-200"
+              style={{ color: showExtended ? 'rgba(248,246,242,0.6)' : 'rgba(248,246,242,0.3)' }}
+            >
+              {showExtended ? 'Hide additional tools' : 'Additional Reflective & Subconscious Tools'}
+            </span>
+            <span
+              style={{
+                display: 'inline-block',
+                transition: 'transform 0.3s ease',
+                transform: showExtended ? 'rotate(45deg)' : 'rotate(0deg)',
+                color: 'rgba(248,246,242,0.3)',
+                fontSize: '1rem',
+                lineHeight: 1,
+              }}
+            >
+              +
+            </span>
+          </button>
+
+          <div
+            style={{
+              overflow: 'hidden',
+              maxHeight: showExtended ? '2000px' : '0',
+              transition: 'max-height 0.5s ease',
+            }}
+          >
+            <div className="mt-8" style={{ borderBottom: '1px solid rgba(248,246,242,0.12)' }}>
+              <p
+                className="font-cormorant font-light text-xl mb-6"
+                style={{ color: 'rgba(248,246,242,0.4)', fontStyle: 'italic' }}
+              >
+                Deeper, more contemplative practices — used selectively depending on where you are in your recovery.
+              </p>
+              {EXTENDED_MODALITIES.map(m => (
+                <ModalityItem key={m.name} modality={m} />
+              ))}
+            </div>
+          </div>
         </div>
         <p className="font-garamond text-lg mt-8" style={{ color: 'rgba(248,246,242,0.4)', fontStyle: 'italic' }}>
           You do not need to choose. I will guide you toward what is most useful for where you are.

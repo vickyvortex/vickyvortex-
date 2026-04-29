@@ -9,6 +9,7 @@ import WorkWithMe from '@/components/WorkWithMe'
 import Approach from '@/components/Approach'
 import Credentials from '@/components/Credentials'
 import Testimonials from '@/components/Testimonials'
+import ACELeadMagnet from '@/components/ACELeadMagnet'
 import Contact from '@/components/Contact'
 import CtaSection from '@/components/CtaSection'
 import Footer from '@/components/Footer'
@@ -27,6 +28,7 @@ export default function Home() {
       <Approach />
       <Credentials />
       <Testimonials />
+      <ACELeadMagnet />
       <CtaSection />
       <Contact />
       <Footer />

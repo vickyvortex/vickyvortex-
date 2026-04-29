@@ -10,8 +10,7 @@ const symptoms = [
   { label: "Loss of identity", description: "Years of being redefined, blamed or dismissed can erode your sense of who you are outside the family role." },
 ]
 
-export default function BodyKeepsScore() {
-  return (
+export default function YouBodyKeepsScore() {  return (
     <section style={{ background: '#0D0D0D', borderTop: '1px solid rgba(248,246,242,0.06)' }} className="py-24 md:py-32 px-6 md:px-12">
       <div className="max-w-5xl mx-auto">
         <p className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mb-8" style={{ fontFamily: "var(--font-eb-garamond)" }}>

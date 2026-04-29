@@ -7,54 +7,6 @@ const TESTIMONIALS = [
     location: "Social Worker, France",
     modality: "Recovery Support",
   },
-  {
-    quote: "She made me feel safe during the process. Her soothing voice helped me easily regress. Afterward I experienced a huge shift. I struggle with confidence issues, and my clients and students commented on how confident I am now. The experience was profound.",
-    name: "Paulette McDaniel",
-    location: "",
-    modality: "Guided Recovery",
-  },
-  {
-    quote: "I felt genuinely understood from the very first session. Vicky has a rare ability to identify what is actually happening beneath the surface — and to hold that space with both precision and care. I left with real clarity about patterns I had been unable to see on my own.",
-    name: "Martin B. Jones",
-    location: "",
-    modality: "Clarity Session",
-  },
-  {
-    quote: "I felt happiness, freedom, healing, awakening. Her presence was so authentically confident and professional that one feels the disposition to get into the treatment, like with an experienced doctor. I'm very grateful to the job she did with me.",
-    name: "Eva",
-    location: "",
-    modality: "Guided Recovery",
-  },
-  {
-    quote: "There was never a better way for me to start my day than following the Vortex Vitality Program. Daily workouts are helping my body to gain back strength after a long period of being burnt out. I am sending many thanks and blessings to you, Vicky, for your amazing contribution to my health and well-being.",
-    name: "Tatjana W.",
-    location: "Sweden",
-    modality: "Nervous System Support",
-  },
-  {
-    quote: "Working with Vicky gave me a level of clarity I had not been able to reach on my own. Her approach is precise, grounded, and deeply attuned. I felt genuinely supported throughout the process and came away with a much stronger sense of self-trust.",
-    name: "Maren Dey",
-    location: "",
-    modality: "Guided Recovery",
-  },
-  {
-    quote: "She completely put me at ease and very professionally and calmly took me back. What I learnt and came across just seemed to fill unanswered questions I had. I totally recommend her.",
-    name: "Parul Chauhan",
-    location: "",
-    modality: "Guided Recovery",
-  },
-  {
-    quote: "I had sessions with Vicky using the Body Code, and I honestly had a really positive experience. Vicky was incredibly understanding, kind, and easy to talk to, which made me feel comfortable right away. She really listened and took the time to support me in a thoughtful, non-judgmental way. Since working with her, I've noticed an improvement in my migraines — they're much better these days. I even stopped my medication for a while when things improved, which felt like a huge step forward.",
-    name: "Eroulla",
-    location: "",
-    modality: "Body Code",
-  },
-  {
-    quote: "Working on these concepts with Vicky was a wonderful experience. It helped both me and my partner to unblock ourselves. There were pains that belonged to us that we weren't even aware of. The sessions were very inspiring and helped us understand how to find balance and begin healing. Thank you, dear Vicky, for your help and your beautiful sensitivity.",
-    name: "Maria",
-    location: "",
-    modality: "Guided Recovery",
-  },
 ]
 
 export default function Testimonials() {
@@ -68,7 +20,6 @@ export default function Testimonials() {
     >
       <div className="max-w-5xl mx-auto">
 
-        {/* Header */}
         <div className="mb-16 md:mb-20">
           <p
             className="font-sans text-[10px] tracking-[0.4em] uppercase mb-10"
@@ -84,8 +35,7 @@ export default function Testimonials() {
           </h2>
         </div>
 
-        {/* Featured quote */}
-        <div className="mb-16 md:mb-20" style={{ minHeight: '220px' }}>
+        <div className="mb-16 md:mb-20">
           <p
             className="font-cormorant font-light text-[clamp(1.4rem,3vw,2.2rem)] leading-relaxed italic mb-8"
             style={{ color: 'rgba(248,246,242,0.85)' }}
@@ -114,8 +64,6 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
-
-        {/* More testimonials coming soon — carousel hidden until full set is ready */}
 
       </div>
     </section>

@@ -15,10 +15,8 @@ export default function Hero() {
             className="object-cover object-[50%_20%]"
             priority
           />
-          <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0.8) 30%, rgba(13,13,13,0) 60%)' }} />
-        </div>
-        <div className="absolute inset-y-0 left-0 w-full md:w-1/2" style={{ background: '#0D0D0D' }} />
-      </div>
+<div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,0) 40%, rgba(13,13,13,0.95) 100%)' }} />        </div>
+<div className="absolute inset-0">      </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-32 w-full">
         <div className="max-w-xl">

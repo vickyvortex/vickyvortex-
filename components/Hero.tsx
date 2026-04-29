@@ -7,16 +7,15 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: '#0D0D0D' }}>
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-y-0 right-0 w-full md:w-1/2">
-          <Image
-            src="/images/julia-photoshoot/16.jpg"
-            alt="Vicky Vong"
-            fill
-            className="object-cover object-[50%_20%]"
-            priority
-          />
-<div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,0) 40%, rgba(13,13,13,0.95) 100%)' }} />        </div>
-<div className="absolute inset-0">      </div>
+        <Image
+          src="/images/julia-photoshoot/16.jpg"
+          alt="Vicky Vong"
+          fill
+          className="object-cover object-[50%_20%]"
+          priority
+        />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,0) 40%, rgba(13,13,13,0.95) 100%)' }} />
+      </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-32 w-full">
         <div className="max-w-xl">

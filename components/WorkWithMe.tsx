@@ -47,7 +47,7 @@ export default function WorkWithMe() {
               ))}
             </ul>
             <p className="mt-10 text-xs leading-relaxed pt-6" style={{ fontFamily: "var(--font-eb-garamond)", color: 'rgba(248,246,242,0.3)', borderTop: '1px solid rgba(248,246,242,0.1)' }}>
-              This service is educational and supportive in nature and does not replace medical, psychological, or psychiatric treatment.
+              This service is educational and supportive. It does not replace medical, psychological, or psychiatric treatment.
             </p>
           </div>
         </div>

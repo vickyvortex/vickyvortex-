@@ -17,7 +17,7 @@ export default function YouBodyKeepsScore() {  return (
           The Body's Story
         </p>
         <h2 className="font-cormorant font-light text-[clamp(2rem,5vw,3.5rem)] leading-[1.05] tracking-tight mb-8" style={{ color: '#F8F6F2', maxWidth: '700px' }}>
-          The Body Keeps the Score of Long-Term Emotional Stress
+          How Long-Term Emotional Stress Lives in the Body
         </h2>
         <p className="font-garamond text-xl md:text-2xl leading-relaxed mb-16" style={{ color: 'rgba(248,246,242,0.7)', maxWidth: '600px' }}>
           Chronic relational stress — especially from family scapegoating, narcissistic dynamics, and prolonged emotional suppression — does not stay in the mind. It settles into the body.

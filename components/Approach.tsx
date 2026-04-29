@@ -186,15 +186,13 @@ export default function Approach() {
               style={{ color: 'rgba(248,246,242,0.7)' }}
             >
               <p>
-                Many people who have been scapegoated, gaslit, or emotionally overridden have been taught to mistrust themselves. They may know something is wrong, but struggle to explain it logically because the body, nervous system, and subconscious often hold the truth long before the mind can put it into words.
+                Many people who have been scapegoated, gaslit, or emotionally overridden have been taught to mistrust themselves. They may know something is wrong but struggle to explain it — because the body and nervous system often hold the truth long before the mind can put it into words.
               </p>
               <p>
-                I do not offer these tools as abstract concepts. They are practices I turned to while rebuilding after chronic family stress, emotional suppression, and the long-term bodily cost of trauma. My work is grounded in lived experience, nervous system awareness, and deep respect for what the body carries when the truth has been denied for too long.
-
-I select the most appropriate tools for each client depending on their nervous system, history, and stage of recovery. You do not need to choose a modality. That is my job.
+                The tools I use are not abstract concepts. They are practices I turned to while rebuilding after chronic family stress and the long-term bodily cost of suppressed truth. I select what is most appropriate for each person depending on their nervous system, history, and stage of recovery.
               </p>
               <p>
-                This work is especially powerful for people recovering from scapegoating, narcissistic abuse, and complex family trauma, because rebuilding often begins the moment someone finally believes them — and helps them believe themselves.
+                Rebuilding often begins the moment someone is finally believed — and helped to believe themselves.
               </p>
             </div>
           </div>
@@ -204,10 +202,10 @@ I select the most appropriate tools for each client depending on their nervous s
       {/* Modality accordion */}
       <div className="px-6 md:px-16 lg:px-24 pb-24 md:pb-32">
         <p style={{ fontSize: '0.65rem', letterSpacing: '0.4em', textTransform: 'uppercase', color: 'rgba(248,246,242,0.35)', marginBottom: '2rem' }}>
-          Tools I May Draw On
+          The Tools Behind the Process
         </p>
         <h3 className="font-cormorant font-light text-[clamp(1.8rem,4vw,3rem)] leading-tight tracking-tight mb-10" style={{ color: '#F8F6F2' }}>
-          What we may work with
+          What supports the work
         </h3>
         <div style={{ borderBottom: '1px solid rgba(248,246,242,0.12)' }}>
           {MODALITIES.map(m => (

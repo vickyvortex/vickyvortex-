@@ -25,8 +25,8 @@ export default function Home() {
       <ThisIsForYou />
       <YouBodyKeepsScore />
       <AuthorityBlock />
-      <NervousSystemReset />
       <InsightNotEnough />
+      <NervousSystemReset />
       <WorkWithMe />
       <About />
       <Approach />

@@ -1,38 +1,44 @@
-03:30:13.913 Running build in Washington, D.C., USA (East) – iad1
-03:30:13.914 Build machine configuration: 2 cores, 8 GB
-03:30:14.050 Cloning github.com/vickyvortex/vickyvortex- (Branch: main, Commit: 376efb1)
-03:30:18.734 Cloning completed: 4.683s
-03:30:18.820 Restored build cache from previous deployment (2orx1TUDhrcTrjE99YhRz2iw44a5)
-03:30:19.029 Running "vercel build"
-03:30:19.970 Vercel CLI 51.6.1
-03:30:20.249 Installing dependencies...
-03:30:21.477 
-03:30:21.478 up to date in 990ms
-03:30:21.478 
-03:30:21.479 146 packages are looking for funding
-03:30:21.479   run `npm fund` for details
-03:30:21.505 Detected Next.js version: 15.5.15
-03:30:21.509 Running "npm run build"
-03:30:21.608 
-03:30:21.609 > vickyvortex@0.1.0 build
-03:30:21.609 > next build
-03:30:21.609 
-03:30:22.375    ▲ Next.js 15.5.15
-03:30:22.376 
-03:30:22.409    Creating an optimized production build ...
-03:30:29.519  ✓ Compiled successfully in 4.6s
-03:30:29.522    Linting and checking validity of types ...
-03:30:33.938 Failed to compile.
-03:30:33.938 
-03:30:33.940 ./app/page.tsx:23:2
-03:30:33.940 Type error: Cannot find name 'FamilyScapegoatingAbuse'.
-03:30:33.940 
-03:30:33.940 [0m [90m 21 |[39m     [33m<[39m[33m>[39m
-03:30:33.940  [90m 22 |[39m       [33m<[39m[33mHero[39m [33m/[39m[33m>[39m
-03:30:33.940 [31m[1m>[22m[39m[90m 23 |[39m [33m<[39m[33mFamilyScapegoatingAbuse[39m [33m/[39m[33m>[39m
-03:30:33.940  [90m    |[39m  [31m[1m^[22m[39m
-03:30:33.940  [90m 24 |[39m [33m<[39m[33mThisIsForYouIf[39m [33m/[39m[33m>[39m
-03:30:33.940  [90m 25 |[39m [33m<[39m[33mYourBodyKeepsScore[39m [33m/[39m[33m>[39m
-03:30:33.940  [90m 26 |[39m [33m<[39m[33mWhyThisWorkMatters[39m [33m/[39m[33m>[39m[0m
-03:30:33.961 Next.js build worker exited with code: 1 and signal: null
-03:30:33.997 Error: Command "npm run build" exited with 1
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Hero() {
+  return (
+    <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: '#0D0D0D' }}>
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/julia-photoshoot/16.jpg"
+          alt="Vicky Vong"
+          fill
+          className="object-cover object-[50%_20%]"
+          priority
+        />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,0) 40%, rgba(13,13,13,0.95) 100%)' }} />
+      </div>
+
+      <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-32 w-full">
+        <div className="max-w-xl">
+          <p
+            className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mb-8 font-medium"
+            style={{ fontFamily: "var(--font-eb-garamond)" }}
+          >
+            Nervous System Recovery
+          </p>
+
+          <h1
+            className="text-4xl md:text-5xl lg:text-[3.5rem] leading-[1.1] text-[#F8F6F2] mb-6"
+            style={{ fontFamily: "var(--font-cormorant)" }}
+          >
+            Family Scapegoating Abuse
+            <br />
+            Is Not a Personality Issue.
+            <br />
+            <span className="italic">It&apos;s a Nervous System Injury.</span>
+          </h1>
+
+          <p
+            className="text-base md:text-lg text-[#F8F6F2]/70 leading-relaxed mb-6 max-w-md"
+            style={{ fontFamily: "var(--font-eb-garamond)" }}
+          >
+            I help high-functioning

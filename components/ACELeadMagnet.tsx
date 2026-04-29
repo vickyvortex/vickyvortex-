@@ -51,6 +51,13 @@ export default function ACELeadMagnet() {
           className="font-garamond text-lg mt-8"
           style={{ color: 'rgba(248,246,242,0.35)', fontStyle: 'italic' }}
         >
+          Whatever your score is, it is not a verdict on your future. It is simply information your body may have been carrying for years.
+        </p>
+
+        <p
+          className="font-garamond text-lg mt-4"
+          style={{ color: 'rgba(248,246,242,0.35)', fontStyle: 'italic' }}
+        >
           After completing the test, you can explore whether Dignity Clinic support is the right next step for your recovery.
         </p>
       </div>

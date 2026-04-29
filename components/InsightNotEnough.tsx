@@ -20,7 +20,7 @@ export default function InsightNotEnough() {
             </p>
           </div>
           <p className="mt-10 text-base italic" style={{ fontFamily: "var(--font-eb-garamond)", color: 'rgba(248,246,242,0.6)' }}>
-            &ldquo;I don&apos;t just help you understand what happened.<br />I help your body stop reliving it.&rdquo;
+            Understanding explains the wound. Regulation begins to repair it.
           </p>
         </div>
       </div>

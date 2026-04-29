@@ -1,6 +1,8 @@
+import YouBodyKeepsScore from '@/components/YouBodyKeepsScore'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import NeverRandom from '@/components/NeverRandom'
+import ThisIsForYou from '@/components/ThisIsForYou'
 import AuthorityBlock from '@/components/AuthorityBlock'
 import InsightNotEnough from '@/components/InsightNotEnough'
 import NervousSystemReset from '@/components/NervousSystemReset'
@@ -20,6 +22,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <NeverRandom />
+      <ThisIsForYou />
+      <YouBodyKeepsScore />
       <AuthorityBlock />
       <InsightNotEnough />
       <NervousSystemReset />

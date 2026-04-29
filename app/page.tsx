@@ -6,32 +6,23 @@ import ThisIsForYou from '@/components/ThisIsForYou'
 import AuthorityBlock from '@/components/AuthorityBlock'
 import InsightNotEnough from '@/components/InsightNotEnough'
 import NervousSystemReset from '@/components/NervousSystemReset'
-import About from '@/components/About'
 import WorkWithMe from '@/components/WorkWithMe'
+import About from '@/components/About'
 import Approach from '@/components/Approach'
 import Credentials from '@/components/Credentials'
 import Testimonials from '@/components/Testimonials'
 import ACELeadMagnet from '@/components/ACELeadMagnet'
-import Contact from '@/components/Contact'
 import CtaSection from '@/components/CtaSection'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
     <>
+      <Navbar />
       <Hero />
-<FamilyScapegoatingAbuse />
-<ThisIsForYouIf />
-<YourBodyKeepsScore />
-<WhyThisWorkMatters />
-<TheMethod />
-<InsightIsNotEnough />
-<WorkWithMe />
-<About />
-<ToolsBehindTheProcess />
-<Credentials />
-<Testimonials />
-<Contact />
-    </>
-  )
-}
+      <NeverRandom />
+      <ThisIsForYou />
+      <YouBodyKeepsScore />
+      <AuthorityBlock />
+      <Nervou

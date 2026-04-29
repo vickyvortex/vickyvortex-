@@ -63,7 +63,7 @@ const EXTENDED_MODALITIES = [
   },
 ]
 
-function ModalityItem({ modality }: { modality: typeof MODALITIES[0] }) {
+function ModalityItem({ modality }: { modality: typeof CORE_MODALITIES[0] }) {
   const [open, setOpen] = useState(false)
 
   return (

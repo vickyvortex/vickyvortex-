@@ -25,4 +25,17 @@ export default function Home() {
       <ThisIsForYou />
       <YouBodyKeepsScore />
       <AuthorityBlock />
-      <Nervou
+      <NervousSystemReset />
+      <InsightNotEnough />
+      <WorkWithMe />
+      <About />
+      <Approach />
+      <Credentials />
+      <Testimonials />
+      <ACELeadMagnet />
+      <CtaSection />
+      <Contact />
+      <Footer />
+    </>
+  )
+}

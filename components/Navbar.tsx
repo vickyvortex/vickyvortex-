@@ -31,11 +31,29 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between">
-        {/* Wordmark */}
-        <a href="/" className="flex leading-none">
-          <span className="font-cormorant font-light text-xl tracking-[0.18em] uppercase text-foreground">
-            Dignity Clinic
-          </span>
+        {/* Logo */}
+        <a href="/" className="flex items-center" aria-label="Dignity Clinic">
+          <svg width="175" height="40" viewBox="0 0 175 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {/* Rays */}
+            <line x1="15" y1="11" x2="2"  y2="3"  stroke="#C8A96E" strokeWidth="1"   strokeLinecap="round" opacity="0.75"/>
+            <line x1="15" y1="11" x2="28" y2="3"  stroke="#C8A96E" strokeWidth="1"   strokeLinecap="round" opacity="0.75"/>
+            <line x1="15" y1="11" x2="34" y2="7"  stroke="#C8A96E" strokeWidth="0.8" strokeLinecap="round" opacity="0.5"/>
+            <line x1="15" y1="11" x2="-4" y2="7"  stroke="#C8A96E" strokeWidth="0.8" strokeLinecap="round" opacity="0.5"/>
+            {/* Lantern room */}
+            <rect x="10" y="8" width="10" height="6" rx="0.8" fill="none" stroke="currentColor" strokeWidth="1.2"/>
+            {/* Beacon glow dot */}
+            <circle cx="15" cy="11" r="2" fill="#C8A96E"/>
+            {/* Gallery line */}
+            <line x1="8" y1="14" x2="22" y2="14" stroke="currentColor" strokeWidth="0.8" opacity="0.5"/>
+            {/* Tower body — tapered */}
+            <path d="M11,14 L8,36 L22,36 L19,14 Z" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
+            {/* Door */}
+            <rect x="13" y="28" width="4" height="7" rx="0.5" fill="currentColor" opacity="0.3"/>
+            {/* Base */}
+            <rect x="6" y="36" width="18" height="2.5" rx="0.8" fill="currentColor"/>
+            {/* Wordmark */}
+            <text x="36" y="26" fontFamily="Georgia, 'Times New Roman', serif" fontSize="17" fontWeight="400" letterSpacing="1.5" fill="currentColor">Dignity Clinic</text>
+          </svg>
         </a>
 
         {/* Desktop nav */}

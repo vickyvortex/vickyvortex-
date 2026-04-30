@@ -7,7 +7,6 @@ export default function Footer() {
       style={{ background: '#0D0D0D', borderColor: 'rgba(248,246,242,0.08)' }}
     >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-
         <div>
           <a href="/" aria-label="Dignity Clinic">
             <svg width="175" height="40" viewBox="0 0 175 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,43 +23,21 @@ export default function Footer() {
               <text x="36" y="26" fontFamily="Georgia, serif" fontSize="17" letterSpacing="1.5" fill="#F5F2EC">Dignity Clinic</text>
             </svg>
           </a>
-          <p className="font-sans text-[10px] tracking-[0.3em] uppercase mt-2" style={{ color: 'rgba(248,246,242,0.3)' }}>
-            dignityclinic.co.uk
-          </p>
+          <p className="font-sans text-[10px] tracking-[0.3em] uppercase mt-2" style={{ color: 'rgba(248,246,242,0.3)' }}>dignityclinic.co.uk</p>
         </div>
-
         <nav className="flex flex-wrap gap-6 md:gap-10">
           {['About', 'Credentials', 'Services', 'Approach', 'Contact'].map(link => (
-            
-              key={link}
-              href={`#${link.toLowerCase()}`}
-              className="font-sans text-xs tracking-[0.2em] uppercase transition-colors duration-200"
-              style={{ color: 'rgba(248,246,242,0.4)' }}
-            >
+            <a key={link} href={`#${link.toLowerCase()}`} className="font-sans text-xs tracking-[0.2em] uppercase transition-colors duration-200" style={{ color: 'rgba(248,246,242,0.4)' }}>
               {link}
             </a>
           ))}
         </nav>
-
         <div className="text-right">
-          
-            href="mailto:restore@dignityclinic.co.uk"
-            className="font-sans text-xs tracking-[0.2em] uppercase transition-colors duration-200 block mb-3"
-            style={{ color: 'rgba(248,246,242,0.4)' }}
-          >
-            restore@dignityclinic.co.uk
-          </a>
-          <p className="font-sans text-[10px] tracking-[0.15em] mb-3" style={{ color: 'rgba(248,246,242,0.25)' }}>
-            Dignity Clinic provides coaching and wellbeing support. This is not medical, psychological, or psychiatric treatment.
-          </p>
-          <p className="font-sans text-[10px] tracking-[0.15em] mb-2" style={{ color: 'rgba(248,246,242,0.2)' }}>
-            © {new Date().getFullYear()} Dignity Clinic. All rights reserved.
-          </p>
-          <a href="/disclaimer" className="font-sans text-[10px] tracking-[0.15em] uppercase" style={{ color: 'rgba(248,246,242,0.3)' }}>
-            Disclaimer
-          </a>
+          <a href="mailto:restore@dignityclinic.co.uk" className="font-sans text-xs tracking-[0.2em] uppercase transition-colors duration-200 block mb-3" style={{ color: 'rgba(248,246,242,0.4)' }}>restore@dignityclinic.co.uk</a>
+          <p className="font-sans text-[10px] tracking-[0.15em] mb-3" style={{ color: 'rgba(248,246,242,0.25)' }}>Dignity Clinic provides coaching and wellbeing support. This is not medical, psychological, or psychiatric treatment.</p>
+          <p className="font-sans text-[10px] tracking-[0.15em] mb-2" style={{ color: 'rgba(248,246,242,0.2)' }}>© 2025 Dignity Clinic. All rights reserved.</p>
+          <a href="/disclaimer" className="font-sans text-[10px] tracking-[0.15em] uppercase" style={{ color: 'rgba(248,246,242,0.3)' }}>Disclaimer</a>
         </div>
-
       </div>
     </footer>
   )

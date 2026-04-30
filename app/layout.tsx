@@ -53,6 +53,9 @@ export default function RootLayout({
       lang="en"
       className={`${cormorant.variable} ${ebGaramond.variable} ${dmSans.variable}`}
     >
+      <head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      </head>
       <body className="bg-background text-foreground font-sans antialiased">
         {children}
       </body>

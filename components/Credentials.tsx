@@ -3,23 +3,23 @@
 import { useState } from 'react'
 
 const featuredCredentials = [
+  { name: 'Trauma-Informed Coaching', body: 'Advanced training in trauma-informed coaching, narcissistic abuse recovery, and nervous system-aware support' },
   { name: 'Integrative Health Coach', body: 'Institute of Integrative Nutrition, New York City' },
   { name: 'Precision Nutrition Coach', body: 'Precision Nutrition' },
   { name: 'Pilates, Yoga & Breathwork Teacher', body: 'Pilates On Fifth, Yoga Teachers College Barcelona, Lady Niguma — Geshe Michael Roach' },
-  { name: 'Emotion Code & Body Code Practitioner', body: 'Dr. Bradley Nelson, Discover Healing' },
-  { name: 'QHHT Level 2 Practitioner', body: 'Julia Cannon, Quantum Healing Hypnosis Academy' },
-  { name: 'Trauma-Informed Coaching', body: 'Advanced training in trauma-informed coaching, narcissistic abuse recovery, and nervous system-aware support' },
+  { name: 'Nutrition & Healthy Lifestyle Certification', body: 'Cornell University' },
+  { name: 'Science of Well-Being', body: 'Yale University' },
 ]
 
 const additionalCredentials = [
+  { name: 'Emotion Code & Body Code Practitioner', body: 'Dr. Bradley Nelson, Discover Healing' },
+  { name: 'QHHT Level 2 Practitioner', body: 'Julia Cannon, Quantum Healing Hypnosis Academy' },
+  { name: 'Soul Speak — The Language of the Soul through the Body', body: 'Julia Cannon, Quantum Healing Hypnosis Academy' },
+  { name: 'Applied Astrology — Level 2', body: 'Debra Silverman Applied Astrology' },
   { name: "Advanced Ho'oponopono Practitioner", body: 'Global Sciences Foundation' },
   { name: 'Hypnotherapist', body: "Ali Campbell's Rapid Induction Academy" },
   { name: 'Life Coach, Time Line Therapy & NLP', body: 'MasterMinds, Hong Kong' },
-  { name: 'Nutrition & Healthy Lifestyle Certification', body: 'Cornell University' },
   { name: 'Nutritional Therapy', body: 'South London College' },
-  { name: 'Applied Astrology — Level 2', body: 'Debra Silverman Applied Astrology' },
-  { name: 'Soul Speak — The Language of the Soul through the Body', body: 'Julia Cannon, Quantum Healing Hypnosis Academy' },
-  { name: 'Science of Well-Being', body: 'Yale University' },
   { name: 'Shamanic Extraction Healing, Shamanism, Dying & Beyond, Power Soul Retrieval', body: 'The Foundation of Shamanic Studies, Tokyo' },
   { name: 'Advanced Tarot Practitioner', body: 'The Richard Knight Tarot Academy' },
   { name: 'Whole-Food Plant-Based Nutrition', body: 'Cornell University' },
@@ -68,7 +68,7 @@ export default function Credentials() {
             style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'rgba(248,246,242,0.4)' }}
           >
             <span className="font-sans text-[10px] tracking-[0.3em] uppercase">
-              {expanded ? 'Hide' : 'Full Training Background'}
+              {expanded ? 'Hide' : 'Additional Reflective & Subconscious Tools'}
             </span>
             <span style={{ fontSize: '1rem', transform: expanded ? 'rotate(45deg)' : 'rotate(0deg)', transition: 'transform 0.3s ease', display: 'inline-block' }}>+</span>
           </button>

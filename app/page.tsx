@@ -1,6 +1,7 @@
 import YouBodyKeepsScore from '@/components/YouBodyKeepsScore'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
+import YouDoNotNeed from '@/components/YouDoNotNeed'
 import NeverRandom from '@/components/NeverRandom'
 import ThisIsForYou from '@/components/ThisIsForYou'
 import AuthorityBlock from '@/components/AuthorityBlock'
@@ -21,6 +22,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <YouDoNotNeed />
       <NeverRandom />
       <ThisIsForYou />
       <YouBodyKeepsScore />

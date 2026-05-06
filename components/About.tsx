@@ -58,20 +58,20 @@ export default function About() {
             className="font-garamond text-xl md:text-2xl leading-relaxed space-y-6 max-w-lg"
             style={{ color: 'rgba(248,246,242,0.7)' }}
           >
-            <p>
-              Dignity Clinic was created for people who have spent years being misread, blamed, dismissed or scapegoated within their families.
+            <p style={{ color: '#F8F6F2', fontStyle: 'italic' }}>
+              I became the kind of person I once needed most.
             </p>
             <p>
-              My work helps clients restore self-trust, support the body's stress response, emotional regulation and long-term wellbeing, and rebuild with more clarity, stability, and dignity.
+              For years I understood something was wrong — but struggled to name it, even to myself. Like many people who grew up in emotionally unhealthy families, I became highly capable on the outside and quietly depleted on the inside.
             </p>
             <p>
-              This approach is grounded in lived experience as well as years of training across subconscious work, emotional processing, nutrition, breathwork, movement, and nervous system support. In many ways, I became the kind of person I once needed most: someone who could see clearly, listen deeply, and help make sense of what the body had been carrying for years.
+              My work was built from the process of learning what chronic emotional stress actually does to the body, identity, and sense of self — and what recovery genuinely looks like.
             </p>
             <p>
-              This work is not about diagnosing your relatives. It is about helping you understand what happened, support your nervous system, rebuild self-trust, and begin living from dignity rather than survival.
+              Today I work with adults who are exhausted from years of self-doubt, hypervigilance, and emotional survival. People who appear capable and responsible but privately feel stuck, disconnected, or unable to fully relax.
             </p>
             <p>
-              I do not ask clients to choose from a menu of modalities. I guide the process and use the tools most appropriate for where they are.
+              The goal is not just understanding what happened. It is helping you feel safe enough to become yourself again — calm in your body, clear in your boundaries, and no longer bracing for the next thing.
             </p>
           </div>
         </div>

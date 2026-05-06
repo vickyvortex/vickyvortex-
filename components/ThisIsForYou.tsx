@@ -1,9 +1,10 @@
 "use client";
 
 const statements = [
-  "You were blamed, mocked, dismissed or made responsible for the family's dysfunction.",
-  "You have done the intellectual work, but your body still feels anxious, frozen, inflamed or exhausted.",
-  "You are ready to rebuild identity, boundaries and energy outside the role you were assigned.",
+  "You feel exhausted around your family but struggle to fully explain why — even to yourself.",
+  "You have spent years doubting yourself, overthinking, or being told you are too sensitive.",
+  "You understand what happened intellectually, but your body still feels anxious, frozen, or on edge.",
+  "You are tired of surviving. You want to feel like yourself again.",
 ]
 
 export default function ThisIsForYou() {
@@ -11,7 +12,7 @@ export default function ThisIsForYou() {
     <section style={{ background: '#0D0D0D', borderTop: '1px solid rgba(248,246,242,0.06)' }} className="py-20 md:py-28 px-6 md:px-12">
       <div className="max-w-3xl mx-auto">
         <p className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mb-8" style={{ fontFamily: "var(--font-eb-garamond)" }}>
-          This is for you if
+          This may resonate if
         </p>
         <div className="space-y-6">
           {statements.map((s, i) => (

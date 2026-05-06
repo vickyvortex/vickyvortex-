@@ -36,11 +36,12 @@ function GhostButton({ href, children }: { href: string; children: React.ReactNo
   return (
     <a
       href={href}
-      className="inline-flex items-center justify-center font-sans font-medium text-sm tracking-[0.18em] uppercase px-8 py-3 border transition-all duration-300 outline-none focus:outline-none"
+      className="inline-flex items-center justify-center font-sans font-medium text-sm tracking-[0.18em] uppercase px-8 py-4 border transition-all duration-300 outline-none focus:outline-none w-full sm:w-auto"
       style={{
         borderColor: '#F8F6F2',
         color: hovered ? '#0D0D0D' : '#F8F6F2',
         background: hovered ? '#F8F6F2' : 'transparent',
+        whiteSpace: 'nowrap',
       }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -335,7 +336,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={status === 'sending'}
-              className="inline-flex items-center justify-center font-sans font-medium text-sm tracking-[0.18em] uppercase px-8 py-3 border transition-all duration-300 outline-none focus:outline-none"
+              className="inline-flex items-center justify-center font-sans font-medium text-sm tracking-[0.18em] uppercase px-8 py-3 border transition-all duration-300 outline-none focus:outline-none w-full sm:w-auto"
               style={{
                 borderColor: '#F8F6F2',
                 color: submitHovered ? '#0D0D0D' : '#F8F6F2',
@@ -363,7 +364,7 @@ export default function Contact() {
             Or, if you already know you are ready:
           </p>
 
-          <div className="flex flex-col sm:flex-row items-start gap-6">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-start gap-4 w-full sm:w-auto">
             <GhostButton href="#book">Book a Dignity Reset</GhostButton>
             <GhostButton href="#book">Enquire About Dignity Rebuild</GhostButton>
           </div>

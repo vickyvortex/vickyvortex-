@@ -16,7 +16,7 @@ export default function CtaSection() {
         </h2>
         <Link
           href="/contact"
-          className="inline-block border border-[#3D9FA8] text-[#3D9FA8] text-sm uppercase tracking-[0.2em] px-10 py-4 hover:bg-[#3D9FA8] hover:text-white transition-colors duration-300"
+          className="inline-block border border-[#3D9FA8] text-[#3D9FA8] text-sm uppercase tracking-[0.2em] px-10 py-4 hover:bg-[#3D9FA8] hover:text-white transition-colors duration-300 whitespace-nowrap"
           style={{ fontFamily: "var(--font-eb-garamond)" }}
         >
           Start Your Reset

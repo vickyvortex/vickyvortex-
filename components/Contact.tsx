@@ -36,12 +36,11 @@ function GhostButton({ href, children }: { href: string; children: React.ReactNo
   return (
     <a
       href={href}
-      className="inline-flex items-center justify-center font-sans font-medium text-sm tracking-[0.18em] uppercase px-8 py-4 border transition-all duration-300 outline-none focus:outline-none w-full sm:w-auto"
+      className="inline-flex items-center justify-center font-sans font-medium text-sm tracking-[0.18em] uppercase px-8 py-4 border transition-all duration-300 outline-none focus:outline-none w-full sm:w-auto text-center"
       style={{
         borderColor: '#F8F6F2',
         color: hovered ? '#0D0D0D' : '#F8F6F2',
         background: hovered ? '#F8F6F2' : 'transparent',
-        whiteSpace: 'nowrap',
       }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -192,7 +191,6 @@ export default function Contact() {
       className="overflow-hidden"
       style={{ background: '#0D0D0D' }}
     >
-      {/* Atmospheric header image — full bleed */}
       <div className="relative w-full" style={{ height: '700px' }}>
         <Image
           src="/images/julia-photoshoot/10.jpg"
@@ -201,7 +199,6 @@ export default function Contact() {
           className="object-cover"
           style={{ objectPosition: 'center 20%' }}
         />
-        {/* Bottom fade only */}
         <div
           aria-hidden
           className="absolute inset-0 pointer-events-none"
@@ -247,13 +244,7 @@ export default function Contact() {
           onSubmit={handleSubmit}
         >
           <div>
-            <label
-              htmlFor="name"
-              className={labelStyles}
-              style={labelTextStyle}
-            >
-              Name
-            </label>
+            <label htmlFor="name" className={labelStyles} style={labelTextStyle}>Name</label>
             <input
               id="name"
               type="text"
@@ -265,13 +256,7 @@ export default function Contact() {
           </div>
 
           <div>
-            <label
-              htmlFor="email"
-              className={labelStyles}
-              style={labelTextStyle}
-            >
-              Email
-            </label>
+            <label htmlFor="email" className={labelStyles} style={labelTextStyle}>Email</label>
             <input
               id="email"
               type="email"
@@ -283,23 +268,12 @@ export default function Contact() {
           </div>
 
           <div>
-            <p
-              className={labelStyles}
-              style={labelTextStyle}
-            >
-              Which service are you interested in?
-            </p>
+            <p className={labelStyles} style={labelTextStyle}>Which service are you interested in?</p>
             <ServiceDropdown value={service} onChange={setService} />
           </div>
 
           <div>
-            <label
-              htmlFor="message"
-              className={labelStyles}
-              style={labelTextStyle}
-            >
-              Message
-            </label>
+            <label htmlFor="message" className={labelStyles} style={labelTextStyle}>Message</label>
             <textarea
               id="message"
               rows={4}
@@ -311,11 +285,7 @@ export default function Contact() {
           </div>
 
           <div>
-            <label
-              htmlFor="modality"
-              className={labelStyles}
-              style={labelTextStyle}
-            >
+            <label htmlFor="modality" className={labelStyles} style={labelTextStyle}>
               Is there anything specific you&apos;d like support with?
             </label>
             <textarea
@@ -366,20 +336,16 @@ export default function Contact() {
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-start gap-4 w-full sm:w-auto">
             <GhostButton href="#book">Book a Dignity Reset</GhostButton>
-            <GhostButton href="#book">Enquire About Dignity Rebuild</GhostButton>
+            <GhostButton href="#book">Dignity Rebuild Enquiry</GhostButton>
           </div>
 
           <p
             className="font-sans text-xs tracking-[0.2em] uppercase"
             style={{ color: 'rgba(248,246,242,0.4)' }}
           >
-            Dignity Clinic is a private coaching and wellbeing practice. It is not a medical or psychiatric service and does not replace clinical treatment.
-
-For direct enquiries:{' '}
-            <a
-              href="mailto:restore@dignityclinic.co.uk"
-              style={{ color: '#F8F6F2' }}
-            >
+            Dignity Clinic is a private coaching and wellbeing practice. It is not a medical or psychiatric service and does not replace clinical treatment.{' '}
+            For direct enquiries:{' '}
+            <a href="mailto:restore@dignityclinic.co.uk" style={{ color: '#F8F6F2' }}>
               restore@dignityclinic.co.uk
             </a>
           </p>

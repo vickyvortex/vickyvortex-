@@ -13,6 +13,7 @@ import Approach from '@/components/Approach'
 import Credentials from '@/components/Credentials'
 import Testimonials from '@/components/Testimonials'
 import ACELeadMagnet from '@/components/ACELeadMagnet'
+import ACEStats from '@/components/ACEStats'
 import CtaSection from '@/components/CtaSection'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -24,6 +25,8 @@ export default function Home() {
       <Hero />
       <YouDoNotNeed />
       <NeverRandom />
+      <ACELeadMagnet />
+      <ACEStats />
       <ThisIsForYou />
       <YouBodyKeepsScore />
       <AuthorityBlock />
@@ -34,7 +37,6 @@ export default function Home() {
       <Approach />
       <Credentials />
       <Testimonials />
-      <ACELeadMagnet />
       <CtaSection />
       <Contact />
       <Footer />

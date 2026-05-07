@@ -41,3 +41,4 @@ body::before {
   z-index: 9999;
   opacity: 0.4;
 }
+html { scroll-behavior: smooth; }

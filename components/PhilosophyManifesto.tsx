@@ -77,9 +77,8 @@ export default function PhilosophyManifesto() {
         <p className="font-['EB_Garamond'] text-[#F8F6F2]/50 text-base mb-6 tracking-widest uppercase text-sm">
           If you are ready to walk through the doorway
         </p>
-        
+        <a
           href="/work-with-me"
-          className="inline-block border border-[#3D9FA8] text-[#3D9FA8] font-['EB_Garamond'] text-lg px-10 py-4 tracking-wide hover:bg-[#3D9FA8] hover:text-[#0D0D0D] transition-all duration-300"
         >
           Work With Me
         </a>

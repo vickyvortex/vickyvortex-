@@ -104,12 +104,9 @@ export default function About() {
           people's toxicity — and I know what it feels like to call it back.
         </p>
         <div className="mt-10 mb-12 mx-auto w-16 h-px bg-[#3D9FA8]" />
-        
-href="/work-with-me"
-          className="inline-block border border-[#3D9FA8] text-[#3D9FA8] font-['EB_Garamond'] text-lg px-10 py-4 tracking-wide hover:bg-[#3D9FA8] hover:text-[#0D0D0D] transition-all duration-300"
+        <a
+          href="/work-with-me"
         >
-          Work With Me
-        </a>
           Work With Me
         </a>
       </section>

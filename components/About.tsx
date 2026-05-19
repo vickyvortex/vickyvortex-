@@ -109,8 +109,7 @@ href="/work-with-me"
           className="inline-block border border-[#3D9FA8] text-[#3D9FA8] font-['EB_Garamond'] text-lg px-10 py-4 tracking-wide hover:bg-[#3D9FA8] hover:text-[#0D0D0D] transition-all duration-300"
         >
           Work With Me
-        </a>          className="inline-block border border-[#3D9FA8] text-[#3D9FA8] font-['EB_Garamond'] text-lg px-10 py-4 tracking-wide hover:bg-[#3D9FA8] hover:text-[#0D0D0D] transition-all duration-300"
-        >
+        </a>
           Work With Me
         </a>
       </section>

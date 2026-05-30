@@ -14,10 +14,10 @@ export default function NervousSystemReset() {
     <section style={{ background: "#0D0D0D" }} className="overflow-hidden">
       <div className="relative h-[55vh] w-full">
         <Image
-          src="/images/PHK_8289ret1.jpg"
+          src="/images/5small.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-[50%_20%]"
+          className="object-cover object-[60%_40%]"
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(13,13,13,0.1) 0%, rgba(13,13,13,0.85) 100%)" }} />
         <div className="absolute bottom-0 left-0 px-6 md:px-12 pb-12">

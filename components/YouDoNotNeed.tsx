@@ -6,12 +6,12 @@ export default function YouDoNotNeed() {
     <section style={{ background: "#0D0D0D", borderTop: "1px solid rgba(248,246,242,0.06)" }} className="relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/PHK_4615ret.jpg"
+          src="/images/5small.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-[50%_20%]"
+          className="object-cover object-[60%_40%]"
         />
-        <div className="absolute inset-0" style={{ background: "rgba(13,13,13,0.82)" }} />
+        <div className="absolute inset-0" style={{ background: "rgba(13,13,13,0.75)" }} />
       </div>
       <div className="relative z-10 py-20 md:py-24 px-6 md:px-12">
         <div className="max-w-2xl mx-auto text-center">

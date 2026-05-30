@@ -5,13 +5,25 @@ export default function About() {
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-[#F8F6F2]">
 
-      {/* Hero — full bleed portrait */}
-      <section className="relative h-[70vh] w-full overflow-hidden">
+      {/* Top image — fills blank space above fold */}
+      <section className="relative h-[50vh] w-full overflow-hidden">
         <Image
-          src="/images/PHK_4663ret.jpg"
+          src="/images/5small.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-[50%_20%]"
+          className="object-cover object-[60%_40%]"
+          priority
+        />
+        <div className="absolute inset-0" style={{ background: 'rgba(13,13,13,0.25)' }} />
+      </section>
+
+            {/* Hero — full bleed portrait */
+      <section className="relative h-[70vh] w-full overflow-hidden">
+        <Image
+          src="/images/10small.jpg"
+          alt="Vicky Vong"
+          fill
+          className="object-cover object-[60%_25%]"
           priority
         />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,0.2) 0%, rgba(13,13,13,0.85) 100%)' }} />
@@ -21,7 +33,7 @@ export default function About() {
           </p>
           <h1 className="font-['Cormorant_Garamond'] italic text-3xl md:text-5xl text-[#F8F6F2] leading-snug">
             I know what it feels like to lose your own energy inside other people's toxicity —
-            and I know what it feels like to call it back.
+            and I know what it feels like to call it back.
           </h1>
         </div>
       </section>
@@ -30,7 +42,7 @@ export default function About() {
       <section className="px-6 py-16 max-w-xl mx-auto">
         <p className="font-['Cormorant_Garamond'] italic text-2xl md:text-3xl text-[#3D9FA8] leading-snug mb-10">
           Energy medicine is not the alternative to medicine.<br />
-          It is the missing layer.
+          It is the missing layer.
         </p>
         <div className="space-y-6 font-['EB_Garamond'] text-lg md:text-xl text-[#F8F6F2]/80 leading-relaxed">
           <p>Energy medicine is not a trend to me. It is personal.</p>
@@ -39,7 +51,7 @@ export default function About() {
             by stress, by family toxicity, by unsafe environments, and by energies that the
             nervous system cannot easily process.
           </p>
-          <p>I also know what it feels like when the body begins to come back.</p>
+          <p>I also know what it feels like when the body begins to come back.</p>
         </div>
       </section>
 
@@ -69,7 +81,7 @@ export default function About() {
           in the mind." Trauma is not "just a story." Toxic relationships, unsafe
           environments and chronic fear can live in the body.
         </p>
-        <p>My work sits at that bridge.</p>
+        <p>My work sits at that bridge.</p>
       </section>
 
       {/* Two image grid */}
@@ -121,7 +133,7 @@ export default function About() {
         </p>
         <p>I got sick from what I absorbed — physically, emotionally and energetically.</p>
         <p>I healed by learning how to clear, breathe, regulate and return to my own energy.</p>
-        <p>That is why I do this work.</p>
+        <p>That is why I do this work.</p>
       </section>
 
       {/* Closing — portrait + signature */}
@@ -138,7 +150,7 @@ export default function About() {
           <div className="text-center md:text-left">
             <p className="font-['Cormorant_Garamond'] italic text-2xl md:text-3xl text-[#F8F6F2] leading-snug mb-10">
               Because I know what it feels like to lose your own energy inside other
-              people's toxicity — and I know what it feels like to call it back.
+              people's toxicity — and I know what it feels like to call it back.
             </p>
             <div className="mb-12 w-16 h-px bg-[#3D9FA8]" />
             <a

@@ -19,7 +19,7 @@ export default function WorkWithMe() {
           src="/images/PHK_4389ret.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-[50%_20%]"
+          className="object-cover object-[50%_35%]"
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(13,13,13,0.1) 0%, rgba(13,13,13,0.9) 100%)" }} />
       </div>

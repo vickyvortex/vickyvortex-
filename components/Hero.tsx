@@ -33,7 +33,7 @@ export default function Hero() {
             <span className="italic">System Injury.</span>
           </h1>
           <p className="text-base md:text-lg text-[#F8F6F2]/70 leading-relaxed mb-6" style={{ fontFamily: "var(--font-eb-garamond)" }}>
-            I help high-functioning individuals recover their energy, identity, and clarity after prolonged exposure to toxic family systems.
+            I help people recover their energy, identity, and clarity after prolonged exposure to toxic family systems.
           </p>
           <p className="text-sm text-[#3D9FA8] italic mb-10 leading-relaxed" style={{ fontFamily: "var(--font-eb-garamond)" }}>
             I don&apos;t just help you understand what happened.

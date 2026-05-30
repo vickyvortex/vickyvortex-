@@ -22,6 +22,14 @@ export default function PhilosophyManifesto() {
           Healing is remembering that we were whole all along.
         </p>
 
+        <div className="my-10 border-l-2 border-[#3D9FA8] pl-8">
+          <p className="font-['Cormorant_Garamond'] italic text-2xl md:text-3xl text-[#3D9FA8] leading-relaxed">
+            We are already whole and complete.<br />
+            It is a matter of remembering and feeling it.<br />
+            One breath at a time.
+          </p>
+        </div>
+
         <p className="pt-4">
           The wound is not the truth of us. The wound is the place where energy became
           trapped, distorted, frozen, or forgotten.

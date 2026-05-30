@@ -124,9 +124,9 @@ export default function Approach() {
       <div className="flex flex-col md:flex-row md:min-h-screen">
         <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0 md:order-last">
           <img
-            src="/images/10small.jpg"
+            src="/images/PHK_7950ret1.jpg"
             alt="Vicky Vortex"
-            style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '60% 20%', position: 'absolute', inset: 0 }}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 30%', position: 'absolute', inset: 0 }}
           />
           <div aria-hidden className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(to left, rgba(13,13,13,1) 0%, rgba(13,13,13,0.8) 40%, rgba(13,13,13,0) 70%)' }} />
           <div aria-hidden className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,1) 100%)' }} />

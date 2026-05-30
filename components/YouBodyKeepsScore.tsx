@@ -16,10 +16,10 @@ export default function YouBodyKeepsScore() {
     <section style={{ background: "#0D0D0D", borderTop: "1px solid rgba(248,246,242,0.06)" }} className="overflow-hidden">
       <div className="relative h-[55vh] w-full">
         <Image
-          src="/images/PHK_4571ret.jpg"
+          src="/images/9small.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-[50%_15%]"
+          className="object-cover object-[50%_35%]"
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(13,13,13,0.1) 0%, rgba(13,13,13,0.85) 100%)" }} />
         <div className="absolute bottom-0 left-0 px-6 md:px-12 pb-12 max-w-2xl">

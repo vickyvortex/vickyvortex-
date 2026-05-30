@@ -11,10 +11,13 @@ export default function Hero() {
           src="/images/PHK_4663ret.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-right-top"
           priority
+          style={{
+            objectFit: 'cover',
+            objectPosition: '75% top',
+          }}
         />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0.98) 30%, rgba(13,13,13,0.75) 50%, rgba(13,13,13,0.1) 70%, rgba(13,13,13,0.0) 100%)' }} />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0.97) 25%, rgba(13,13,13,0.6) 45%, rgba(13,13,13,0.0) 65%)' }} />
       </div>
       <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-32 w-full">
         <div className="max-w-sm md:max-w-md">

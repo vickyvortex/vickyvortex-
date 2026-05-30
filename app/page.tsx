@@ -1,19 +1,9 @@
-import YouBodyKeepsScore from '@/components/YouBodyKeepsScore'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
-import YouDoNotNeed from '@/components/YouDoNotNeed'
-import NeverRandom from '@/components/NeverRandom'
 import ThisIsForYou from '@/components/ThisIsForYou'
-import AuthorityBlock from '@/components/AuthorityBlock'
-import InsightNotEnough from '@/components/InsightNotEnough'
 import NervousSystemReset from '@/components/NervousSystemReset'
 import WorkWithMeSection from '@/components/WorkWithMeSection'
-import About from '@/components/About'
-import Approach from '@/components/Approach'
-import Credentials from '@/components/Credentials'
 import Testimonials from '@/components/Testimonials'
-import ACELeadMagnet from '@/components/ACELeadMagnet'
-import ACEStats from '@/components/ACEStats'
 import CtaSection from '@/components/CtaSection'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -23,19 +13,9 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <YouDoNotNeed />
-      <NeverRandom />
-      <ACELeadMagnet />
-      <ACEStats />
       <ThisIsForYou />
-      <YouBodyKeepsScore />
-      <AuthorityBlock />
-      <InsightNotEnough />
       <NervousSystemReset />
       <WorkWithMeSection />
-      <About />
-      <Approach />
-      <Credentials />
       <Testimonials />
       <CtaSection />
       <Contact />

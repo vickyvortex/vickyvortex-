@@ -8,10 +8,10 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: '#0D0D0D' }}>
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/PHK_4663ret.jpg"
+          src="/images/10small.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-[50%_15%]"
+          className="object-cover object-[50%_20%]"
           priority
         />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,0.5) 0%, rgba(13,13,13,0.7) 50%, rgba(13,13,13,0.95) 100%)' }} />

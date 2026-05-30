@@ -25,7 +25,7 @@ export default function NeverRandom() {
           </div>
           <div className="relative h-[500px] overflow-hidden">
             <Image
-              src="/images/PHK_7932ret1.jpg"
+              src="/images/9small.jpg"
               alt="Vicky Vong"
               fill
               className="object-cover object-[50%_20%]"

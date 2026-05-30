@@ -43,10 +43,10 @@ export default function PhilosophyManifesto() {
       {/* Image break */}
       <div className="relative h-[60vh] w-full overflow-hidden">
         <Image
-          src="/images/PHK_4551ret.jpg"
+          src="/images/5small.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-[50%_20%]"
+          className="object-cover object-[50%_30%]"
         />
         <div className="absolute inset-0" style={{ background: "rgba(13,13,13,0.3)" }} />
       </div>

@@ -193,11 +193,14 @@ export default function Contact() {
     >
       <div className="relative w-full" style={{ height: '700px' }}>
         <Image
-          src="/images/julia-photoshoot/10.jpg"
-          alt="Dignity Clinic"
+          src="/images/PHK_4639ret.jpg"
+          alt="Vicky Vong"
           fill
-          className="object-cover"
-          style={{ objectPosition: 'center 20%' }}
+          priority
+          style={{
+            objectFit: 'cover',
+            objectPosition: 'center 20%',
+          }}
         />
         <div
           aria-hidden

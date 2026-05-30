@@ -16,10 +16,13 @@ export default function WorkWithMe() {
     <section id="work-with-me" style={{ background: "#0D0D0D" }} className="overflow-hidden">
       <div className="relative h-[55vh] w-full">
         <Image
-          src="/images/PHK_4389ret.jpg"
+          src="/images/PHK_8174ret1.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-[50%_20%]"
+          style={{
+            objectFit: 'cover',
+            objectPosition: '50% 20%',
+          }}
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(13,13,13,0.1) 0%, rgba(13,13,13,0.9) 100%)" }} />
       </div>

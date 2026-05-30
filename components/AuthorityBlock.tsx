@@ -53,10 +53,10 @@ export default function AuthorityBlock() {
 
           <div className="relative h-[500px] overflow-hidden">
             <Image
-              src="/images/5small.jpg"
+              src="/images/PHK_7581ret1.jpg"
               alt="Vicky Vong"
               fill
-              className="object-cover object-[60%_40%]"
+              className="object-cover object-[50%_25%]"
             />
           </div>
         </div>

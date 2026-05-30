@@ -17,7 +17,7 @@ export default function About() {
         <div className="absolute inset-0" style={{ background: 'rgba(13,13,13,0.25)' }} />
       </section>
 
-            {/* Hero — full bleed portrait */
+            {/* Hero — full bleed portrait */}
       <section className="relative h-[70vh] w-full overflow-hidden">
         <Image
           src="/images/10small.jpg"

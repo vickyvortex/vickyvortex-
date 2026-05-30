@@ -5,19 +5,7 @@ export default function About() {
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-[#F8F6F2]">
 
-      {/* Top image — fills blank space above fold */}
-      <section className="relative h-[50vh] w-full overflow-hidden">
-        <Image
-          src="/images/5small.jpg"
-          alt="Vicky Vong"
-          fill
-          className="object-cover object-[60%_40%]"
-          priority
-        />
-        <div className="absolute inset-0" style={{ background: 'rgba(13,13,13,0.25)' }} />
-      </section>
-
-            {/* Hero — full bleed portrait */}
+      {/* Hero — full bleed portrait */}
       <section className="relative h-[70vh] w-full overflow-hidden">
         <Image
           src="/images/10small.jpg"
@@ -141,7 +129,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[70vh] overflow-hidden">
             <Image
-              src="/images/16.jpg"
+              src="/images/julia-photoshoot/16.jpg"
               alt="Vicky Vong"
               fill
               className="object-cover object-[50%_25%]"

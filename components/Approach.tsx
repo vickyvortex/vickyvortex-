@@ -124,7 +124,7 @@ export default function Approach() {
       <div className="flex flex-col md:flex-row md:min-h-screen">
         <div className="relative w-full md:w-[45%] h-[70vw] md:h-auto flex-shrink-0 md:order-last">
           <img
-            src="/images/julia-photoshoot/5.jpg"
+            src="/images/PHK_4780ret.jpg"
             alt="Vicky Vortex"
             style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', position: 'absolute', inset: 0 }}
           />

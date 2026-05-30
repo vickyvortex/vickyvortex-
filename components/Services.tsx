@@ -209,6 +209,15 @@ export default function Services() {
       className="pt-0 pb-28 md:pb-36"
       style={{ background: '#0D0D0D' }}
     >
+      <div className="relative h-[55vh] w-full overflow-hidden mb-0">
+        <Image
+          src="/images/PHK_7731ret1.jpg"
+          alt="Vicky Vong"
+          fill
+          className="object-cover object-[50%_20%]"
+        />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(13,13,13,0) 0%, rgba(13,13,13,0.9) 100%)" }} />
+      </div>
    <div className="max-w-3xl mx-auto">   
         <div className="text-center mb-16 md:mb-20">
           <p

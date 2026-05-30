@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 const steps = [
   { number: "01", title: "Separation", body: "Reduce exposure to dysfunction and create the conditions for recovery to begin." },
@@ -10,30 +11,41 @@ const steps = [
 
 export default function NervousSystemReset() {
   return (
-    <section style={{ background: '#0D0D0D' }} className="py-24 md:py-32 px-6 md:px-12">
-      <div className="max-w-6xl mx-auto">
-        <div className="mb-16 max-w-xl">
-          <p className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mb-6" style={{ fontFamily: "var(--font-eb-garamond)" }}>
+    <section style={{ background: "#0D0D0D" }} className="overflow-hidden">
+      <div className="relative h-[55vh] w-full">
+        <Image
+          src="/images/PHK_8289ret1.jpg"
+          alt="Vicky Vong"
+          fill
+          className="object-cover object-[50%_20%]"
+        />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(13,13,13,0.1) 0%, rgba(13,13,13,0.85) 100%)" }} />
+        <div className="absolute bottom-0 left-0 px-6 md:px-12 pb-12">
+          <p className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mb-4" style={{ fontFamily: "var(--font-eb-garamond)" }}>
             The Method
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl leading-[1.1] text-[#F8F6F2]" style={{ fontFamily: "var(--font-cormorant)" }}>
             The Nervous System Reset™
           </h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5" style={{ gap: '1px', background: 'rgba(248,246,242,0.1)' }}>
-          {steps.map((step) => (
-            <div key={step.number} className="p-8 flex flex-col gap-4" style={{ background: '#0D0D0D' }}>
-              <span className="text-xs text-[#3D9FA8] tracking-[0.2em]" style={{ fontFamily: "var(--font-eb-garamond)" }}>
-                {step.number}
-              </span>
-              <h3 className="text-xl md:text-2xl text-[#F8F6F2]" style={{ fontFamily: "var(--font-cormorant)" }}>
-                {step.title}
-              </h3>
-              <p className="text-sm leading-relaxed" style={{ fontFamily: "var(--font-eb-garamond)", color: 'rgba(248,246,242,0.5)' }}>
-                {step.body}
-              </p>
-            </div>
-          ))}
+      </div>
+      <div className="px-6 md:px-12 pb-24 md:pb-32 pt-16">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5" style={{ gap: "1px", background: "rgba(248,246,242,0.1)" }}>
+            {steps.map((step) => (
+              <div key={step.number} className="p-8 flex flex-col gap-4" style={{ background: "#0D0D0D" }}>
+                <span className="text-xs text-[#3D9FA8] tracking-[0.2em]" style={{ fontFamily: "var(--font-eb-garamond)" }}>
+                  {step.number}
+                </span>
+                <h3 className="text-xl md:text-2xl text-[#F8F6F2]" style={{ fontFamily: "var(--font-cormorant)" }}>
+                  {step.title}
+                </h3>
+                <p className="text-sm leading-relaxed" style={{ fontFamily: "var(--font-eb-garamond)", color: "rgba(248,246,242,0.5)" }}>
+                  {step.body}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

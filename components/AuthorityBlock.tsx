@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 export default function AuthorityBlock() {
   return (
@@ -21,29 +22,26 @@ export default function AuthorityBlock() {
               not just the mind.
             </p>
             <p
-              className="text-base text-[#F8F6F2/70] leading-relaxed"
-              style={{ fontFamily: "var(--font-eb-garamond)" }}
+              className="text-base leading-relaxed"
+              style={{ fontFamily: "var(--font-eb-garamond)", color: "rgba(248,246,242,0.7)" }}
             >
               Research into Family Scapegoating Abuse, developed by Rebecca C.
               Mandeville, explains how harmful roles form within families — and
               why one person is selected to carry the weight of the system.
             </p>
             <p
-              className="text-base text-[#F8F6F2/70] leading-relaxed"
-              style={{ fontFamily: "var(--font-eb-garamond)" }}
+              className="text-base leading-relaxed"
+              style={{ fontFamily: "var(--font-eb-garamond)", color: "rgba(248,246,242,0.7)" }}
             >
               This explains why you feel the way you do.
             </p>
             <p
-              className="text-base text-[#F8F6F2/70] leading-relaxed"
-              style={{ fontFamily: "var(--font-eb-garamond)" }}
+              className="text-base leading-relaxed"
+              style={{ fontFamily: "var(--font-eb-garamond)", color: "rgba(248,246,242,0.7)" }}
             >
               But recovery requires more than understanding.
             </p>
-          </div>
-
-          <div className="flex items-center md:items-end h-full">
-            <div className="border-l-4 border-[#3D9FA8] pl-6 py-2">
+            <div className="border-l-4 border-[#3D9FA8] pl-6 py-2 mt-4">
               <p
                 className="text-xl md:text-2xl font-semibold text-[#F8F6F2] leading-snug"
                 style={{ fontFamily: "var(--font-cormorant)" }}
@@ -51,6 +49,15 @@ export default function AuthorityBlock() {
                 Recovery is about restoring safety, energy, and identity.
               </p>
             </div>
+          </div>
+
+          <div className="relative h-[500px] overflow-hidden">
+            <Image
+              src="/images/PHK_4507ret.jpg"
+              alt="Vicky Vong"
+              fill
+              className="object-cover object-[50%_15%]"
+            />
           </div>
         </div>
       </div>

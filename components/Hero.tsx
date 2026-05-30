@@ -11,7 +11,7 @@ export default function Hero() {
           src="/images/PHK_4663ret.jpg"
           alt="Vicky Vong"
           fill
-          className="object-cover object-[50%_15%]"
+          className="object-cover object-[80%_15%]"
           priority
         />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,0.5) 0%, rgba(13,13,13,0.7) 50%, rgba(13,13,13,0.95) 100%)' }} />

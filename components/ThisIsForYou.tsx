@@ -14,30 +14,29 @@ export default function ThisIsForYou() {
       <div className="max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-base uppercase tracking-[0.25em] text-[#7ecfca] mb-10" style={{ fontFamily: "var(--font-eb-garamond)" }}>
+            <p className="text-base uppercase tracking-[0.25em] text-[#7ecfca] mb-8" style={{ fontFamily: "var(--font-eb-garamond)" }}>
               This may resonate if
             </p>
-            <div className="space-y-8">
+            <div className="space-y-6">
               {statements.map((s, i) => (
-                <div key={i} className="flex gap-6 items-start">
-                  <span className="font-cormorant font-light text-3xl flex-shrink-0" style={{ color: "#7ecfca", lineHeight: 1.2 }}>
+                <div key={i} className="flex gap-5 items-start">
+                  <span className="font-cormorant font-light text-3xl flex-shrink-0" style={{ color: "#3D9FA8", lineHeight: 1.2 }}>
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <p className="text-xl md:text-2xl leading-relaxed" style={{ fontFamily: "var(--font-eb-garamond)", color: "rgba(248,246,242,0.85)" }}>
+                  <p className="text-xl md:text-2xl leading-relaxed" style={{ color: "rgba(248,246,242,0.8)" }}>
                     {s}
                   </p>
                 </div>
               ))}
             </div>
           </div>
-          <div className="relative h-[550px] overflow-hidden">
+          <div className="relative h-[500px] overflow-hidden">
             <Image
               src="/images/PHK_7950ret1.jpg"
               alt="Vicky Vong"
               fill
-              className="object-cover object-[50%_25%]"
+              className="object-cover object-[50%_15%]"
             />
-            <div className="absolute inset-0" style={{ background: "rgba(13,13,13,0.15)" }} />
           </div>
         </div>
       </div>

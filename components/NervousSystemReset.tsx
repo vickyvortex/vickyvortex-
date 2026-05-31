@@ -14,7 +14,7 @@ export default function NervousSystemReset() {
     <section style={{ background: "#0D0D0D" }} className="overflow-hidden">
       <div className="relative h-[55vh] w-full">
         <Image
-          src="/images/PHK_8174ret1.jpg"
+          src="/images/PHK_4661ret.jpg"
           alt="Vicky Vong"
           fill
           className="object-cover object-[50%_20%]"

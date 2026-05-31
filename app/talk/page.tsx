@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "Speaking | Dignity Clinic",
@@ -10,7 +9,6 @@ export const metadata = {
 export default function TalkPage() {
   return (
     <main style={{ background: '#0D0D0D', minHeight: '100vh' }}>
-      <Navbar />
 
       {/* Hero */}
       <div className="max-w-4xl mx-auto px-6 md:px-12 pt-32 pb-16">

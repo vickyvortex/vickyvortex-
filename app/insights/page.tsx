@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "Insights | Dignity Clinic",
@@ -10,57 +11,28 @@ const posts = [
   {
     slug: "burnout-is-not-always-about-workload",
     title: "Burnout Is Not Always About Workload",
-    excerpt:
-      "For many high-functioning people, the real issue isn't pressure. It's prolonged exposure to environments where you couldn't be yourself.",
+    excerpt: "For many high-functioning people, the real issue isn't pressure. It's prolonged exposure to environments where you couldn't be yourself.",
     tag: "Nervous System",
-    lines: [
-      "Burnout is not always about workload.",
-      "As Gabor Maté explains, trauma isn't just what happens to you. It's what happens inside you as a result.",
-      "For many high-functioning people, the real issue isn't pressure.",
-      "It's prolonged exposure to environments where:",
-      ["you couldn't be yourself", "you had to over-adapt", "you were emotionally unsafe"],
-      "That pattern shows up as:",
-      ["exhaustion", "anxiety", "people-pleasing"],
-      "Insight helps.",
-      "But insight doesn't regulate your nervous system.",
-      "You don't need more resilience. You need less activation.",
-    ],
   },
   {
     slug: "you-were-never-the-problem",
     title: "You Were Never the Problem",
-    excerpt:
-      "Rebecca C. Mandeville calls this Family Scapegoating Abuse. You weren't the problem. You were the pressure valve.",
+    excerpt: "Rebecca C. Mandeville calls this Family Scapegoating Abuse. You weren't the problem. You were the pressure valve.",
     tag: "Family Scapegoating Abuse",
-    lines: [
-      "There's a reason some people feel like the \"problem\" in their family.",
-      "Rebecca C. Mandeville calls this Family Scapegoating Abuse.",
-      "One person is assigned the role of:",
-      ["the difficult one", "the emotional one", "the one to blame"],
-      "Not because it's true.",
-      "But because the system needs a pressure valve.",
-      "You weren't the problem. You were the pressure valve.",
-    ],
   },
   {
     slug: "you-cannot-out-heal-ongoing-harm",
     title: "You Cannot Out-Heal Ongoing Harm",
-    excerpt:
-      "You can understand everything and still feel stuck. Because your nervous system responds to environment, not insight.",
+    excerpt: "You can understand everything and still feel stuck. Because your nervous system responds to environment, not insight.",
     tag: "Recovery",
-    lines: [
-      "Most people trying to heal are still exposed to the pattern.",
-      "You can understand everything and still feel stuck.",
-      "Because your nervous system responds to environment, not insight.",
-      "Remove what activates you. Then rebuild.",
-      "That's when change happens.",
-    ],
   },
 ];
 
 export default function InsightsPage() {
   return (
-    <main className="bg-white min-h-screen">
+    <main style={{ background: '#0D0D0D', minHeight: '100vh' }}>
+      <Navbar />
+
       {/* Header */}
       <div className="max-w-6xl mx-auto px-6 md:px-12 pt-32 pb-16">
         <p
@@ -70,8 +42,8 @@ export default function InsightsPage() {
           Insights
         </p>
         <h1
-          className="text-4xl md:text-5xl text-[#0D0D0D] leading-[1.1] max-w-xl"
-          style={{ fontFamily: "var(--font-cormorant)" }}
+          className="text-4xl md:text-5xl leading-[1.1] max-w-xl"
+          style={{ fontFamily: "var(--font-cormorant)", color: '#F8F6F2' }}
         >
           Perspectives on Recovery
         </h1>
@@ -79,33 +51,36 @@ export default function InsightsPage() {
 
       {/* Posts grid */}
       <div className="max-w-6xl mx-auto px-6 md:px-12 pb-32">
-        <div className="grid md:grid-cols-3 gap-px bg-[#E8E5E0]">
+        <div className="grid md:grid-cols-3" style={{ gap: '1px', background: 'rgba(248,246,242,0.1)' }}>
           {posts.map((post) => (
             <Link
               key={post.slug}
               href={`/insights/${post.slug}`}
-              className="bg-white p-8 flex flex-col gap-6 hover:bg-[#F4F2EE] transition-colors duration-200 group"
+              className="flex flex-col gap-6 p-8 transition-colors duration-200 group"
+              style={{ background: '#0D0D0D' }}
+              onMouseEnter={e => (e.currentTarget.style.background = 'rgba(248,246,242,0.04)')}
+              onMouseLeave={e => (e.currentTarget.style.background = '#0D0D0D')}
             >
               <span
-                className="text-xs text-[#3D9FA8] uppercase tracking-[0.2em]"
+                className="text-xs uppercase tracking-[0.2em] text-[#3D9FA8]"
                 style={{ fontFamily: "var(--font-eb-garamond)" }}
               >
                 {post.tag}
               </span>
               <h2
-                className="text-xl md:text-2xl text-[#0D0D0D] leading-snug group-hover:text-[#3D9FA8] transition-colors duration-200"
-                style={{ fontFamily: "var(--font-cormorant)" }}
+                className="text-xl md:text-2xl leading-snug"
+                style={{ fontFamily: "var(--font-cormorant)", color: '#F8F6F2' }}
               >
                 {post.title}
               </h2>
               <p
-                className="text-sm text-[#5a5a5a] leading-relaxed flex-1"
-                style={{ fontFamily: "var(--font-eb-garamond)" }}
+                className="text-sm leading-relaxed flex-1"
+                style={{ fontFamily: "var(--font-eb-garamond)", color: 'rgba(248,246,242,0.6)' }}
               >
                 {post.excerpt}
               </p>
               <span
-                className="text-xs text-[#3D9FA8] uppercase tracking-[0.15em]"
+                className="text-xs uppercase tracking-[0.15em] text-[#3D9FA8]"
                 style={{ fontFamily: "var(--font-eb-garamond)" }}
               >
                 Read →

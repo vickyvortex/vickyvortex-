@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "Speaking | Dignity Clinic",
@@ -8,7 +9,9 @@ export const metadata = {
 
 export default function TalkPage() {
   return (
-    <main className="bg-white min-h-screen">
+    <main style={{ background: '#0D0D0D', minHeight: '100vh' }}>
+      <Navbar />
+
       {/* Hero */}
       <div className="max-w-4xl mx-auto px-6 md:px-12 pt-32 pb-16">
         <p
@@ -18,8 +21,8 @@ export default function TalkPage() {
           The Talk
         </p>
         <h1
-          className="text-4xl md:text-5xl lg:text-[3.5rem] text-[#0D0D0D] leading-[1.1] max-w-2xl"
-          style={{ fontFamily: "var(--font-cormorant)" }}
+          className="text-4xl md:text-5xl lg:text-[3.5rem] leading-[1.1] max-w-2xl"
+          style={{ fontFamily: "var(--font-cormorant)", color: '#F8F6F2' }}
         >
           Why Understanding Trauma
           <br />
@@ -32,44 +35,28 @@ export default function TalkPage() {
         <div className="grid md:grid-cols-2 gap-16 items-start">
           {/* Left */}
           <div className="space-y-6">
-            <p
-              className="text-base md:text-lg text-[#3a3a3a] leading-relaxed"
-              style={{ fontFamily: "var(--font-eb-garamond)" }}
-            >
-              Many people are familiar with trauma through the work of Gabor
-              Maté — and understand why high-performing individuals can feel
-              exhausted, anxious, or disconnected.
-            </p>
-            <p
-              className="text-base md:text-lg text-[#3a3a3a] leading-relaxed"
-              style={{ fontFamily: "var(--font-eb-garamond)" }}
-            >
-              Family Scapegoating Abuse, as identified by Rebecca C. Mandeville,
-              explains how one person in a family system is assigned the role of
-              &ldquo;the problem&rdquo; — not because of who they are, but
-              because of what the system needs.
-            </p>
-            <p
-              className="text-base md:text-lg text-[#3a3a3a] leading-relaxed"
-              style={{ fontFamily: "var(--font-eb-garamond)" }}
-            >
-              Understanding this is powerful.
-            </p>
-            <p
-              className="text-base md:text-lg text-[#3a3a3a] leading-relaxed"
-              style={{ fontFamily: "var(--font-eb-garamond)" }}
-            >
-              But if your environment still activates stress responses, your body
-              stays in survival mode.
-            </p>
+            {[
+              "Many people are familiar with trauma through the work of Gabor Maté — and understand why high-performing individuals can feel exhausted, anxious, or disconnected.",
+              "Family Scapegoating Abuse, as identified by Rebecca C. Mandeville, explains how one person in a family system is assigned the role of \u201cthe problem\u201d — not because of who they are, but because of what the system needs.",
+              "Understanding this is powerful.",
+              "But if your environment still activates stress responses, your body stays in survival mode.",
+            ].map((text, i) => (
+              <p
+                key={i}
+                className="text-base md:text-lg leading-relaxed"
+                style={{ fontFamily: "var(--font-eb-garamond)", color: 'rgba(248,246,242,0.7)' }}
+              >
+                {text}
+              </p>
+            ))}
           </div>
 
           {/* Right */}
           <div className="space-y-8">
             <div className="border-l-4 border-[#3D9FA8] pl-6 py-2">
               <p
-                className="text-xl text-[#0D0D0D] font-semibold leading-snug"
-                style={{ fontFamily: "var(--font-cormorant)" }}
+                className="text-xl font-semibold leading-snug"
+                style={{ fontFamily: "var(--font-cormorant)", color: '#F8F6F2' }}
               >
                 The work becomes practical.
               </p>
@@ -83,8 +70,8 @@ export default function TalkPage() {
               ].map((item, i) => (
                 <li
                   key={i}
-                  className="flex items-start gap-4 text-base text-[#3a3a3a]"
-                  style={{ fontFamily: "var(--font-eb-garamond)" }}
+                  className="flex items-start gap-4 text-base"
+                  style={{ fontFamily: "var(--font-eb-garamond)", color: 'rgba(248,246,242,0.7)' }}
                 >
                   <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#3D9FA8] flex-shrink-0" />
                   {item}
@@ -93,8 +80,8 @@ export default function TalkPage() {
             </ul>
 
             <p
-              className="text-base text-[#3a3a3a] italic"
-              style={{ fontFamily: "var(--font-eb-garamond)" }}
+              className="text-base italic"
+              style={{ fontFamily: "var(--font-eb-garamond)", color: '#3D9FA8' }}
             >
               That&apos;s where energy returns.
             </p>
@@ -103,7 +90,7 @@ export default function TalkPage() {
       </div>
 
       {/* CTA */}
-      <div className="bg-[#F4F2EE] py-20 px-6 md:px-12">
+      <div style={{ background: 'rgba(248,246,242,0.04)', borderTop: '1px solid rgba(248,246,242,0.08)' }} className="py-20 px-6 md:px-12">
         <div className="max-w-4xl mx-auto">
           <p
             className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mb-6"
@@ -112,8 +99,8 @@ export default function TalkPage() {
             Book This Talk
           </p>
           <h2
-            className="text-3xl md:text-4xl text-[#0D0D0D] leading-[1.1] mb-8 max-w-lg"
-            style={{ fontFamily: "var(--font-cormorant)" }}
+            className="text-3xl md:text-4xl leading-[1.1] mb-8 max-w-lg"
+            style={{ fontFamily: "var(--font-cormorant)", color: '#F8F6F2' }}
           >
             Bring this talk to your organisation, event, or community.
           </h2>

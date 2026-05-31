@@ -1,51 +1,108 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: '#0D0D0D' }}>
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/PHK_4663ret.jpg"
-          alt="Vicky Vong"
-          fill
-          priority
-          style={{
-            objectFit: 'cover',
-            objectPosition: '75% top',
-          }}
-        />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(13,13,13,1) 0%, rgba(13,13,13,0.97) 25%, rgba(13,13,13,0.6) 45%, rgba(13,13,13,0.0) 65%)' }} />
-      </div>
-      <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-32 w-full">
-        <div className="max-w-sm md:max-w-md">
-          <p className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mb-8 font-medium" style={{ fontFamily: "var(--font-eb-garamond)" }}>
+    <section style={{ 
+      background: '#0D0D0D', 
+      minHeight: '100vh', 
+      display: 'flex', 
+      alignItems: 'center',
+      position: 'relative',
+      overflow: 'hidden'
+    }}>
+      {/* Pure dark left panel — text lives here, zero image bleed */}
+      <div style={{
+        position: 'relative',
+        zIndex: 2,
+        width: '50%',
+        minHeight: '100vh',
+        background: '#0D0D0D',
+        display: 'flex',
+        alignItems: 'center',
+        padding: '8rem 4rem 8rem 6rem',
+        flexShrink: 0,
+      }}>
+        <div>
+          <p style={{ 
+            fontFamily: "var(--font-eb-garamond)",
+            fontSize: '0.75rem', 
+            letterSpacing: '0.25em', 
+            textTransform: 'uppercase', 
+            color: '#3D9FA8', 
+            marginBottom: '2rem',
+            fontWeight: 500
+          }}>
             Nervous System Recovery
           </p>
-          <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] leading-[1.1] text-[#F8F6F2] mb-6" style={{ fontFamily: "var(--font-cormorant)" }}>
-            Family Scapegoating
-            <br />
-            Abuse Is Not a
-            <br />
-            Personality Issue.
-            <br />
-            <span className="italic">It&apos;s a Nervous</span>
-            <br />
-            <span className="italic">System Injury.</span>
+          <h1 style={{ 
+            fontFamily: "var(--font-cormorant)",
+            fontSize: 'clamp(2.2rem, 3.5vw, 3.5rem)', 
+            lineHeight: 1.1, 
+            color: '#F8F6F2', 
+            marginBottom: '1.5rem' 
+          }}>
+            Family Scapegoating<br />
+            Abuse Is Not a<br />
+            Personality Issue.<br />
+            <em>It&apos;s a Nervous</em><br />
+            <em>System Injury.</em>
           </h1>
-          <p className="text-base md:text-lg text-[#F8F6F2]/70 leading-relaxed mb-6" style={{ fontFamily: "var(--font-eb-garamond)" }}>
+          <p style={{ 
+            fontFamily: "var(--font-eb-garamond)",
+            fontSize: '1.1rem', 
+            color: 'rgba(248,246,242,0.7)', 
+            lineHeight: 1.7, 
+            marginBottom: '1.5rem' 
+          }}>
             I help people recover their energy, identity, and clarity after prolonged exposure to toxic family systems.
           </p>
-          <p className="text-sm text-[#3D9FA8] italic mb-10 leading-relaxed" style={{ fontFamily: "var(--font-eb-garamond)" }}>
-            I don&apos;t just help you understand what happened.
-            <br />I help your body stop reliving it.
+          <p style={{ 
+            fontFamily: "var(--font-eb-garamond)",
+            fontSize: '0.95rem', 
+            color: '#3D9FA8', 
+            fontStyle: 'italic', 
+            lineHeight: 1.7, 
+            marginBottom: '2.5rem' 
+          }}>
+            I don&apos;t just help you understand what happened.<br />
+            I help your body stop reliving it.
           </p>
-          <Link href="#work-with-me" className="inline-block bg-[#3D9FA8] text-white text-sm uppercase tracking-[0.2em] px-10 py-4 hover:bg-[#2d8a93] transition-colors duration-300" style={{ fontFamily: "var(--font-eb-garamond)" }}>
+          <Link href="#work-with-me" style={{
+            display: 'inline-block',
+            background: '#3D9FA8',
+            color: '#fff',
+            fontFamily: "var(--font-eb-garamond)",
+            fontSize: '0.8rem',
+            letterSpacing: '0.2em',
+            textTransform: 'uppercase',
+            padding: '1rem 2.5rem',
+            textDecoration: 'none',
+          }}>
             Begin the Reset
           </Link>
         </div>
+      </div>
+
+      {/* Right panel — pure CSS background image, no Next.js Image */}
+      <div style={{
+        position: 'absolute',
+        top: 0,
+        right: 0,
+        width: '55%',
+        height: '100%',
+        backgroundImage: 'url(/images/PHK_4571ret.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center top',
+        zIndex: 1,
+      }}>
+        {/* Left edge fade into dark */}
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          background: 'linear-gradient(to right, #0D0D0D 0%, rgba(13,13,13,0.5) 20%, rgba(13,13,13,0) 45%)',
+        }} />
       </div>
     </section>
   );

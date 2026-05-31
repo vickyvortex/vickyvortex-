@@ -129,7 +129,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[70vh] overflow-hidden">
             <Image
-              src="/images/julia-photoshoot/16.jpg"
+              src="/images/PHK_4639ret.jpg"
               alt="Vicky Vong"
               fill
               className="object-cover object-[50%_25%]"

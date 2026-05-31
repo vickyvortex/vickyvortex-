@@ -193,7 +193,7 @@ export default function Contact() {
     >
       <div className="relative w-full" style={{ height: '700px' }}>
         <Image
-          src="/images/julia-photoshoot/10.jpg"
+          src="/images/PHK_8372ret1.jpg"
           alt="Dignity Clinic"
           fill
           className="object-cover"

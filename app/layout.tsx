@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, EB_Garamond, DM_Sans } from 'next/font/google'
+import Navbar from '@/components/Navbar'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({
@@ -127,7 +128,8 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="bg-background text-foreground font-sans antialiased">
+      <body style={{ background: '#0D0D0D', color: '#F8F6F2' }} className="font-sans antialiased">
+        <Navbar />
         {children}
       </body>
     </html>

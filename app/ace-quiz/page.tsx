@@ -63,7 +63,7 @@ export default function ACEQuiz() {
   }
 
   return (
-    <main style={{ background: "#0D0D0D", minHeight: "100vh" }} style={{ background: '#0D0D0D', minHeight: '100vh', color: '#F8F6F2' }}>
+    <main style={{ background: '#0D0D0D', minHeight: '100vh', color: '#F8F6F2' }}>
       <div className="max-w-2xl mx-auto px-6 py-20 md:py-28">
 
         {step === 'intro' && (

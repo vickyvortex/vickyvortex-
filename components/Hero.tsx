@@ -82,6 +82,52 @@ export default function Hero() {
           }}>
             Begin the Reset
           </Link>
+
+          {/* Early booking CTA box */}
+          <div style={{
+            marginTop: '2.5rem',
+            padding: '1.5rem 2rem',
+            border: '1px solid rgba(61,159,168,0.25)',
+            background: 'rgba(61,159,168,0.05)',
+            maxWidth: '420px',
+          }}>
+            <p style={{
+              fontFamily: "var(--font-eb-garamond)",
+              fontSize: '0.7rem',
+              letterSpacing: '0.2em',
+              textTransform: 'uppercase',
+              color: '#3D9FA8',
+              marginBottom: '0.75rem',
+            }}>Start Here</p>
+            <p style={{
+              fontFamily: "var(--font-cormorant)",
+              fontSize: '1.15rem',
+              color: '#F8F6F2',
+              lineHeight: 1.4,
+              marginBottom: '0.75rem',
+            }}>Book a Dignity Reset Consultation</p>
+            <p style={{
+              fontFamily: "var(--font-eb-garamond)",
+              fontSize: '0.9rem',
+              color: 'rgba(248,246,242,0.55)',
+              lineHeight: 1.6,
+              marginBottom: '1.25rem',
+            }}>
+              For adults recovering from family scapegoating, chronic stress, and long-term emotional override. We will clarify what happened, what your body is carrying, and whether the 8–12 week Nervous System Reset™ is the right next step.
+            </p>
+            <Link href="#contact" style={{
+              fontFamily: "var(--font-eb-garamond)",
+              fontSize: '0.75rem',
+              letterSpacing: '0.15em',
+              textTransform: 'uppercase',
+              color: '#3D9FA8',
+              textDecoration: 'none',
+              borderBottom: '1px solid rgba(61,159,168,0.4)',
+              paddingBottom: '2px',
+            }}>
+              Enquire →
+            </Link>
+          </div>
         </div>
       </div>
 

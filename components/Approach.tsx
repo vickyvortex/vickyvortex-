@@ -181,8 +181,8 @@ export default function Approach() {
           </div>
         </div>
 
-        <p className="font-garamond text-lg mt-8" style={{ color: 'rgba(248,246,242,0.4)', fontStyle: 'italic' }}>
-          You do not need to choose. I will guide you toward what is most useful for where you are.
+        <p className="font-garamond text-xl md:text-2xl mt-12" style={{ color: 'rgba(248,246,242,0.75)', fontStyle: 'italic', borderTop: '1px solid rgba(248,246,242,0.1)', paddingTop: '2rem' }}>
+          You do not need to choose the modality. I choose the right tool for your nervous system, your stage of recovery, and your level of safety.
         </p>
       </div>
     </section>

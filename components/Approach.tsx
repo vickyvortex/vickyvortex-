@@ -128,8 +128,8 @@ export default function Approach() {
             alt="Vicky Vortex"
             style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 30%', position: 'absolute', inset: 0 }}
           />
-          <div aria-hidden className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(to left, rgba(13,13,13,1) 0%, rgba(13,13,13,0.8) 40%, rgba(13,13,13,0) 70%)' }} />
-          <div aria-hidden className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,1) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,1) 100%)' }} />
+          <div aria-hidden className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(to left, rgba(13,13,13,0.8) 0%, rgba(13,13,13,0.4) 30%, rgba(13,13,13,0) 60%)' }} />
+          <div aria-hidden className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(to bottom, rgba(13,13,13,0.6) 0%, rgba(13,13,13,0) 15%, rgba(13,13,13,0) 85%, rgba(13,13,13,0.6) 100%)' }} />
         </div>
         <div className="flex flex-col justify-center w-full md:w-[55%] px-6 md:pl-16 lg:pl-24 md:pr-12 py-16 md:py-24">
           <p style={{ fontSize: '0.65rem', letterSpacing: '0.4em', textTransform: 'uppercase', color: 'rgba(248,246,242,0.35)', marginBottom: '2.5rem' }}>Approach</p>

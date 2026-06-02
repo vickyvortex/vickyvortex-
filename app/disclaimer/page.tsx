@@ -1,6 +1,6 @@
 export default function Disclaimer() {
   return (
-    <main style={{ background: "#0D0D0D", minHeight: "100vh" }} style={{ background: '#0D0D0D', minHeight: '100vh', color: '#F8F6F2' }}>
+    <main style={{ background: '#0D0D0D', minHeight: '100vh', color: '#F8F6F2' }}>
       <div className="max-w-2xl mx-auto px-6 py-20 md:py-28 space-y-10">
         <p className="font-sans text-[10px] tracking-[0.4em] uppercase" style={{ color: 'rgba(248,246,242,0.35)' }}>Dignity Clinic</p>
         <h1 className="font-cormorant font-light leading-tight tracking-tight" style={{ fontSize: 'clamp(2.2rem,6vw,4rem)' }}>Disclaimer</h1>

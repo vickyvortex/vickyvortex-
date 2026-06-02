@@ -5,9 +5,10 @@ import { useRouter, usePathname } from 'next/navigation'
 
 const navLinks = [
   { label: 'About', href: '/about' },
-  { label: 'Credentials', href: '/#credentials' },
+  { label: 'Philosophy', href: '/philosophy' },
+  { label: 'Modalities', href: '/modalities' },
+  { label: 'Credentials', href: '/credentials' },
   { label: 'Services', href: '/#work-with-me' },
-  { label: 'Approach', href: '/#approach' },
   { label: 'Insights', href: '/insights' },
   { label: 'Speaking', href: '/talk' },
   { label: 'Contact', href: '/#contact' },
@@ -30,10 +31,8 @@ export default function Navbar() {
       e.preventDefault()
       const id = href.replace('/#', '')
       if (pathname === '/') {
-        // Already on homepage — just scroll
         document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
       } else {
-        // Navigate to homepage then scroll after load
         router.push(href)
       }
       setMenuOpen(false)
@@ -69,7 +68,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-10">
+        <nav className="hidden md:flex items-center gap-8">
           {navLinks.map(({ label, href }) => (
             <a
               key={label}

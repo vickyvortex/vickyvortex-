@@ -10,58 +10,22 @@ export default function TalkPage() {
   return (
     <main style={{ background: '#0D0D0D', minHeight: '100vh' }}>
 
-      {/* Hero Image */}
-      <div style={{
-        width: '100%',
-        height: '85vh',
-        position: 'relative',
-        overflow: 'hidden',
-      }}>
-        <img
-          src="/images/10.jpg"
-          alt="Vicky Vortex — Speaking"
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center 20%',
-            display: 'block',
-          }}
-        />
-        <div style={{
-          position: 'absolute',
-          inset: 0,
-          background: 'linear-gradient(to bottom, rgba(13,13,13,0.2) 0%, rgba(13,13,13,0) 40%, rgba(13,13,13,0.8) 100%)',
-        }} />
-        <div style={{
-          position: 'absolute',
-          bottom: '4rem',
-          left: '3rem',
-          right: '3rem',
-        }}>
-          <p style={{
-            fontFamily: "var(--font-eb-garamond)",
-            fontSize: '0.75rem',
-            letterSpacing: '0.25em',
-            textTransform: 'uppercase',
-            color: '#3D9FA8',
-            marginBottom: '1rem',
-          }}>The Talk</p>
-          <h1 style={{
-            fontFamily: "var(--font-cormorant)",
-            fontSize: 'clamp(2.5rem, 5vw, 4.5rem)',
-            lineHeight: 1.1,
-            color: '#F8F6F2',
-            fontWeight: 300,
-          }}>
-            Why Understanding Trauma<br />
-            <em>Isn&apos;t Enough</em>
-          </h1>
-        </div>
-      </div>
-
       {/* Hero */}
-      <div className="max-w-4xl mx-auto px-6 md:px-12 pt-16 pb-16">
+      <div className="max-w-4xl mx-auto px-6 md:px-12 pt-32 pb-16">
+        <p
+          className="text-xs uppercase tracking-[0.25em] text-[#3D9FA8] mb-6"
+          style={{ fontFamily: "var(--font-eb-garamond)" }}
+        >
+          The Talk
+        </p>
+        <h1
+          className="text-4xl md:text-5xl lg:text-[3.5rem] leading-[1.1] max-w-2xl"
+          style={{ fontFamily: "var(--font-cormorant)", color: '#F8F6F2' }}
+        >
+          Why Understanding Trauma
+          <br />
+          <span className="italic">Isn&apos;t Enough</span>
+        </h1>
       </div>
 
       {/* Content */}

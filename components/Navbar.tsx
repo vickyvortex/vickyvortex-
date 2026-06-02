@@ -43,11 +43,8 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? 'bg-background/90 backdrop-blur-md border-b border-foreground/5 py-4'
-          : 'bg-transparent py-6'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-4`}
+      style={{ background: '#0D2B2E', borderBottom: '1px solid rgba(61,159,168,0.15)' }}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between">
         {/* Logo */}
@@ -74,7 +71,7 @@ export default function Navbar() {
               key={label}
               href={href}
               onClick={(e) => handleNavClick(e, href)}
-              className="font-sans text-sm tracking-[0.2em] uppercase text-foreground/60 hover:text-foreground transition-colors duration-200"
+              className="font-sans text-sm tracking-[0.2em] uppercase hover:text-[#3D9FA8] transition-colors duration-200" style={{ color: "rgba(248,246,242,0.7)" }}
             >
               {label}
             </a>
@@ -101,7 +98,7 @@ export default function Navbar() {
               key={label}
               href={href}
               onClick={(e) => handleNavClick(e, href)}
-              className="font-sans text-sm tracking-[0.2em] uppercase text-foreground/60 hover:text-foreground transition-colors duration-200"
+              className="font-sans text-sm tracking-[0.2em] uppercase hover:text-[#3D9FA8] transition-colors duration-200" style={{ color: "rgba(248,246,242,0.7)" }}
             >
               {label}
             </a>

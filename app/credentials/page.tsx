@@ -121,7 +121,7 @@ export default function CredentialsPage() {
             </li>
             <li className="flex gap-4 items-start">
               <span className="mt-2 w-1 h-1 rounded-full bg-[#3D9FA8] flex-shrink-0" />
-              Shamanic Extraction Healing, Dying &amp; Beyond, Power Soul Retrieval — Foundation for Shamanic Studies, Tokyo
+              Shamanic Extraction Healing, Dying &amp; Beyond, Power Soul Retrieval — Foundation for Shamanic Studies (Hong Kong, Taiwan &amp; Tokyo)
             </li>
             <li className="flex gap-4 items-start">
               <span className="mt-2 w-1 h-1 rounded-full bg-[#3D9FA8] flex-shrink-0" />
